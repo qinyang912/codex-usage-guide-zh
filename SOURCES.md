@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [How do I request a refund for my ChatGPT subscription?](https://help.openai.com/en/articles/7232895-how-do-i-request-a-refund-for-my-chatgpt-subscription)
+   用于核对 chatgpt.com 网页与 Google Play 订阅的退款入口、处理时间和误购期限说明。
+7. [Check the status of a refund for apps or content bought from Apple](https://support.apple.com/en-us/118224)
+   用于核对 Apple 退款状态入口、24-48 小时更新和不同付款方式的显示时间。
+8. [Google Play 购买交易的退款时间表](https://support.google.com/googleplay/answer/15576193?hl=zh-Hans)
+   用于核对 Google Play 卡、Play 余额、PayPal、网上银行等付款方式的预计退款时间。
 
 ## 维护原则
 

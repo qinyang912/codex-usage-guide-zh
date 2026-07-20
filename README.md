@@ -144,6 +144,16 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 官方参考：[What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)。交付形式与风险对照见：[ChatGPT Plus 年付、包年和一年费用区别](https://hi-codex.com/guides/chatgpt-plus-annual-plan/?utm_source=github&utm_medium=readme&utm_campaign=annual_plan)。
 
+### ChatGPT Plus 退款多久到账？
+
+退款至少包含申请审核、平台完成处理和支付方式入账三个阶段，不能用一个固定天数回答所有渠道。
+
+- chatgpt.com 网页：OpenAI 当前说明符合资格时在 5-7 个工作日内处理；
+- Google Play：OpenAI 当前说明符合资格时在 10 个工作日内处理，之后卡退款通常还需 3-5 个工作日显示；
+- Apple：通常 24-48 小时提供申请状态更新，获批后 Apple 余额最多约 48 小时，卡等账单最多可能 30 天。
+
+取消续费不会自动退回已经发生的费用。完整状态入口和超时清单见：[ChatGPT 退款时间与状态查询](guides/chatgpt-refund-timeline.md)。
+
 ### ChatGPT Plus 包含 Codex 吗？
 
 按当前官方 Codex 定价文档，Plus 包含 Codex 的多个使用入口。功能、模型和用量上限会调整，应以官方页面和账号内显示为准。
