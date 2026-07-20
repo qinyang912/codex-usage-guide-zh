@@ -12,6 +12,11 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [ChatGPT Android App FAQ](https://help.openai.com/en/articles/8142208-chatgpt-android-app-faq) — 用于核对官方 Android App、系统要求、支持地区和常见登录问题。
+7. [How to cancel a subscription in the ChatGPT Android app](https://help.openai.com/en/articles/8258076-how-to-cancel-a-subscription-in-the-chatgpt-android-app) — 用于核对 Google Play 订阅取消、扣费时间和卸载 App 不会取消订阅。
+8. [How do I request a refund for my ChatGPT subscription?](https://help.openai.com/en/articles/7232895-how-do-i-request-a-refund-for-my-chatgpt-subscription) — 用于核对 Google Play 订阅退款请求入口和账号要求。
+9. [Why is my subscription associated with another account?](https://help.openai.com/en/articles/20001056-why-am-i-seeing-a-message-that-my-subscription-is-associated-with-another-account) — 用于核对移动订阅的双账号绑定、不可转移和不可共享规则。
+10. [How do I avoid being charged twice?](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web) — 用于核对网页、Apple 和 Google Play 多平台重复订阅风险。
 
 ## 维护原则
 

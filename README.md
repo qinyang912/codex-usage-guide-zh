@@ -103,6 +103,21 @@ Google 搜索结果常把几种不同的“码”混在一起：
 - [ ] 完成后在 ChatGPT 账号内核对套餐状态与下一次续费信息。
 - [ ] 如果曾提供临时登录协助，完成后更新密码并启用 MFA。
 
+## Android / Google Play 订阅要同时核对两个账号
+
+通过 Google Play 购买 ChatGPT 套餐时，有两个彼此独立的身份：
+
+- **Google Play 账号**负责付款、订单、续费和取消；
+- **购买当时登录的 ChatGPT 账号**接收套餐权益。
+
+同一部安卓手机可以同时登录多个 Google 和 ChatGPT 账号，因此付款前应核对 Google Play 确认页里的付款账号，以及 ChatGPT App 当前的登录方式。移动订阅一旦绑定，不能转移给另一个 ChatGPT 账号，也不能在多个 ChatGPT 账号之间共享。
+
+如果 Google Play 已扣款但 ChatGPT 仍显示 Free，不要再次购买。先确认订单最终状态和收据对应的 Google 账号，再用购买当天相同的邮箱、Google、Microsoft 或其他登录方式进入原 ChatGPT 账号，并在 Android App 设置中尝试 `Restore purchases`。提示订阅关联其他账号时，重装 App 不会改变绑定关系。
+
+取消 Google Play 订阅必须使用购买时的 Google 账号进入 Play 商店订阅管理；卸载 ChatGPT App 不会取消。更换到 chatgpt.com 网页订阅前，应先确认 Google Play 不再续费，否则网页、Apple 与 Google Play 可以分别存在订阅并分别收费。
+
+详细步骤见：[ChatGPT Plus 安卓 / Google Play 充值、付款失败和恢复购买](https://hi-codex.com/guides/chatgpt-plus-android-google-play-recharge/?utm_source=github&utm_medium=readme&utm_campaign=android_google_play)。
+
 ## 常见问题
 
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
