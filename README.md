@@ -105,6 +105,16 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
+
+出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
+
+OpenAI 当前把常见原因归纳为银行拒付、预付卡限制、不支持的所在地或发卡地区，以及浏览器缓存等问题。资料无误仍失败时，应联系发卡行确认拒付原因；OpenAI 通常看不到银行的详细拒付代码。续费失败还要检查卡片是否过期，以及原订阅属于网页、Apple 还是 Google，不要在旧订阅状态未确认时从另一渠道重复购买。
+
+不要伪造账单地址、使用来源不明的卡片或高频反复重试。官方参考：[为什么我的信用卡交易被拒绝？](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)、[为什么 Plus / Pro 续订交易失败？](https://help.openai.com/en/articles/7242622)。
+
+中文错误提示对照与排查步骤见：[ChatGPT 您的银行卡被拒绝了怎么办？](https://hi-codex.com/guides/chatgpt-plus-payment-failed/?utm_source=github&utm_medium=readme&utm_campaign=card_declined)。
+
 ### ChatGPT 充值或代充能开发票吗？
 
 先确认实际收款方和凭证类型：
