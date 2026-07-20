@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex Authentication](https://developers.openai.com/codex/auth/)
+   用于核对 ChatGPT 登录、API Key 登录、凭证缓存、`auth.json` 安全和组织强制登录策略。
+7. [Codex CLI](https://developers.openai.com/codex/cli/)
+   用于核对 Codex CLI 安装后的首次登录方式。
+8. [Codex developer commands](https://developers.openai.com/codex/developer-commands?surface=cli)
+   用于核对 `codex doctor`、`codex login status`、`codex login --device-auth`、API Key 登录和 `codex logout`。
 
 ## 维护原则
 

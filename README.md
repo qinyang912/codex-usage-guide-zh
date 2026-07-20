@@ -105,6 +105,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### Codex CLI 登录失败、401 或 403 怎么排查？
+
+先运行 `codex login status` 确认当前认证方式，再用 `codex doctor` 保存安装、配置和认证诊断。ChatGPT 登录会打开浏览器完成 OAuth；本地 CLI 也支持 API Key，但 API Key 按 OpenAI Platform API 用量单独计费，不会消耗 ChatGPT 套餐包含的 Codex 用量。
+
+如果状态异常，可按 `codex logout` → `codex login` → `codex login status` 做一次受控重登；远程终端、WSL 或浏览器回调不通时，可使用官方 `codex login --device-auth` 流程。401、403 和 429 不是一类问题：401 通常先检查凭证，403 还需核对工作区权限、组织策略、地区支持和账号通知，429 则优先查看 Usage 与恢复时间。
+
+不要复制他人的 `~/.codex/auth.json`，也不要把自己的 auth.json、API Key、Session、设备代码或验证码发给第三方。完整中文分流表见：[Codex CLI 登录失败、401、403、OAuth 与 API Key 排查](https://hi-codex.com/guides/codex-cli-login-failed-401-403/?utm_source=github&utm_medium=readme&utm_campaign=codex_login_errors)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
