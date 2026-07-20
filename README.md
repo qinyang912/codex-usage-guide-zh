@@ -105,6 +105,21 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### ChatGPT 充值或代充能开发票吗？
+
+先确认实际收款方和凭证类型：
+
+- chatgpt.com 网页自助订阅：历史 Invoice 通常从 ChatGPT Billing Portal 获取。
+- Apple App Store：从 Apple 购买记录或邮件收据查询。
+- Google Play：从 Google 的确认邮件和订单历史查询。
+- 第三方代充：是否能开中国税务发票取决于实际服务和开票主体，付款前应书面确认类型、抬头、税号、项目名称和时间。
+
+OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可能证明交易，但不能自动当作中国增值税发票。是否符合报销要求，应由所在单位财务按开票主体、币种和制度判断。
+
+官方参考：[How can I find my past ChatGPT invoices?](https://help.openai.com/en/articles/12356340-how-can-i-find-my-past-chatgpt-invoices)、[Updating billing information, Tax ID, and VAT ID](https://help.openai.com/en/articles/9038389-updating-billing-information-tax-id-and-vat-id)。
+
+中文对照表见：[ChatGPT Plus / Pro 发票、Invoice 与报销凭证](https://hi-codex.com/guides/chatgpt-invoice-reimbursement/?utm_source=github&utm_medium=readme&utm_campaign=invoice_reimbursement)。
+
 ### ChatGPT 代充需要提供账号密码吗？
 
 不应该提供 ChatGPT 密码、邮箱密码、短信或邮箱验证码、MFA 验证码和恢复码。有些流程会要求临时登录权限或 Session，但“无需密码”不等于“没有账号访问权限”：有效 Session 可能让持有者以已登录状态访问账号，应按高敏感登录凭证处理。
