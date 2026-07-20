@@ -156,6 +156,12 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 不一定。先检查恢复时间、模型选择和任务规模。偶发达到上限可能通过等待恢复或优化任务解决；只有持续稳定不足时才需要比较更高档位。
 
+### Codex 提示 Error running remote compact task 怎么办？
+
+先看这句后面的完整错误。`stream disconnected`、404、429、`context window` 超限、子进程 timeout 与压缩输出异常不是同一类问题。先保存工作树和关键状态，再用新最小会话做对照；环境支持时用 `/status` 查看上下文和限制，当前会话仍可操作时再尝试 `/compact`。
+
+不要把压缩失败统一归因于套餐额度，也不要直接删除整个 `.codex`、手工修改 Session JSON 或并发无限重试。完整分流见：[Codex remote compact task 与上下文压缩排查](guides/codex-context-compaction-remote-compact-task.md)。
+
 ### ChatGPT 代充一般多久？
 
 人工代充没有统一到账时间。账号验证、支付渠道、人工排队和风控检查都可能影响时间。下单前应要求对方明确预计处理时间和失败退款条件。
@@ -166,7 +172,7 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 ## 延伸阅读
 
-如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。
+如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。遇到自动压缩卡住、`/compact` 失败、404、429 或断流时，先看 [Codex 上下文压缩排查](guides/codex-context-compaction-remote-compact-task.md)。
 
 ## 资料来源与利益披露
 

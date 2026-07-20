@@ -12,6 +12,18 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex Slash commands](https://developers.openai.com/codex/reference/slash-commands)
+
+   用于核对 `/status`、`/compact`、`/fork` 与 `/feedback` 的当前官方定义。
+7. [从模型到智能体：为 Responses API 配备计算机环境](https://openai.com/zh-Hans-CN/index/equip-responses-api-computer-environment/)
+
+   用于核对原生上下文压缩、压缩项与 Codex 长任务的官方机制说明。
+8. [OpenAI Status](https://status.openai.com/)
+
+   用于核对 Codex、ChatGPT 或 API 的当前服务事件。
+9. [openai/codex 公开故障记录 #13784](https://github.com/openai/codex/issues/13784)
+
+   用于说明 `Error running remote compact task` 与 `stream disconnected before completion` 的公开症状；不把单个 issue 当成所有环境的统一根因。
 
 ## 维护原则
 
