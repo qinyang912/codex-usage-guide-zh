@@ -12,6 +12,14 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex Models](https://developers.openai.com/codex/models)
+   用于核对 `/model`、`--model`、推荐模型、ChatGPT 登录与 API 模型差异，以及弃用模型。
+7. [Codex Config basics](https://developers.openai.com/codex/config-basic)
+   用于核对 App、CLI、IDE 扩展的 `config.toml` 与模型配置。
+8. [Codex Advanced Configuration](https://developers.openai.com/codex/config-advanced#custom-model-providers)
+   用于核对自定义 provider 的 base URL、wire API、认证和请求头。
+9. [openai/codex issue #26892](https://github.com/openai/codex/issues/26892)
+   用于说明本地模型列表与实际后端不一致时也可能出现服务端 404；个案不用于推断永久套餐规则。
 
 ## 维护原则
 

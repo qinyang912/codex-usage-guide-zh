@@ -105,6 +105,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### Codex 提示 404 Model not found / unsupported model 怎么办？
+
+先不要重装，也不要把所有 404 都解释为第三方接口少了 `/v1`。先运行 `codex --version` 和 `codex login status`，确认使用 ChatGPT 登录、OpenAI API Key 还是自定义 provider；再在交互会话运行 `/model`，从当前账号实际展示的推荐模型中选择一个做对照。
+
+如果同一账号的推荐模型 A 正常、模型 B 稳定返回 404，更像模型可用性、旧配置、灰度或后端问题。检查 `config.toml`、profile、项目配置和脚本是否固定旧模型；如果错误 URL 属于第三方 provider，才按该 provider 文档核对模型 ID、wire API、权限和 base URL。不要公开 `auth.json`、API Key、Session 或验证码。
+
+中文分流表、配置检查和可复现报告清单见：[Codex Model not found、unsupported model、404 排查](https://hi-codex.com/guides/codex-model-not-found-404/?utm_source=github&utm_medium=readme&utm_campaign=codex_model_404)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
