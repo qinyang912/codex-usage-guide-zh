@@ -12,13 +12,13 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
-6. [Can I transfer my ChatGPT subscription to a new account?](https://help.openai.com/en/articles/9135236-can-i-transfer-my-chatgpt-subscription-to-a-new-account)  
+6. [Can I transfer my ChatGPT subscription to a new account?](https://help.openai.com/en/articles/9135236-can-i-transfer-my-chatgpt-subscription-to-a-new-account)
    用于核对 ChatGPT 订阅不能跨账号转移，以及旧账号无法访问时的取消方式。
-7. [How to change your email address](https://help.openai.com/en/articles/4936827-how-to-change-your-email-address)  
+7. [How to change your email address](https://help.openai.com/en/articles/4936827-how-to-change-your-email-address)
    用于核对同账号修改邮箱的资格、操作路径、次数限制与数据保留范围。
-8. [Transfer exported conversations between ChatGPT accounts](https://help.openai.com/en/articles/9106926-transfer-exported-conversations-between-chatgpt-accounts)  
+8. [Transfer exported conversations between ChatGPT accounts](https://help.openai.com/en/articles/9106926-transfer-exported-conversations-between-chatgpt-accounts)
    用于核对导出 JSON 上传只供参考、不会恢复原聊天结构或转移订阅。
-9. [Why is my subscription associated with another account?](https://help.openai.com/en/articles/20001056-why-am-i-seeing-a-message-that-my-subscription-is-associated-with-another-account)  
+9. [Why is my subscription associated with another account?](https://help.openai.com/en/articles/20001056-why-am-i-seeing-a-message-that-my-subscription-is-associated-with-another-account)
    用于核对 iOS / Android 订阅与应用商店账号、原 ChatGPT 账号的绑定关系。
 
 ## 维护原则
