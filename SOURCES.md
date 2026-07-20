@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
+   用于核对 `Charged but still on Free plan` 的相同验证方式、Apple 私密转发邮箱、恢复购买、重新登录和支持材料。
+7. [Why am I seeing a message that my subscription is associated with another account?](https://help.openai.com/en/articles/20001056-why-am-i-seeing-a-message-that-my-subscription-is-associated-with-another-account)
+   用于核对移动订阅与应用商店账号、原 ChatGPT 账号的关联，以及订阅不能在 ChatGPT 账号之间转移。
+8. [Restoring a ChatGPT subscription purchased in the Apple App Store](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)
+   用于核对 Apple App Store 购买的恢复入口。
 
 ## 维护原则
 
