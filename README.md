@@ -105,6 +105,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### Codex CLI 登录失败、401 或 403 怎么排查？
+
+先运行 `codex login status` 确认当前是 ChatGPT 登录还是 API Key，并保留完整错误、Codex 版本、发生时间与运行环境。`401 Unauthorized` 更接近认证未被接受；`403 Forbidden` 还可能涉及工作区权限、管理员限制、账号状态、支持地区或服务异常；`429` 通常应转去检查 Usage、恢复时间、Credits 或 API Billing。
+
+如果浏览器已经显示授权成功，但 WSL、SSH、容器或远程终端仍在等待，可停止原流程后尝试官方 `codex login --device-auth`。不要复制他人的 `~/.codex/auth.json`；官方文档说明该文件可能包含访问令牌，应当按密码处理。
+
+官方参考：[Codex Authentication](https://developers.openai.com/codex/auth)、[Codex developer commands](https://developers.openai.com/codex/developer-commands?surface=cli)。独立排查清单见：[Codex CLI 登录失败：401、403、OAuth 与 device auth](guides/codex-cli-login-401-403.md)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
@@ -166,7 +174,7 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 ## 延伸阅读
 
-如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。
+如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。遇到登录故障时，另见 [Codex CLI 401 / 403 登录排查](https://hi-codex.com/guides/codex-cli-login-failed-401-403/?utm_source=github&utm_medium=readme&utm_campaign=codex_cli_login)。
 
 ## 资料来源与利益披露
 
