@@ -12,6 +12,10 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [OpenAI Account Sharing Policy](https://help.openai.com/en/articles/10471989-openai-account-sharing-policy)
+   用于核对个人账号仅供创建者本人使用，以及同一人多设备登录与多人共享账号的区别。
+7. [How can I keep my OpenAI accounts secure?](https://help.openai.com/en/articles/8304786-how-can-i-keep-my-openai-accounts-secure)
+   用于核对改密、MFA、Active sessions、退出所有设备和账号泄露后的处理顺序。
 
 ## 维护原则
 
