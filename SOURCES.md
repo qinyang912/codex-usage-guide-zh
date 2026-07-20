@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
+
+   用于核对 ChatGPT Plus 当前每月 20 美元、按月计费，以及不支持年付或一次预付多个月。
+7. [Multi-currency billing](https://help.openai.com/en/articles/10421635-multi-currency-billing)
+
+   用于核对 chatgpt.com 多币种结算、现有订阅币种、切换币种方式，以及 Apple / Google 移动订阅的账单归属。
 
 ## 维护原则
 
