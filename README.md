@@ -105,6 +105,20 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### ChatGPT 或 Codex 账号被封、显示 Account Deactivated 怎么办？
+
+先区分真正的账号停用与其他故障：`Account Deactivated` 通常表示 OpenAI 账号已被停用；`Unsupported Country` 属于地区支持；验证码收不到属于登录验证；已扣款仍显示 Free 属于账号或订阅渠道核对。不要把清缓存、再次充值或换号当成通用“解封”办法。
+
+OpenAI 当前建议的申诉顺序是：
+
+1. 收到停用通知邮件时，优先使用邮件中的专属申诉链接。
+2. 无法访问通知邮件时，使用官方 [Appeal Form](https://openai.com/form/appeal/)。
+3. 没有收到通知邮件但已经无法访问账号时，通过 [OpenAI Help Center](https://help.openai.com/) 聊天联系支持。
+
+准备账号邮箱、User ID、Organization ID、使用背景、准确时间线、疑似入侵范围和已经采取的安全措施。涉及未知扣费时，只按官方表单要求提供日期、金额、卡片后四位、品牌、发卡行和账单邮编；不要把完整卡号、CVC、验证码、Session、恢复码或 API Key 发给第三方。
+
+账号已停用时应暂停 Plus、Pro、Credits 和代充付款。详细分流表、申诉证据与 Codex / API 分支见：[ChatGPT 账号被封/停用与 Deactivated 申诉指南](https://hi-codex.com/guides/chatgpt-account-deactivated-appeal/?utm_source=github&utm_medium=readme&utm_campaign=account_deactivated)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
