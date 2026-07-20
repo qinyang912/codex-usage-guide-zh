@@ -50,6 +50,21 @@ API Key 是单独的用量计费方式。使用 API Key 登录 Codex 时，OpenA
 
 如果选择第三方协助，应先确认交付的是自己的账号套餐，还是共享账号；同时确认总价、预计时间、失败退款条件和需要提供的信息。
 
+## 礼品卡、促销码和第三方激活码不是一回事
+
+Google 搜索结果常把几种不同的“码”混在一起：
+
+- **Apple Gift Card**：先兑换为 Apple 账户余额，再由 Apple 渠道购买符合条件的订阅；它不是 ChatGPT 专属礼品卡。
+- **OpenAI 促销或推荐码**：通常带有活动对象、地区、有效期、新老用户和付款方式限制，不应默认可以转卖或适用于所有账号。
+- **第三方激活码**：可能只是第三方平台自己的订单凭证、代付入口或授权链接，不自动等于 OpenAI 官方代码。
+- **商家优惠码**：通常只用于确认活动价格，不能直接在 ChatGPT、Apple 或 Google 页面激活套餐。
+
+判断时先确认发行方、兑换域名、账号归属、需要的权限、自动续费渠道和失败退款条件。不要在陌生页面提交密码、验证码、Session、Cookie 或 API Key。
+
+官方参考：[OpenAI Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals)、[Apple 兑换礼品卡说明](https://support.apple.com/en-us/118242)。
+
+更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
+
 ## Codex 额度不够时的检查顺序
 
 1. 确认当前登录方式是 ChatGPT 账号还是 API Key。
