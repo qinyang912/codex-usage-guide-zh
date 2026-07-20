@@ -168,6 +168,11 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。
 
+遇到 Codex 本地技术错误时，可按错误类型进入对应排查：
+
+- [`failed to load configuration`、TOML 语法与配置层级](guides/codex-config-toml-troubleshooting.md)
+- [`permission denied`、read-only、workspace 与命令网络](guides/codex-sandbox-permission-troubleshooting.md)
+
 ## 资料来源与利益披露
 
 本仓库优先引用 OpenAI 官方资料，来源见 [SOURCES.md](SOURCES.md)。套餐价格、额度、模型、地区可用性和产品入口都会变化，最终以 OpenAI 官方页面及用户账号内显示为准。
