@@ -103,6 +103,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 - [ ] 完成后在 ChatGPT 账号内核对套餐状态与下一次续费信息。
 - [ ] 如果曾提供临时登录协助，完成后更新密码并启用 MFA。
 
+## Codex VS Code 插件不显示或一直转圈怎么办？
+
+先按现象分流，而不是直接清空缓存：图标不显示时运行 `Codex: Open Codex Sidebar`；空白或持续加载时重新加载窗口并查看 Output；出现 `failed to start codex app-server` 时检查扩展实际运行环境、版本和日志；401、403、404、429 应分别进入认证、模型和用量分支。
+
+WSL、Remote SSH 与 Codespaces 会把 Extension Host 放在不同环境，本机 CLI 正常不能证明远端扩展正常。不要删除或分享 `auth.json`、Session、API Key 和整包 `.codex` 目录。
+
+完整检查表见：[Codex VS Code 插件不显示、一直转圈与 app-server 启动失败排查](guides/codex-vscode-extension-troubleshooting.md)。
+
 ## 常见问题
 
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？

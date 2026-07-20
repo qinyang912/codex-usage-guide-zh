@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex IDE extension](https://chatgpt.com/docs/codex/ide)
+   用于核对 VS Code、Cursor、Windsurf 的官方扩展入口，以及图标不可见时的 `Codex: Open Codex Sidebar` 命令。
+7. [Codex App Server](https://chatgpt.com/docs/app-server)
+   用于核对 app-server 为 VS Code 扩展等富客户端提供认证、会话、审批与流式事件能力。
+8. [Developer settings](https://chatgpt.com/docs/developer-settings)
+   用于核对 Codex CLI 与 IDE 扩展共享用户级和项目级 `config.toml` 配置层。
 
 ## 维护原则
 
