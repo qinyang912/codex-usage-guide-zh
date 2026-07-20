@@ -144,6 +144,16 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 官方参考：[What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)。交付形式与风险对照见：[ChatGPT Plus 年付、包年和一年费用区别](https://hi-codex.com/guides/chatgpt-plus-annual-plan/?utm_source=github&utm_medium=readme&utm_campaign=annual_plan)。
 
+### ChatGPT Plus 可以转移到另一个账号吗？更换邮箱后还在吗？
+
+ChatGPT 订阅不能从一个账号转到另一个账号。需要改用新账号时，应先取消旧账号订阅，再在目标账号重新购买，避免两份订阅同时扣费。
+
+如果只是在符合资格的同一个账号内通过 `Settings → Account` 修改邮箱，OpenAI 当前说明订阅、聊天记录、Projects、自定义 GPT、工作区成员关系与设置会保留。它与使用新邮箱注册另一个账号不同。
+
+移动端订阅还会绑定购买时的 Apple ID / Google Play 账号和当时登录的 ChatGPT 账号，重新安装 App 不会换绑。导出的聊天 JSON 只能上传到一段新对话中参考，不能恢复原侧边栏或转移订阅。
+
+官方参考：[订阅不能跨账号转移](https://help.openai.com/en/articles/9135236-can-i-transfer-my-chatgpt-subscription-to-a-new-account)、[修改邮箱](https://help.openai.com/en/articles/4936827-how-to-change-your-email-address)。完整核对清单见：[订阅转移、更换邮箱与聊天记录迁移](guides/chatgpt-subscription-transfer-email-change.md)。
+
 ### ChatGPT Plus 包含 Codex 吗？
 
 按当前官方 Codex 定价文档，Plus 包含 Codex 的多个使用入口。功能、模型和用量上限会调整，应以官方页面和账号内显示为准。
