@@ -78,6 +78,19 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 中文排查表见：[Codex Usage Limit、5 小时/周限额与 Credits](https://hi-codex.com/guides/codex-quota-limit-credits/?utm_source=github&utm_medium=readme&utm_campaign=codex_usage_limit)。
 
+## Codex 429、Rate Limit 与 insufficient_quota 不要混在一起
+
+Codex 显示 `429 Too Many Requests` 时，先确认认证方式和完整错误原文：
+
+- ChatGPT 登录并显示 Usage limit / 恢复时间：检查 Codex Usage、套餐窗口和 Credits。
+- API Key 显示 `Rate limit reached for requests` 或 tokens：检查组织与项目的 RPM、TPM 等限制，读取 `x-ratelimit-*` 响应头并降低并发。
+- API Key 显示 `insufficient_quota` 或 `exceeded your current quota`：检查 Platform Billing、Credits 与月度使用上限，继续重试不会产生余额。
+- 自定义 provider / Base URL：还要检查第三方网关、共享上游与服务商自己的并发限制。
+
+OpenAI 说明失败请求也会计入每分钟限制，因此不能无限立即重试。应使用带随机抖动、最大次数与总超时的指数退避；错误明确属于套餐用量或 `insufficient_quota` 时，应停止这条重试路线。
+
+独立排查清单见：[Codex 429 Too Many Requests、Rate Limit 与 insufficient_quota](guides/codex-429-rate-limit.md)。
+
 ## Codex 额度不够时的检查顺序
 
 1. 确认当前登录方式是 ChatGPT 账号还是 API Key。
