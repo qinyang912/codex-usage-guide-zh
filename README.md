@@ -33,7 +33,9 @@ OpenAI 当前 Codex 定价文档将 Plus 列为个人套餐之一，并说明它
 
 Credits 用于在符合条件的 ChatGPT 套餐中扩展 Codex 等功能的使用量。是否可购买、价格和适用范围应以账号内 Usage 页面显示为准。
 
-符合条件的 Plus / Pro 用户可在 ChatGPT 网页版或 Codex 应用进入 `Codex Settings → Usage / Usage Dashboard → Credits` 查看余额和购买入口。账号支持时还可以开启自动充值；启用前应设置触发余额、充值金额和页面提供的月度限制。
+符合条件的 Plus / Pro 用户可在 ChatGPT 网页版或 Codex 应用进入 `Codex Settings → Usage / Usage Dashboard → Credits` 查看余额和购买入口。套餐包含用量会先使用，达到套餐限制后，受支持的功能才从 Credits 余额扣除。
+
+OpenAI 当前说明，Credits 自购买日起有效 12 个月，到期不结转；除法律要求外通常不可退款，也不可转让、转售或赠送。符合条件的账号可以开启 Auto top-up，设置最低余额和目标余额；低于阈值时会使用默认付款方式补到目标余额，开启时如果余额已低于最低值，可能立即发生购买。
 
 ### OpenAI API
 
@@ -65,6 +67,22 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
 
+## Apple 已扣款未到账和 ChatGPT 重复扣费怎么处理
+
+先区分“只有一笔费用但 Plus 未显示”和“网页、Apple、Google 同时存在多份订阅”：
+
+1. 暂停再次付款，保存 Apple / Google / OpenAI 收据和 ChatGPT 套餐页面。
+2. 分别检查 iPhone 的 Apple ID 订阅、Google Play 订阅以及 chatgpt.com 的 Billing。
+3. 如果通过 Apple App Store 购买且已经扣款，但当前账号仍显示 Free，在 ChatGPT iOS 应用打开 `Settings → Account → Restore purchases`。
+4. 如果 Apple 续费因付款问题失败，不要直接把它当成已经取消。Apple 后续可能恢复续费；此时若已在网页或 Google Play 重买，就可能出现两份订阅。
+5. 确认重复后，保留一份并取消其他订阅。Apple 收费向 Apple 申请退款，Google Play 收费按 Google 流程处理，chatgpt.com 收费通过 OpenAI 支持处理。
+
+卸载 ChatGPT App 不会取消应用商店订阅；取消续费通常也不会自动退回已经发生的费用。
+
+官方参考：[OpenAI：避免跨平台重复扣费](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)、[OpenAI：恢复 Apple App Store 购买](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)。
+
+中文排查步骤见：[ChatGPT Plus 重复扣费、Apple 已扣款未到账与退款](https://hi-codex.com/guides/chatgpt-plus-duplicate-charge-refund/?utm_source=github&utm_medium=readme&utm_campaign=duplicate_charge)。
+
 ## Codex Usage Limit、5 小时限制和周限额怎么理解
 
 搜索结果里的“5 小时限制”“周限额”和“额度重置”经常被混为一谈。实际账号可能同时受到短时间窗口、较长周期上限和套餐档位影响；具体数值、恢复时间与 Credits 入口会随套餐、模型、任务和账号状态变化，应以 `Codex Settings → Usage` 当时显示为准。
@@ -73,6 +91,7 @@ Google 搜索结果常把几种不同的“码”混在一起：
 - **周限额或较长周期上限**：即使短窗口恢复，较长周期额度仍可能限制继续使用。
 - **ChatGPT Credits**：符合条件的账号可在 Usage 页面购买额外用量；它不是 OpenAI Platform API 余额。
 - **临时重置或测试变化**：个别账号一段时间内看不到原限制，不代表 OpenAI 永久取消所有 5 小时或周限制。
+- **Banked reset**：符合当前推荐活动资格的用户可能获得可储存的 rate-limit reset；只有个人资料菜单的用量摘要显示可用数量时才能应用，资格、数量和有效期以活动弹窗为准。
 
 官方参考：[Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)、[Codex rate card](https://help.openai.com/en/articles/20001106-codex-rate-card)。
 
