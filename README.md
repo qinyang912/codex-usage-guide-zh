@@ -65,6 +65,16 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
 
+## iPhone / iOS 怎么充值 ChatGPT Plus？
+
+使用官方 ChatGPT iOS App 订阅时，Plus 权益落在购买时登录的 ChatGPT 账号，扣款、续费和取消则由 Apple 管理。购买前应确认 ChatGPT 登录方式、Apple 账户地区、确认页总价和是否已有网页或 Google Play 订阅。
+
+Apple 礼品卡兑换成功只代表余额进入 Apple 账户，不等于 Plus 已开通。Apple 已扣款但仍显示 Free 时，应先登录正确的 ChatGPT 账号并使用 `Restore purchases`，不要直接再次购买。删除 App 也不会取消订阅。
+
+官方参考：[iOS 升级付费订阅](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription)、[恢复 Apple 购买](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)。
+
+完整步骤见：[2026 ChatGPT Plus iOS / App Store 充值核对清单](guides/chatgpt-plus-ios-app-store-recharge.md)。
+
 ## Codex Usage Limit、5 小时限制和周限额怎么理解
 
 搜索结果里的“5 小时限制”“周限额”和“额度重置”经常被混为一谈。实际账号可能同时受到短时间窗口、较长周期上限和套餐档位影响；具体数值、恢复时间与 Credits 入口会随套餐、模型、任务和账号状态变化，应以 `Codex Settings → Usage` 当时显示为准。

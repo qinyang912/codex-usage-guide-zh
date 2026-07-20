@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [ChatGPT iOS app: Upgrading to a paid subscription](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription)
+   用于核对 iOS App 升级入口、Free 到 Pro 的网页限制和应用内购买激活时间。
+7. [Restoring a ChatGPT subscription purchased in the Apple App Store](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)
+   用于核对 Apple App Store 订阅的 Restore purchases 路径。
+8. [Avoid duplicate charges across iOS, Android and web](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
+   用于核对多平台订阅、取消路径和删除 App 不会取消订阅。
 
 ## 维护原则
 
