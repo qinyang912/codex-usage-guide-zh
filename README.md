@@ -94,6 +94,10 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## ChatGPT 充值前检查清单
 
+充值前还要先确认账号所在地与付款方式发行地符合 OpenAI 当前支持范围。能打开页面、下载 App、兑换应用商店礼品卡或找到第三方代充，都不能单独证明所在地属于官方支持地区。
+
+地区状态、`Unsupported Country` 与旅行后误判的安全排查见：[ChatGPT 支持国家、地区限制与 Unsupported Country](guides/chatgpt-supported-countries.md)。
+
 - [ ] 套餐落在自己的账号，而不是共享账号。
 - [ ] 已确认 Plus、Pro 5x 或 Pro 20x 的具体档位。
 - [ ] 已确认页面价格、聊天优惠和最终支付价。
@@ -104,6 +108,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 - [ ] 如果曾提供临时登录协助，完成后更新密码并启用 MFA。
 
 ## 常见问题
+
+### ChatGPT 在中国大陆、香港或澳门能用吗？
+
+截至 2026 年 7 月 21 日核对，OpenAI 的 ChatGPT 网页端和移动端支持国家和地区列表未列出中国大陆、香港和澳门，台湾已列出。官方同时说明，从支持列表以外的地方访问或提供 ChatGPT / API 访问，可能导致账号被封禁或暂停。
+
+列表会变化，不能把这句话当成永久状态；使用或付款前应重新打开官方支持列表。如果人在支持地区却被误判，OpenAI 建议先清除浏览器缓存和 Cookie，再尝试其他浏览器或无痕模式，仍异常时联系官方支持。不要伪造所在地、账单地址或购买无法证明归属的账号。
+
+官方参考：[ChatGPT 支持的国家和地区](https://help.openai.com/zh-hans-cn/articles/7947663-chatgpt-supported-countries)、[不受支持国家和地区的服务说明](https://help.openai.com/zh-hans-cn/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)。完整中文分流表见：[ChatGPT 中国大陆、香港能用吗？](https://hi-codex.com/guides/chatgpt-supported-countries-unsupported-country/?utm_source=github&utm_medium=readme&utm_campaign=supported_regions)。
 
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
