@@ -127,7 +127,7 @@ OpenAI 当前的 Plus 帮助页把这类问题单独列为 `Charged but still on
 
 官方参考：[What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)、[Why is my subscription associated with another account?](https://help.openai.com/en/articles/20001056-why-am-i-seeing-a-message-that-my-subscription-is-associated-with-another-account)、[Restore an Apple App Store subscription](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)。
 
-中文渠道分流表与证据清单见：[ChatGPT Plus 已扣款仍显示 Free、付款后会员没到账排查](https://hi-codex.com/guides/chatgpt-paid-but-still-free/?utm_source=github&utm_medium=readme&utm_campaign=paid_but_still_free)。
+可保存的简明步骤见：[已扣款仍显示 Free 排查清单](guides/chatgpt-paid-but-still-free.md)。中文渠道分流表与完整证据清单见：[ChatGPT Plus 已扣款仍显示 Free、付款后会员没到账排查](https://hi-codex.com/guides/chatgpt-paid-but-still-free/?utm_source=github&utm_medium=readme&utm_campaign=paid_but_still_free)。
 
 ### ChatGPT 充值或代充能开发票吗？
 

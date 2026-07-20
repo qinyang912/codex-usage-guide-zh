@@ -18,6 +18,8 @@
    用于核对移动订阅与应用商店账号、原 ChatGPT 账号的关联，以及订阅不能在 ChatGPT 账号之间转移。
 8. [Restoring a ChatGPT subscription purchased in the Apple App Store](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)
    用于核对 Apple App Store 购买的恢复入口。
+9. [Can I transfer my ChatGPT subscription to a new account?](https://help.openai.com/en/articles/9135236-can-i-transfer-my-chatgpt-subscription-to-a-new-account)
+   用于核对 ChatGPT 订阅不能在账号之间转移。
 
 ## 维护原则
 
