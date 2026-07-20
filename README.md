@@ -105,6 +105,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### ChatGPT 代充需要提供账号密码吗？
+
+不应该提供 ChatGPT 密码、邮箱密码、短信或邮箱验证码、MFA 验证码和恢复码。有些流程会要求临时登录权限或 Session，但“无需密码”不等于“没有账号访问权限”：有效 Session 可能让持有者以已登录状态访问账号，应按高敏感登录凭证处理。
+
+如果确实需要临时登录权限，应先确认用途、提交渠道、授权范围、预计使用时间和完成后的删除方式；不要在公开聊天、评价、群聊、截图或网址参数中发送。交付完成后，应检查 Active sessions；无法判断时使用 Log out of all sessions，并在怀疑密码泄露时改密和启用 MFA。
+
+详细检查表见：[ChatGPT 代充需要密码吗？Session 安全与账号保护](https://hi-codex.com/guides/chatgpt-account-security/?utm_source=github&utm_medium=readme&utm_campaign=recharge_credentials)。
+
 ### ChatGPT Plus 有官方年付或包年吗？
 
 截至 2026 年 7 月 21 日，OpenAI 官方帮助中心说明个人 ChatGPT Go、Plus 和 Pro 不支持年付，也不能一次预付多个月。第三方“包年”可能是卖家未来每月代续、共享或成品账号、应用商店商品或其他服务承诺，不应直接当成 OpenAI 官方年度权益。
