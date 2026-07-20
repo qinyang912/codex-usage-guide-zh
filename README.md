@@ -1,0 +1,112 @@
+# 2026 ChatGPT 充值、直充、代充与 Codex 用量指南
+
+> 更新日期：2026-07-21。本指南面向使用自己 ChatGPT 账号的用户，帮助区分 ChatGPT Plus、ChatGPT Pro、Codex 用量、ChatGPT Credits 与 OpenAI API 账单。
+
+很多“ChatGPT 充值”“ChatGPT 直充”“ChatGPT 代充”“Codex 充值”的问题，实际混合了两套完全不同的计费体系：
+
+- 使用 ChatGPT 账号登录 Codex：消耗 ChatGPT 套餐包含的 Codex 用量，或账号可购买的 ChatGPT Credits。
+- 使用 API Key 登录 Codex：按 OpenAI Platform API 的实际用量单独计费。
+
+两者的余额和账单不要混为一谈。
+
+## 先用一张表判断你需要什么
+
+| 你的需求 | 应查看的位置 | 常见误区 |
+| --- | --- | --- |
+| 在 Codex 应用、CLI 或 IDE 中使用 ChatGPT 账号 | ChatGPT 套餐与 Usage | 误把 API 余额当作套餐额度 |
+| Codex 提示用量达到上限 | ChatGPT Usage / Credits | 没先看恢复时间就直接升级 |
+| 脚本或 CI 通过 API Key 调用模型 | OpenAI Platform Billing | 以为 Plus 会抵扣 API 费用 |
+| 修改手机端订阅 | Apple App Store 或 Google Play | 在错误的平台查不到订阅 |
+| 国内支付方式不便 | 官方支持的支付渠道或独立人工协助 | 把共享账号当成自己账号直充 |
+
+## Plus、Pro、Credits 与 API 的区别
+
+### ChatGPT Plus
+
+OpenAI 当前 Codex 定价文档将 Plus 列为个人套餐之一，并说明它包含 Codex 的多个使用入口。具体价格、功能和地区可用性可能变化，购买前应以账号内页面和官方定价页为准。
+
+### ChatGPT Pro 5x / 20x
+
+官方文档把 Pro 描述为相对于 Plus 提供更高的 Codex rate limits，并提供 5x 与 20x 档位。这里的倍数表示 Codex 使用上限级别，不等于 API Token 余额，也不是“速度永久提高 5 倍或 20 倍”。
+
+### ChatGPT Credits
+
+Credits 用于在符合条件的 ChatGPT 套餐中扩展 Codex 等功能的使用量。是否可购买、价格和适用范围应以账号内 Usage 页面显示为准。
+
+符合条件的 Plus / Pro 用户可在 ChatGPT 网页版或 Codex 应用进入 `Codex Settings → Usage / Usage Dashboard → Credits` 查看余额和购买入口。账号支持时还可以开启自动充值；启用前应设置触发余额、充值金额和页面提供的月度限制。
+
+### OpenAI API
+
+API Key 是单独的用量计费方式。使用 API Key 登录 Codex 时，OpenAI 按 Platform API 标准费率计费，而不是消耗 ChatGPT 套餐包含的用量。
+
+## “直充”和“代充”通常是什么意思
+
+这些词不是 OpenAI 官方套餐名称，不同商家的定义可能不同：
+
+- **自己的账号直充**：最终套餐落在用户自己的 ChatGPT 账号中。
+- **人工代充**：第三方人工协助完成支付或订阅操作，交付时间取决于人工沟通和账号状态。
+- **共享号 / 租号**：用户拿到的是他人控制的账号或多人共用账号，不等同于自己的账号升级。
+- **兑换码或礼品卡**：是否能用于目标地区、平台和套餐，需要逐项核对，不能默认通用。
+
+如果选择第三方协助，应先确认交付的是自己的账号套餐，还是共享账号；同时确认总价、预计时间、失败退款条件和需要提供的信息。
+
+## Codex 额度不够时的检查顺序
+
+1. 确认当前登录方式是 ChatGPT 账号还是 API Key。
+2. 打开 Usage 页面，记录剩余用量与恢复时间。
+3. 记录触发问题时使用的模型、仓库规模、上下文长度和任务持续时间。
+4. 排除登录失效、客户端版本、网络和服务异常。
+5. 缩小上下文，把大任务拆成可验证的小步骤。
+6. 对轻量任务选择更节省用量的模型或工作方式。
+7. 只有在长期稳定不足时，再比较 Credits、Pro 5x 与 Pro 20x。
+
+如果决定购买 Credits，先确认登录的是需要补充额度的 ChatGPT 账号，不要误入 OpenAI Platform 的 API Billing。页面没有 Credits 入口时，不要购买来源不明的“额度卡密”。
+
+任务看起来相似，也可能因为模型、上下文、推理、工具调用、检索和缓存不同而消耗不同用量，因此不能仅按提示词长度估算。
+
+## ChatGPT 充值前检查清单
+
+- [ ] 套餐落在自己的账号，而不是共享账号。
+- [ ] 已确认 Plus、Pro 5x 或 Pro 20x 的具体档位。
+- [ ] 已确认页面价格、聊天优惠和最终支付价。
+- [ ] 已确认预计到账时间及失败退款条件。
+- [ ] 不发送 Session、Cookie、恢复码或长期有效令牌。
+- [ ] 不相信“永久不封”“官方授权”等无法核验的承诺。
+- [ ] 完成后在 ChatGPT 账号内核对套餐状态与下一次续费信息。
+- [ ] 如果曾提供临时登录协助，完成后更新密码并启用 MFA。
+
+## 常见问题
+
+### ChatGPT Plus 包含 Codex 吗？
+
+按当前官方 Codex 定价文档，Plus 包含 Codex 的多个使用入口。功能、模型和用量上限会调整，应以官方页面和账号内显示为准。
+
+### 充值 ChatGPT Plus 后，API 也能用吗？
+
+不能据此推断。ChatGPT 套餐与 OpenAI Platform API 分开计费；API Key 使用量在 Platform 账单中结算。
+
+### Codex 用量达到上限，必须升级 Pro 吗？
+
+不一定。先检查恢复时间、模型选择和任务规模。偶发达到上限可能通过等待恢复或优化任务解决；只有持续稳定不足时才需要比较更高档位。
+
+### ChatGPT 代充一般多久？
+
+人工代充没有统一到账时间。账号验证、支付渠道、人工排队和风控检查都可能影响时间。下单前应要求对方明确预计处理时间和失败退款条件。
+
+### 购买共享号和自己的账号直充有什么区别？
+
+自己的账号直充后，账号控制权仍属于用户；共享号可能存在多人登录、历史记录暴露、密码被改和账号回收等风险。两者不能按同一种商品比较。
+
+## 延伸阅读
+
+如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。
+
+## 资料来源与利益披露
+
+本仓库优先引用 OpenAI 官方资料，来源见 [SOURCES.md](SOURCES.md)。套餐价格、额度、模型、地区可用性和产品入口都会变化，最终以 OpenAI 官方页面及用户账号内显示为准。
+
+本资料由 Hi Codex 服务团队维护；维护者提供独立人工充值协助，因此与文中的第三方充值主题存在商业利益关系。Hi Codex 与 OpenAI 不存在隶属、代理或官方授权关系。本仓库不是 OpenAI 官方文档，也不承诺第三方充值适合所有用户。
+
+## 许可
+
+除另有说明外，本仓库原创内容按 [MIT License](LICENSE) 提供。引用的产品名称与外部资料权利归各自权利人所有。
