@@ -92,6 +92,16 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 任务看起来相似，也可能因为模型、上下文、推理、工具调用、检索和缓存不同而消耗不同用量，因此不能仅按提示词长度估算。
 
+## Codex stream disconnected、Reconnecting 5/5 怎么排查
+
+`stream disconnected before completion` 表示响应流在完成事件前断开，不自动等于套餐额度不足；`Reconnecting 1/5` 到 `5/5` 只表示客户端在重试，应回看第一条真实错误。
+
+先确认错误发生在建立连接、TLS 握手、响应流、自定义 provider，还是 MCP 工具。保存 Codex 版本、操作系统、实际端点、时间、request ID 和脱敏日志，再对照 OpenAI Status、CLI/App/IDE、最小任务与一条已知正常网络。不要因为看到 5/5 就直接关闭 WebSocket、删除整个 `.codex` 或导入来源不明的根证书。
+
+Windows `os error 10054/10060` 与 macOS `54/60` 必须结合系统和完整文字判断，错误号本身不能证明是 OpenAI、代理或本机导致。
+
+完整诊断表见：[Codex stream disconnected、Reconnecting 5/5 与超时排查](guides/codex-stream-disconnected-reconnecting-timeout.md)。
+
 ## ChatGPT 充值前检查清单
 
 - [ ] 套餐落在自己的账号，而不是共享账号。

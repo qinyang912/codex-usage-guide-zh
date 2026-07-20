@@ -12,6 +12,14 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex Configuration Reference](https://developers.openai.com/codex/config-reference)
+   用于核对自定义 model provider 的 HTTP/SSE 重试、流空闲超时、WebSocket 支持和 MCP timeout 配置。
+7. [OpenAI Status](https://status.openai.com/)
+   用于排查 Codex、ChatGPT 与 API 的公开服务事件。
+8. [openai/codex issue #10378](https://github.com/openai/codex/issues/10378)
+   用于核对官方维护者对 stream disconnected 日志、provider、公司网络、TLS、VPN 与 DNS 的排查要求。
+9. [openai/codex issue #14297](https://github.com/openai/codex/issues/14297)
+   用于记录 Codex App 每次回答前多次 Reconnecting 的公开症状；该 issue 关闭为重复问题，不作为统一根因结论。
 
 ## 维护原则
 
