@@ -105,6 +105,12 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### Codex 在 Windows 上应该用原生 CLI 还是 WSL2？
+
+项目和工具主要在 Windows、习惯 PowerShell 时，优先 Windows App 或原生 CLI；仓库与 Linux 工具链已经在 WSL2 时，把 Codex 也安装在 WSL2。当前官方 Windows CLI 安装器使用 `chatgpt.com/codex/install.ps1`，WSL2 使用 `chatgpt.com/codex/install.sh`。
+
+Windows 与 WSL 的 PATH 和 Codex home 默认不自动共享。WSL1 只支持到 Codex 0.114；当前版本应使用 WSL2。独立核对清单见：[Codex Windows、原生 CLI 与 WSL2](guides/codex-windows-wsl.md)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
@@ -166,7 +172,7 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 ## 延伸阅读
 
-如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。
+如果你需要中文的套餐选择、充值前核对项和 Codex 用量说明，可阅读 [Codex 套餐、Credits 与 API 的区别](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=readme&utm_campaign=codex_guide)。Windows 用户另见 [Codex Windows / WSL2 安装指南](https://hi-codex.com/guides/codex-windows-install-wsl/?utm_source=github&utm_medium=readme&utm_campaign=codex_windows_wsl)。
 
 ## 资料来源与利益披露
 
