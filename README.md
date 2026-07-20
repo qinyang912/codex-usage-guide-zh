@@ -105,6 +105,17 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### ChatGPT 验证码收不到怎么办？
+
+先确认页面要求的是哪一种验证：邮箱 6 位 OTP、ChatGPT App 登录审批、MFA 二次验证，还是 OpenAI Platform 首个 API Key 的手机验证。它们不是同一个流程，处理方式也不同。
+
+- 邮箱 OTP：只使用最新一封验证码，检查垃圾邮件与企业邮箱隔离区，并允许 `noreply@tm.openai.com`、`otp@tm1.openai.com`。
+- App 登录审批：没有收到推送时，改用页面提供的邮箱 OTP；陌生登录请求应拒绝。
+- MFA：选择 `Try another method` 使用账号已启用的其他方式；恢复码应离线保存，不能发给代充卖家。
+- 手机验证：OpenAI 当前说明，普通 ChatGPT 注册和使用通常不再要求手机号；首次创建 API Key 仍可能要求短信或部分地区的 WhatsApp 验证。
+
+无论是邮箱验证码、短信验证码、MFA 验证码还是恢复码，都不应在闲鱼聊天或公开截图中发送。详细分流表与官方资料链接见：[ChatGPT 验证码收不到：邮箱 OTP、手机验证与 MFA 排查](https://hi-codex.com/guides/chatgpt-verification-code-not-received/?utm_source=github&utm_medium=readme&utm_campaign=verification_code)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。
