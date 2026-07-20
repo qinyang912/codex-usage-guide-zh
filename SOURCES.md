@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [ChatGPT Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals)
+   用于核对促销类型、兑换资格、代码使用、自动续费与取消规则。
+7. [ChatGPT promotional subscriptions / free trial invites FAQ](https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq)
+   用于核对免费试用邀请的发放、资格、付款方式和续费说明。
+8. [Codex for Students](https://chatgpt.com/zh-Hans-CN/codex/students/)
+   用于核对当前 Codex 学生 Credits 的地区、验证方式、用途和有效期。
 
 ## 维护原则
 

@@ -65,6 +65,16 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
 
+## ChatGPT Plus 免费试用或首月免费是真的吗
+
+OpenAI 会针对特定活动提供免费试用、折扣或一次性优惠价，但没有证据表明所有账号长期拥有一个通用的“首月免费”。资格可能取决于新老用户、地区、付款方式、活动入口和有效期。
+
+兑换前应确认结账页实际显示的折后金额、优惠周期、下一次续费日期与标准月费。促销通常只能使用一次、不能叠加；合作伙伴代码失效时应联系发放方。学生项目也要核对当前活动页面，不能把旧截图或 Codex Credits 活动直接理解为全球 Plus 免费。
+
+官方参考：[OpenAI Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals)、[Free trial invites FAQ](https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq)。
+
+逐项核对与防骗说明见：[ChatGPT Plus 免费试用、首月免费和促销码核对指南](guides/chatgpt-plus-free-trial-promo.md)。
+
 ## Codex Usage Limit、5 小时限制和周限额怎么理解
 
 搜索结果里的“5 小时限制”“周限额”和“额度重置”经常被混为一谈。实际账号可能同时受到短时间窗口、较长周期上限和套餐档位影响；具体数值、恢复时间与 Credits 入口会随套餐、模型、任务和账号状态变化，应以 `Codex Settings → Usage` 当时显示为准。
