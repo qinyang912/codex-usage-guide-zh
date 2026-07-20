@@ -105,6 +105,14 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 ## 常见问题
 
+### Codex Windows 应该原生安装还是用 WSL2？
+
+OpenAI 当前提供三条 Windows 路径：ChatGPT Windows 桌面应用、原生 Windows CLI，以及在 WSL2 中运行的 CLI。项目和工具主要位于 Windows、习惯 PowerShell 时优先原生；仓库和 Linux 工具链已经位于 WSL2 时优先 WSL2。
+
+Windows CLI 已有官方独立安装脚本，不必把 npm 当成唯一入口。WSL1 只支持到 Codex 0.114，从 0.115 起不再受支持。Windows 与 WSL 是两个独立环境：在一侧安装的 `codex` 不会自动出现在另一侧；WSL2 项目建议放在 `~/code`，避免大型仓库长期位于 `/mnt/c`。
+
+中文三路线对照、官方安装命令和 PATH 排查见：[2026 Codex Windows、PowerShell 与 WSL2 安装指南](https://hi-codex.com/guides/codex-windows-install-wsl/?utm_source=github&utm_medium=readme&utm_campaign=codex_windows_wsl)。
+
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
 
 出现 `Your card has been declined`、付款未获批准或续费交易失败时，先停止连续提交，并检查银行 App 中是否已有待处理、预授权或完成扣款。随后按顺序核对卡号、有效期、CVC、姓名和账单地址，确认余额、外币线上交易、循环订阅与 3D Secure 权限。

@@ -12,6 +12,12 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex CLI](https://developers.openai.com/codex/cli)
+   用于核对 Windows 与 Linux 独立安装器、首次运行和登录方式。
+7. [ChatGPT desktop app for Windows](https://developers.openai.com/codex/windows/windows-app)
+   用于核对 Windows App、Microsoft Store、原生 agent、PowerShell、WSL2 与沙箱设置。
+8. [Codex on WSL](https://developers.openai.com/codex/windows/wsl)
+   用于核对 WSL2 安装、WSL1 版本限制、VS Code 与 Linux home 项目路径。
 
 ## 维护原则
 
