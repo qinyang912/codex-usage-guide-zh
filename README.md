@@ -65,6 +65,19 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
 
+## Codex Usage Limit、5 小时限制和周限额怎么理解
+
+搜索结果里的“5 小时限制”“周限额”和“额度重置”经常被混为一谈。实际账号可能同时受到短时间窗口、较长周期上限和套餐档位影响；具体数值、恢复时间与 Credits 入口会随套餐、模型、任务和账号状态变化，应以 `Codex Settings → Usage` 当时显示为准。
+
+- **短时间窗口**：适合判断是否只需等待当前窗口恢复，不等于账号永久没有额度。
+- **周限额或较长周期上限**：即使短窗口恢复，较长周期额度仍可能限制继续使用。
+- **ChatGPT Credits**：符合条件的账号可在 Usage 页面购买额外用量；它不是 OpenAI Platform API 余额。
+- **临时重置或测试变化**：个别账号一段时间内看不到原限制，不代表 OpenAI 永久取消所有 5 小时或周限制。
+
+官方参考：[Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)、[Codex rate card](https://help.openai.com/en/articles/20001106-codex-rate-card)。
+
+中文排查表见：[Codex Usage Limit、5 小时/周限额与 Credits](https://hi-codex.com/guides/codex-quota-limit-credits/?utm_source=github&utm_medium=readme&utm_campaign=codex_usage_limit)。
+
 ## Codex 额度不够时的检查顺序
 
 1. 确认当前登录方式是 ChatGPT 账号还是 API Key。
