@@ -12,6 +12,10 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [After updating my API payment method, I noticed a $5 charge. Is this a temporary hold?](https://help.openai.com/en/articles/7438062-after-updating-my-api-payment-method-i-noticed-a-5-charge-is-this-a-temporary-hold)
+   用于核对 API 按量计费付款方式更新后的 5 美元临时授权、7 天内撤销及实际用量计费说明。
+7. [Unauthorized ChatGPT or API Credit Purchase Charges](https://help.openai.com/en/articles/7242625-unauthorized-chatgpt-or-api-credit-purchase-charges-how-to-request-a-refund)
+   用于核对未授权 ChatGPT 订阅或 API Credits 扣费的官方处理入口。
 
 ## 维护原则
 
