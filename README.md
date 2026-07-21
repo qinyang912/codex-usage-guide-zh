@@ -27,6 +27,7 @@
 - [Codex macOS / Linux 安装与更新](guides/codex-macos-linux-install-update.md)：对比 install.sh、npm、Homebrew，排查 command not found、PATH 和多份旧版本。
 - [Codex Skills 与 SKILL.md](guides/codex-skills-skill-md.md)：创建聚焦工作流，区分 Skill、Plugin、MCP 和 AGENTS.md。
 - [Codex Plugins 创建、安装与 Marketplace](guides/codex-plugins-create-install-marketplace.md)：配置 `plugin.json`、repo/personal Marketplace、`/plugins`，并排查插件不显示。
+- [Codex Chrome 插件、Browser 与 Computer Use](guides/codex-chrome-extension-browser-computer-use.md)：选择正确浏览器控制入口，覆盖安装、未连接、商店无法下载和 plugins unavailable。
 - [Codex AGENTS.md 配置指南](guides/codex-agents-md-configuration.md)：配置全局、仓库和子目录说明，掌握 override、fallback、32 KiB 限制与验证。
 - [Codex Rules、prefix_rule 与 execpolicy](guides/codex-rules-prefix-rule-execpolicy.md)：按命令前缀控制 Sandbox 外执行，测试 allow、prompt、forbidden 与 Shell 复合命令。
 - [Codex Hooks、hooks.json、PreToolUse 与 PostToolUse](guides/codex-hooks-configuration.md)：选择生命周期事件、审核信任、匹配本地工具，并排查 Hook 不执行或被跳过。
