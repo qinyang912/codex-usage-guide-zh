@@ -98,6 +98,10 @@
     用于核对 app-server 为 VS Code 扩展等富客户端提供认证、会话、审批与流式事件能力。
 48. [Codex developer settings](https://developers.openai.com/codex/developer-settings)
     用于核对 Codex CLI 与 IDE 扩展共享用户级和项目级 `config.toml` 配置层。
+49. [How to change your email address](https://help.openai.com/en/articles/4936827-how-to-change-your-email-address)
+    用于核对同账号修改邮箱的资格、操作路径、次数限制与数据保留范围。
+50. [Transfer exported conversations between ChatGPT accounts](https://help.openai.com/en/articles/9106926-transfer-exported-conversations-between-chatgpt-accounts)
+    用于核对导出 JSON 上传只供参考、不会恢复原聊天结构或转移订阅。
 
 ## 维护原则
 
