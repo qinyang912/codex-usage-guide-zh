@@ -96,15 +96,15 @@ OpenAI Developer settings 文档说明，CLI 与 IDE 扩展共享用户级 `~/.c
 
 不要公开：`auth.json`、API Key、Session、设备代码、验证码、完整环境变量、私有仓库代码、公司路径或未检查的整包日志。
 
-更完整的中文症状表、10 项 FAQ 与日志入口：
-
-https://hi-codex.com/guides/codex-vscode-extension-not-working/?utm_source=github&utm_medium=guide&utm_campaign=codex_vscode_extension
+更完整的中文症状表、10 项 FAQ 与日志入口见：[Codex VS Code 插件故障排查](https://hi-codex.com/guides/codex-vscode-extension-not-working/?utm_source=github&utm_medium=guide&utm_campaign=codex_vscode_extension)。
 
 官方资料：
 
-- https://chatgpt.com/docs/codex/ide
-- https://chatgpt.com/docs/app-server
-- https://chatgpt.com/docs/developer-settings
+- https://developers.openai.com/codex/ide
+- https://developers.openai.com/codex/app-server
+- https://developers.openai.com/codex/developer-settings
 - https://github.com/openai/codex/issues
 
-利益关系披露：本文由 Hi Codex 服务团队整理；维护者提供独立人工充值协助，与 ChatGPT / Codex 套餐主题存在商业利益关系。Hi Codex 与 OpenAI、Microsoft、VS Code、Cursor 或 Windsurf 不存在隶属、代理或官方授权关系。
+## 利益披露
+
+本文由 Hi Codex 服务团队整理；维护者提供独立人工充值协助，与 ChatGPT / Codex 套餐主题存在商业利益关系。Hi Codex 与 OpenAI、Microsoft、VS Code、Cursor 或 Windsurf 不存在隶属、代理或官方授权关系。
