@@ -75,6 +75,8 @@ API Key 是单独的用量计费方式。使用 API Key 登录 Codex 时，OpenA
 
 独立充值网站、电商平台、应用商店和共享账号的判断维度不同。详细的账号归属、收款渠道、低价来源、凭证红线和退款清单见：[2026 ChatGPT 充值平台怎么选](guides/chatgpt-recharge-platform-safety.md)。
 
+如果已经遇到掉订阅、Account Deactivated、Suspicious Activity，或商家要求密码、验证码、Session，可按 [ChatGPT 代充封号、黑卡与 Session 安全分流](guides/chatgpt-recharge-account-ban-session-safety.md) 逐项检查。
+
 ## 礼品卡、促销码和第三方激活码不是一回事
 
 Google 搜索结果常把几种不同的“码”混在一起：
