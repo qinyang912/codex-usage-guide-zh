@@ -52,6 +52,8 @@ OpenAI 当前 Codex 定价文档将 Plus 列为个人套餐之一，并说明它
 
 中文价格、升级切换和完整模型表见：[ChatGPT Pro 5x / 20x 区别、额度与充值](https://hi-codex.com/guides/chatgpt-pro-recharge-5x-20x/?utm_source=github&utm_medium=readme&utm_campaign=pro_tier_limits)。
 
+如果正在 100 美元与 200 美元档之间选择，先看独立的 [2026 ChatGPT Pro 5x / 20x 购买前判断清单](guides/chatgpt-pro-5x-20x-buying-guide.md)，再根据 Usage 的真实限制频率决定。
+
 ### ChatGPT Credits
 
 Credits 用于在符合条件的 ChatGPT 套餐中扩展 Codex 等功能的使用量。是否可购买、价格和适用范围应以账号内 Usage 页面显示为准。
