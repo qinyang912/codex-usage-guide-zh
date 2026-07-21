@@ -128,6 +128,8 @@
     用于记录旧版 `Error running remote compact task` 与 `stream disconnected before completion` 的公开症状；不把单个 issue 当成统一根因。
 63. [openai/codex issue #15468](https://github.com/openai/codex/issues/15468)
     用于核对维护者关于新版将压缩逻辑移到本地、复用普通请求端点的更新，并记录旧版 429 remote compact 症状。
+64. [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)
+    用于核对 sandbox 与 approval 的边界、workspace-write 受保护路径、命令网络默认值和常见安全组合。
 
 ## 维护原则
 
