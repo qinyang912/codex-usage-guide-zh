@@ -87,6 +87,16 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
 
+## ChatGPT Plus 免费试用或首月免费是真的吗？
+
+目前没有面向所有新用户长期固定开放的 Plus 免费试用。真实存在的是按活动定向提供的试用、折扣或推荐邀请；资格、时长、付款方式和地区由每次活动决定。
+
+领取前先在官方结算页确认价格确实显示为 0 美元或活动承诺的折扣，并记录首次扣款日和续费价格。多数促销会在结束后自动续为标准 Plus 月付订阅；不想继续时，应从原订阅平台至少提前 24 小时取消。免费促销取消后可能立即结束访问。
+
+当前美国、加拿大大学生的官方 Codex 活动提供 100 美元 ChatGPT Credits，用于 Codex 超额使用；它不是免费 Plus，也不是 API Credits。
+
+详细资格、Promo Code、自动续费和骗局对照见：[2026 ChatGPT Plus 免费试用核对清单](guides/chatgpt-plus-free-trial.md)；完整中文页面见：[ChatGPT Plus 免费试用与促销资格](https://hi-codex.com/guides/chatgpt-plus-free-trial-promo/?utm_source=github&utm_medium=readme&utm_campaign=plus_free_trial)。
+
 ## iPhone / iOS 怎么充值 ChatGPT Plus？
 
 使用官方 ChatGPT iOS App 订阅时，Plus 权益落在购买时登录的 ChatGPT 账号，扣款、续费和取消则由 Apple 管理。购买前应确认 ChatGPT 登录方式、Apple 账户地区、确认页总价和是否已有网页或 Google Play 订阅。

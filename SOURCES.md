@@ -52,6 +52,12 @@
     用于核对改密、MFA、Active sessions、退出所有设备和账号泄露后的处理顺序。
 25. [Can I transfer my ChatGPT subscription to a new account?](https://help.openai.com/en/articles/9135236-can-i-transfer-my-chatgpt-subscription-to-a-new-account)
     用于核对 ChatGPT 订阅不能在账号之间转移。
+26. [ChatGPT Promotional Subscriptions / Free Trial Invites FAQ](https://help.openai.com/en/articles/8381046-chatgpt-promotional-subscriptionsfree-trial-invites-faq)
+    用于核对免费试用邀请、活动资格、付款方式、自动续费和优惠叠加限制。
+27. [ChatGPT Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals)
+    用于核对合作方促销码、结算页价格、取消时机和代码转让限制。
+28. [Codex for university students](https://chatgpt.com/zh-Hans-CN/codex/students/)
+    用于核对美国、加拿大大学生 100 美元 Codex Credits 的资格、用途和有效期。
 
 ## 维护原则
 
