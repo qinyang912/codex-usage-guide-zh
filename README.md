@@ -19,6 +19,8 @@
 | 修改手机端订阅 | Apple App Store 或 Google Play | 在错误的平台查不到订阅 |
 | 国内支付方式不便 | 官方支持的支付渠道或独立人工协助 | 把共享账号当成自己账号直充 |
 
+国内购买前可先查看 [2026 ChatGPT Plus 国内怎么购买：充值、开通与支付方式](guides/chatgpt-plus-buy-china-payment-2026.md)，按地区资格、国内银行卡、应用商店、礼品卡、支付宝微信、订阅管理和退款渠道逐项判断。
+
 ## Codex 入门、安装与 Skills
 
 如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
