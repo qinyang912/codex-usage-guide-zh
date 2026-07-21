@@ -2,7 +2,9 @@
 
 > 核对日期：2026-07-21。客户端、模型、命令和服务端行为会变化，请以当前 OpenAI 官方文档、实际日志和账号内显示为准。
 
-Codex 长任务出现 <code>Automatically compacting context</code>、<code>/compact</code> 失败，或提示 <code>Error running remote compact task</code> 时，不要只根据总提示判断根因。真正决定处理路线的是后面的错误文字。
+Codex 长任务出现 <code>Automatically compacting context</code>、<code>/compact</code> 失败，或提示 <code>Error running remote compact task</code> 时，不要只根据总提示判断根因。真正决定处理路线的是客户端版本和后面的完整错误文字。
+
+> 实现更新：openai/codex 维护者在 2026 年 6 月说明，新版已把原先独立的远程压缩逻辑移到本地，并复用普通 turn 的请求端点。旧客户端、旧日志和搜索结果仍可能出现 <code>remote compact task</code>；当前版本若仍出现压缩故障，错误文字和恢复路径可能已经不同，因此第一步应记录版本并更新客户端，而不是照搬旧版修复。
 
 ## 先看完整错误后缀
 
