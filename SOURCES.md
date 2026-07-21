@@ -134,6 +134,14 @@
     用于核对 Codex CLI、IDE 与 App 的 MCP 配置共享范围，STDIO / Streamable HTTP Server、`codex mcp` 命令、OAuth、工具审批和 timeout 字段。
 66. [Scheduled tasks](https://learn.chatgpt.com/docs/automations)
     用于核对网页与桌面 Scheduled、standalone 与聊天续跑、Local / Worktree、RRULE、Skills、Plugins 和无人值守权限。
+67. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
+    用于核对 ChatGPT Plus、Pro 5x / 20x 与 Codex 当前价格、额度关系、可用入口和区域价格提示。
+68. [Claude Code Overview](https://code.claude.com/docs/en/overview)
+    用于核对 Claude Code 的 terminal、IDE、desktop、browser 入口，以及 MCP、instructions、Hooks 和 agent teams 能力。
+69. [Claude Code Settings](https://code.claude.com/docs/en/settings)
+    用于核对 managed、user、project、local 配置作用域与 CLAUDE.md、permissions、Hooks、MCP、plugins 设置。
+70. [Claude Plans & Pricing](https://claude.com/pricing)
+    用于核对 Claude Pro 月付/年付价格、Claude Max 起价与相对 Pro 的 5x / 20x 使用量口径；购买时仍以账号内地区价格为准。
 
 ## 维护原则
 
