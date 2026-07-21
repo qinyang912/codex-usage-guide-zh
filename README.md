@@ -49,6 +49,8 @@
 
 OpenAI 当前 Codex 定价文档将 Plus 列为个人套餐之一，并说明它包含 Codex 的多个使用入口。具体价格、功能和地区可用性可能变化，购买前应以账号内页面和官方定价页为准。
 
+如果还在判断免费版是否够用、Plus 的 20 美元能否回本或什么时候才需要 Pro，可先看 [2026 ChatGPT Plus 值得买吗：Free、Go、Plus、Pro 判断指南](guides/chatgpt-plus-worth-it-free-vs-pro-2026.md)。它使用 7 天真实记录，而不是固定消息条数或已经结束的促销来判断。
+
 ### ChatGPT Pro 5x / 20x
 
 官方文档把 Pro 描述为相对于 Plus 提供更高的 Codex rate limits，并提供 5x 与 20x 档位。这里的倍数表示 Codex 使用上限级别，不等于 API Token 余额，也不是“速度永久提高 5 倍或 20 倍”。
