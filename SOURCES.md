@@ -12,6 +12,8 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [OpenAI Codex Pricing Documentation](https://learn.chatgpt.com/docs/pricing)
+   用于核对 Free、Go、Plus、Pro 的当前基础价格、Codex 使用入口及 Pro 用量档位。
 
 ## 维护原则
 
