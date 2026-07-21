@@ -25,6 +25,8 @@
 
 如果正在处理自动续费失败、下一次什么时候扣费或套餐已经到期，可先看 [2026 ChatGPT Plus 自动续费失败：到期后怎么续、什么时候扣费](guides/chatgpt-plus-renewal-auto-renewal-2026.md)，按网页、Apple、Google Play 和人工订单分流，避免跨渠道重复订阅。
 
+如果团队正在比较原 Team、Business 和 Plus，可查看 [2026 ChatGPT Business 多少钱：原 Team 怎么购买、和 Plus 有什么区别](guides/chatgpt-business-team-price-buy-plus-2026.md)，先算最低 2 席位成本，再核对国内付款、Codex 和工作区数据控制权。
+
 ## Codex 入门、安装与 Skills
 
 如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
