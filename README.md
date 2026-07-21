@@ -39,6 +39,18 @@ OpenAI 当前 Codex 定价文档将 Plus 列为个人套餐之一，并说明它
 
 官方文档把 Pro 描述为相对于 Plus 提供更高的 Codex rate limits，并提供 5x 与 20x 档位。这里的倍数表示 Codex 使用上限级别，不等于 API Token 余额，也不是“速度永久提高 5 倍或 20 倍”。
 
+截至 2026 年 7 月 21 日，OpenAI Codex Pricing 列出的本地消息范围如下；本地消息与云端任务共享同一个 5 小时窗口，另外可能还有周限额：
+
+| 模型 | Plus / 5 小时 | Pro 5x / 5 小时 | Pro 20x / 5 小时 |
+| --- | ---: | ---: | ---: |
+| GPT-5.6 Sol | 15–90 | 75–450 | 300–1,800 |
+| GPT-5.6 Terra | 20–110 | 100–550 | 400–2,200 |
+| GPT-5.6 Luna | 50–280 | 250–1,400 | 1,000–5,600 |
+
+这些数字是范围而不是固定可发送条数。模型、代码库和任务复杂度、上下文、推理、工具、检索、缓存以及本地或云端运行都会影响实际消耗。20x 也不等于所有模型和功能无限使用。
+
+中文价格、升级切换和完整模型表见：[ChatGPT Pro 5x / 20x 区别、额度与充值](https://hi-codex.com/guides/chatgpt-pro-recharge-5x-20x/?utm_source=github&utm_medium=readme&utm_campaign=pro_tier_limits)。
+
 ### ChatGPT Credits
 
 Credits 用于在符合条件的 ChatGPT 套餐中扩展 Codex 等功能的使用量。是否可购买、价格和适用范围应以账号内 Usage 页面显示为准。
