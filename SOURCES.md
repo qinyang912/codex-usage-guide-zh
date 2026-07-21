@@ -132,6 +132,8 @@
     用于核对 sandbox 与 approval 的边界、workspace-write 受保护路径、命令网络默认值和常见安全组合。
 65. [Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp?surface=cli)
     用于核对 Codex CLI、IDE 与 App 的 MCP 配置共享范围，STDIO / Streamable HTTP Server、`codex mcp` 命令、OAuth、工具审批和 timeout 字段。
+66. [Scheduled tasks](https://learn.chatgpt.com/docs/automations)
+    用于核对网页与桌面 Scheduled、standalone 与聊天续跑、Local / Worktree、RRULE、Skills、Plugins 和无人值守权限。
 
 ## 维护原则
 
