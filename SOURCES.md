@@ -34,6 +34,14 @@
     用于核对 Apple App Store 订阅的 Restore purchases 路径。
 16. [Avoid duplicate charges across iOS, Android and web](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
     用于核对多平台订阅、取消路径和删除 App 不会取消订阅。
+17. [ChatGPT Android App FAQ](https://help.openai.com/en/articles/8142208-chatgpt-android-app-faq)
+    用于核对官方 Android App、系统要求、支持地区和常见登录问题。
+18. [How to cancel a subscription in the ChatGPT Android app](https://help.openai.com/en/articles/8258076-how-to-cancel-a-subscription-in-the-chatgpt-android-app)
+    用于核对 Google Play 订阅取消、扣费时间和卸载 App 不会取消订阅。
+19. [How do I request a refund for my ChatGPT subscription?](https://help.openai.com/en/articles/7232895-how-do-i-request-a-refund-for-my-chatgpt-subscription)
+    用于核对 Google Play 订阅退款请求入口和账号要求。
+20. [Why is my subscription associated with another account?](https://help.openai.com/en/articles/20001056-why-am-i-seeing-a-message-that-my-subscription-is-associated-with-another-account)
+    用于核对移动订阅的双账号绑定、不可转移和不可共享规则。
 
 ## 维护原则
 
