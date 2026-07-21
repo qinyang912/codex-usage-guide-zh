@@ -82,6 +82,10 @@
     用于区分用户主动删除与平台停用，以及已删除账号无法重新激活的规则。
 40. [Codex developer commands](https://developers.openai.com/codex/developer-commands?surface=cli)
     用于核对 `codex doctor`、`codex login status`、`codex logout` 等本地诊断和认证命令。
+41. [ChatGPT desktop app for Windows](https://developers.openai.com/codex/windows/windows-app)
+    用于核对 Windows App、Microsoft Store、原生 agent、PowerShell、WSL2 与沙箱设置。
+42. [Codex on WSL](https://developers.openai.com/codex/windows/wsl)
+    用于核对 WSL2 安装、WSL1 版本限制、VS Code 与 Linux home 项目路径。
 
 ## 维护原则
 
