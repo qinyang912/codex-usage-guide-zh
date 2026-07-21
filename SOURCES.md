@@ -102,6 +102,10 @@
     用于核对同账号修改邮箱的资格、操作路径、次数限制与数据保留范围。
 50. [Transfer exported conversations between ChatGPT accounts](https://help.openai.com/en/articles/9106926-transfer-exported-conversations-between-chatgpt-accounts)
     用于核对导出 JSON 上传只供参考、不会恢复原聊天结构或转移订阅。
+51. [Check the status of a refund for apps or content bought from Apple](https://support.apple.com/en-us/118224)
+    用于核对 Apple 退款状态入口、24-48 小时更新和不同付款方式的显示时间。
+52. [Google Play 购买交易的退款时间表](https://support.google.com/googleplay/answer/15576193?hl=zh-Hans)
+    用于核对 Google Play 卡、Play 余额、PayPal、网上银行等付款方式的预计退款时间。
 
 ## 维护原则
 
