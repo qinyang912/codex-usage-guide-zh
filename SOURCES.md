@@ -80,6 +80,8 @@
     用于无法访问停用通知邮件时提交官方申诉。
 39. [Oops! You do not have an account because it has been deleted or deactivated](https://help.openai.com/en/articles/8958977-oops-you-do-not-have-an-account-because-it-has-been-deleted-or-deactivated)
     用于区分用户主动删除与平台停用，以及已删除账号无法重新激活的规则。
+40. [Codex developer commands](https://developers.openai.com/codex/developer-commands?surface=cli)
+    用于核对 `codex doctor`、`codex login status`、`codex logout` 等本地诊断和认证命令。
 
 ## 维护原则
 
