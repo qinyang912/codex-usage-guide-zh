@@ -106,6 +106,12 @@
     用于核对 Apple 退款状态入口、24-48 小时更新和不同付款方式的显示时间。
 52. [Google Play 购买交易的退款时间表](https://support.google.com/googleplay/answer/15576193?hl=zh-Hans)
     用于核对 Google Play 卡、Play 余额、PayPal、网上银行等付款方式的预计退款时间。
+53. [OpenAI API Rate limits](https://developers.openai.com/api/docs/guides/rate-limits)
+    用于核对 RPM、RPD、TPM、TPD、组织/项目限制、限流响应头与指数退避。
+54. [OpenAI API Error codes](https://developers.openai.com/api/docs/guides/error-codes)
+    用于区分请求过快的 429 与 API Credits 或月度使用上限不足的 429。
+55. [如何解决 429：Too Many Requests](https://help.openai.com/zh-hans-cn/articles/5955604-how-can-i-solve-429-too-many-requests-errors)
+    用于核对失败请求也计入每分钟限制，以及有限次数指数退避的建议。
 
 ## 维护原则
 
