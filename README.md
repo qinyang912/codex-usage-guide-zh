@@ -84,7 +84,7 @@ API Key 是单独的用量计费方式。使用 API Key 登录 Codex 时，OpenA
 
 如果正在比较“直充”“原生直充”和“代充”，先查看 [ChatGPT 直充是什么意思：原生直充、代充、安全与密码判断指南](guides/chatgpt-direct-recharge-vs-assisted-recharge.md)，按账号归属、费用、速度、登录权限、账单和售后六个维度判断。
 
-如果已经遇到掉订阅、Account Deactivated、Suspicious Activity，或商家要求密码、验证码、Session，可按 [ChatGPT 代充封号、黑卡与 Session 安全分流](guides/chatgpt-recharge-account-ban-session-safety.md) 逐项检查。
+如果已经遇到掉订阅、Account Deactivated、Suspicious Activity，或商家要求密码、验证码、Session，可按 [ChatGPT 代充安全吗、会封号吗：黑卡与 Session 安全分流](guides/chatgpt-recharge-account-ban-session-safety.md) 逐项检查。
 
 ## 礼品卡、促销码和第三方激活码不是一回事
 
