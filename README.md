@@ -25,6 +25,7 @@
 
 - [2026 Codex 教程：从安装、登录到第一个真实任务](guides/codex-getting-started-first-task-2026.md)：用四段式 Prompt、默认权限、AGENTS.md、测试与 Review 在约 30 分钟内跑通安全闭环。
 - [2026 Codex 中文设置：App、IDE、CLI 与不生效排查](guides/codex-chinese-language-settings.md)：分清界面语言、回答语言、localeOverride、AGENTS.md 和旧版汉化补丁风险。
+- [ChatGPT Plus 包含 Codex 吗？是否单独付费与 Plus 够不够](guides/chatgpt-plus-includes-codex-2026.md)：核对 Free、Go、Plus、Pro、API Key 五条路径，同账号登录和真实用量判断。
 - [Codex App、CLI、IDE 与 Cloud 怎么选](guides/codex-app-cli-ide-cloud.md)：按代码位置、运行环境、权限和远端任务需求选择入口。
 - [Codex macOS / Linux 安装与更新](guides/codex-macos-linux-install-update.md)：对比 install.sh、npm、Homebrew，排查 command not found、PATH 和多份旧版本。
 - [Codex Skills 与 SKILL.md](guides/codex-skills-skill-md.md)：创建聚焦工作流，区分 Skill、Plugin、MCP 和 AGENTS.md。
