@@ -58,6 +58,12 @@
     用于核对合作方促销码、结算页价格、取消时机和代码转让限制。
 28. [Codex for university students](https://chatgpt.com/zh-Hans-CN/codex/students/)
     用于核对美国、加拿大大学生 100 美元 Codex Credits 的资格、用途和有效期。
+29. [ChatGPT 支持的国家和地区](https://help.openai.com/zh-hans-cn/articles/7947663-chatgpt-supported-countries)
+    用于核对 ChatGPT 网页端和移动端当前支持范围，以及未列出地区的账号风险提示。
+30. [不受支持的国家和地区的 ChatGPT 和 API 服务](https://help.openai.com/zh-hans-cn/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)
+    用于核对不受支持所在地、提供访问和付款方式发行地的官方说明。
+31. [前往其他国家后无法访问 ChatGPT 或 API](https://help.openai.com/zh-hans-cn/articles/9022015-im-travelling-to-a-different-country-and-i-cant-access-chatgpt-or-the-api)
+    用于核对旅行后被误判时的缓存、Cookie、其他浏览器和官方支持排查步骤。
 
 ## 维护原则
 
