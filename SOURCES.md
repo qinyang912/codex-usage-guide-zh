@@ -94,6 +94,10 @@
     用于核对自定义 provider 的 base URL、wire API、认证和请求头。
 46. [openai/codex issue #26892](https://github.com/openai/codex/issues/26892)
     记录本地模型列表仍显示可用、Desktop 与 CLI 的实际请求却返回 404 的公开个案；该个案不用于推断所有类似问题的根因或永久套餐规则。
+47. [Codex App Server](https://developers.openai.com/codex/app-server)
+    用于核对 app-server 为 VS Code 扩展等富客户端提供认证、会话、审批与流式事件能力。
+48. [Codex developer settings](https://developers.openai.com/codex/developer-settings)
+    用于核对 Codex CLI 与 IDE 扩展共享用户级和项目级 `config.toml` 配置层。
 
 ## 维护原则
 
