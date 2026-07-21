@@ -120,6 +120,14 @@
     用于核对官方维护者对 stream disconnected 日志、provider、公司网络、TLS、VPN 与 DNS 的排查要求。
 59. [openai/codex issue #14297](https://github.com/openai/codex/issues/14297)
     用于记录 Codex App 每次回答前多次 Reconnecting 的公开症状；该 issue 关闭为重复问题，不作为统一根因结论。
+60. [Codex Slash commands](https://developers.openai.com/codex/reference/slash-commands)
+    用于核对 `/status`、`/compact`、`/fork` 与 `/feedback` 的当前官方定义。
+61. [从模型到智能体：为 Responses API 配备计算机环境](https://openai.com/zh-Hans-CN/index/equip-responses-api-computer-environment/)
+    用于核对原生上下文压缩、压缩项与 Codex 长任务的官方机制说明。
+62. [openai/codex issue #13784](https://github.com/openai/codex/issues/13784)
+    用于记录旧版 `Error running remote compact task` 与 `stream disconnected before completion` 的公开症状；不把单个 issue 当成统一根因。
+63. [openai/codex issue #15468](https://github.com/openai/codex/issues/15468)
+    用于核对维护者关于新版将压缩逻辑移到本地、复用普通请求端点的更新，并记录旧版 429 remote compact 症状。
 
 ## 维护原则
 
