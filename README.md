@@ -90,7 +90,7 @@ API Key 是单独的用量计费方式。使用 API Key 登录 Codex 时，OpenA
 
 如果选择第三方协助，应先确认交付的是自己的账号套餐，还是共享账号；同时确认总价、预计时间、失败退款条件和需要提供的信息。
 
-独立充值网站、电商平台、应用商店和共享账号的判断维度不同。详细的账号归属、收款渠道、低价来源、凭证红线和退款清单见：[2026 ChatGPT 充值平台怎么选](guides/chatgpt-recharge-platform-safety.md)。
+独立充值网站、电商平台、应用商店和共享账号的判断维度不同。详细的账号归属、推荐证据、低价来源、可复制提问与退款清单见：[ChatGPT 充值平台哪个好？代充网站与低价避坑](guides/chatgpt-recharge-platform-safety.md)。
 
 如果正在比较“直充”“原生直充”和“代充”，先查看 [ChatGPT 直充是什么意思：原生直充、代充、安全与密码判断指南](guides/chatgpt-direct-recharge-vs-assisted-recharge.md)，按账号归属、费用、速度、登录权限、账单和售后六个维度判断。
 
