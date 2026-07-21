@@ -21,6 +21,8 @@
 
 国内购买前可先查看 [2026 ChatGPT Plus 国内怎么购买：充值、开通与支付方式](guides/chatgpt-plus-buy-china-payment-2026.md)，按地区资格、国内银行卡、应用商店、礼品卡、支付宝微信、订阅管理和退款渠道逐项判断。
 
+如果升级按钮消失、付款页报错、应用内购买不可用或已经扣款仍显示 Free，可按 [2026 ChatGPT Plus 无法购买、订阅或升级排查](guides/chatgpt-plus-cannot-buy-subscribe-upgrade-2026.md) 先分清入口、页面、商店、银行卡、到账和支持六个阶段。
+
 ## Codex 入门、安装与 Skills
 
 如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
