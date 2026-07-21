@@ -27,6 +27,8 @@
 
 如果团队正在比较原 Team、Business 和 Plus，可查看 [2026 ChatGPT Business 多少钱：原 Team 怎么购买、和 Plus 有什么区别](guides/chatgpt-business-team-price-buy-plus-2026.md)，先算最低 2 席位成本，再核对国内付款、Codex 和工作区数据控制权。
 
+如果正在搜索礼品卡、兑换码、激活码或免费促销，先看 [2026 ChatGPT Plus 礼品卡能买吗：五类代码与兑换错误](guides/chatgpt-plus-gift-card-redeem-promo-2026.md)，分清 Apple 余额、OpenAI 活动、第三方虚拟卡、账号商品和商家优惠码。
+
 ## Codex 入门、安装与 Skills
 
 如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
@@ -117,7 +119,7 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 官方参考：[OpenAI Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals)、[Apple 兑换礼品卡说明](https://support.apple.com/en-us/118242)。
 
-更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
+更完整的来源、步骤、错误表和风险检查见：[2026 ChatGPT Plus 礼品卡能买吗：兑换码、激活码与优惠码辨别](guides/chatgpt-plus-gift-card-redeem-promo-2026.md)。
 
 ## ChatGPT Plus 免费试用或首月免费是真的吗？
 
