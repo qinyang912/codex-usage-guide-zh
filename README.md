@@ -19,6 +19,16 @@
 | 修改手机端订阅 | Apple App Store 或 Google Play | 在错误的平台查不到订阅 |
 | 国内支付方式不便 | 官方支持的支付渠道或独立人工协助 | 把共享账号当成自己账号直充 |
 
+## Codex 入门、安装与 Skills
+
+如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
+
+- [Codex App、CLI、IDE 与 Cloud 怎么选](guides/codex-app-cli-ide-cloud.md)：按代码位置、运行环境、权限和远端任务需求选择入口。
+- [Codex macOS / Linux 安装与更新](guides/codex-macos-linux-install-update.md)：对比 install.sh、npm、Homebrew，排查 command not found、PATH 和多份旧版本。
+- [Codex Skills 与 SKILL.md](guides/codex-skills-skill-md.md)：创建聚焦工作流，区分 Skill、Plugin、MCP 和 AGENTS.md。
+
+安装、登录和套餐是三个不同阶段。`codex: command not found` 应先检查安装与 PATH；401/403 更接近认证或工作区；Usage Limit 才需要查看套餐用量、恢复时间和 Credits。
+
 ## Plus、Pro、Credits 与 API 的区别
 
 ### ChatGPT Plus

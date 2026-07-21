@@ -12,6 +12,18 @@
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
+6. [Codex CLI](https://developers.openai.com/codex/cli)
+   用于核对 macOS / Linux 的独立安装器、npm、Homebrew、首次启动和更新方式。
+7. [Codex Authentication](https://developers.openai.com/codex/auth)
+   用于核对 ChatGPT 登录、API Key 登录以及两种计费路径的边界。
+8. [Codex IDE extension](https://developers.openai.com/codex/ide)
+   用于核对 IDE 扩展入口以及本地、WSL、SSH 等运行环境差异。
+9. [Codex Cloud](https://developers.openai.com/codex/cloud)
+   用于核对云端任务的仓库、环境与远端运行边界。
+10. [Codex Skills](https://developers.openai.com/codex/skills)
+    用于核对 Skill、SKILL.md、作用域和触发方式。
+11. [Build skills](https://learn.chatgpt.com/docs/build-skills)
+    用于核对 Skill 的目录结构、渐进式读取和脚本、参考资料、模板组织方式。
 
 ## 维护原则
 
