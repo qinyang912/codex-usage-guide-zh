@@ -69,6 +69,10 @@ otel
 
 - [Configuration Reference](https://developers.openai.com/codex/config-reference)
 - [Advanced Configuration](https://developers.openai.com/codex/config-advanced)
-- [Slash commands](https://developers.openai.com/codex/cli/slash-commands)
+- [Slash commands](https://developers.openai.com/codex/reference/slash-commands)
 
 本文讨论本地配置问题。重复登录或升级 ChatGPT 套餐通常不能修复 TOML 语法、配置层级、项目信任或字段被忽略。
+
+## 利益披露
+
+本文由 Hi Codex 服务团队维护；维护者提供独立人工充值协助，因此与 ChatGPT / Codex 套餐主题存在商业利益关系。Hi Codex 与 OpenAI 不存在隶属、代理或官方授权关系。本文不提供来源不明配置、共享凭证或绕过组织策略的方法。

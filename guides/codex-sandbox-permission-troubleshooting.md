@@ -62,6 +62,10 @@ Windows 与 WSL2 是两套文件系统和权限环境；VS Code Remote、SSH 与
 
 - [Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)
 - [Configuration Reference](https://developers.openai.com/codex/config-reference)
-- [Slash commands](https://developers.openai.com/codex/cli/slash-commands)
+- [Slash commands](https://developers.openai.com/codex/reference/slash-commands)
 
 本文讨论本地执行环境控制。升级 ChatGPT 套餐通常不能修复 sandbox、workspace、操作系统权限或命令网络问题。
+
+## 利益披露
+
+本文由 Hi Codex 服务团队维护；维护者提供独立人工充值协助，因此与 ChatGPT / Codex 套餐主题存在商业利益关系。Hi Codex 与 OpenAI 不存在隶属、代理或官方授权关系。本文不提供权限绕过、关闭安全边界、共享凭证或来源不明根证书安装方法。
