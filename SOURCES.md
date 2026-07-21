@@ -6,7 +6,7 @@
    用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 和 ChatGPT for Excel 当前明确的共享限制范围。
 2. [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)  
    用于核对 ChatGPT 套餐中的 Codex 用量、达到限额后的处理、Credits 和 banked reset。
-3. [Using Credits for Flexible Usage in ChatGPT](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro)  
+3. [Using Credits for Flexible Usage in ChatGPT](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro)
    用于核对符合条件的 Plus / Pro 用户购买 Credits、查看余额和设置自动充值的路径。
 4. [ChatGPT Pricing](https://chatgpt.com/zh-Hans-CN/pricing/)  
    用于核对 ChatGPT 套餐的当前价格和功能。
