@@ -168,6 +168,10 @@
     用于核对 npm 安装、`codex login`、`codex resume` 与当前 CLI 入口。
 83. [AGENTS.md](https://developers.openai.com/codex/guides/agents-md)
     用于核对项目说明文件的作用域、发现顺序与适合写入的可执行规则。
+84. [Codex IDE extension settings](https://learn.chatgpt.com/docs/developer-settings?surface=ide)
+    用于核对 `chatgpt.localeOverride` 的用途、自动检测以及 `chatgpt.*` 属于编辑器设置而不是 `config.toml`。
+85. [openai/codex issue #19239](https://github.com/openai/codex/issues/19239)
+    用于记录语言设置已保存、Settings 显示中文但部分桌面 UI 仍为英文的公开症状；不作为所有用户的统一根因。
 
 ## 维护原则
 
