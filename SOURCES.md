@@ -162,6 +162,12 @@
     用于核对 Key 创建、Secret 只显示一次、丢失后新建与不共享凭证。
 80. [OpenAI API Pricing](https://openai.com/api/pricing/)
     用于核对 API Key 路线按 Platform 标准 API 价格计费，而不是消耗 ChatGPT 套餐额度。
+81. [Codex Best practices](https://developers.openai.com/codex/learn/best-practices)
+    用于核对 Goal、Context、Constraints、Done when 的 Prompt 结构、先 Plan、测试与 Review 的工作方式。
+82. [Codex CLI](https://developers.openai.com/codex/cli)
+    用于核对 npm 安装、`codex login`、`codex resume` 与当前 CLI 入口。
+83. [AGENTS.md](https://developers.openai.com/codex/guides/agents-md)
+    用于核对项目说明文件的作用域、发现顺序与适合写入的可执行规则。
 
 ## 维护原则
 

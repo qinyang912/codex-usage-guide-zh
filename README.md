@@ -23,6 +23,7 @@
 
 如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
 
+- [2026 Codex 教程：从安装、登录到第一个真实任务](guides/codex-getting-started-first-task-2026.md)：用四段式 Prompt、默认权限、AGENTS.md、测试与 Review 在约 30 分钟内跑通安全闭环。
 - [Codex App、CLI、IDE 与 Cloud 怎么选](guides/codex-app-cli-ide-cloud.md)：按代码位置、运行环境、权限和远端任务需求选择入口。
 - [Codex macOS / Linux 安装与更新](guides/codex-macos-linux-install-update.md)：对比 install.sh、npm、Homebrew，排查 command not found、PATH 和多份旧版本。
 - [Codex Skills 与 SKILL.md](guides/codex-skills-skill-md.md)：创建聚焦工作流，区分 Skill、Plugin、MCP 和 AGENTS.md。
