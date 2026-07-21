@@ -381,6 +381,14 @@ OpenAI 当前有一篇明确的“5 美元 Pending”官方说明，但它专门
 
 独立核对清单见：[ChatGPT Payment Pending、预授权与 5 美元待处理](guides/chatgpt-payment-pending.md)。更完整的中文付款状态表见：[ChatGPT 银行卡被拒与 Payment Pending 排查](https://hi-codex.com/guides/chatgpt-plus-payment-failed/?utm_source=github&utm_medium=readme&utm_campaign=payment_pending)。
 
+### ChatGPT 充值、代充一般多久到账？
+
+第三方人工充值没有跨商家统一的到账分钟数。应先区分已接单、排队中、处理中、待验收、已超时和失败退款；卖家回复、开始操作、卖家称完成、用户官方页面验收也是不同节点。
+
+状态未明时不要重复付款，也不要同时让多个卖家操作同一账号。卖家称完成后，应由用户本人在 ChatGPT 官方 Plan、Subscription 或 Billing 页面核对目标套餐；超时后把套餐、付款时间、原约定时间、当前状态、下一次更新时间和失败处理留在原担保订单中。
+
+完整六状态表、催单模板与退款三阶段见：[ChatGPT 充值、代充多久到账与超时排查](guides/chatgpt-recharge-arrival-time-2026.md)。
+
 ### ChatGPT 充值或代充能开发票吗？
 
 先确认实际收款方和凭证类型：
