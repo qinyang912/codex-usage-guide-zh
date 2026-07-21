@@ -86,6 +86,14 @@
     用于核对 Windows App、Microsoft Store、原生 agent、PowerShell、WSL2 与沙箱设置。
 42. [Codex on WSL](https://developers.openai.com/codex/windows/wsl)
     用于核对 WSL2 安装、WSL1 版本限制、VS Code 与 Linux home 项目路径。
+43. [Codex Models](https://developers.openai.com/codex/models)
+    用于核对 `/model`、`--model`、推荐模型、ChatGPT 登录与 API 模型差异，以及弃用模型。
+44. [Codex Config basics](https://developers.openai.com/codex/config-basic)
+    用于核对 App、CLI、IDE 扩展的 `config.toml` 与模型配置。
+45. [Codex Advanced Configuration](https://developers.openai.com/codex/config-advanced#custom-model-providers)
+    用于核对自定义 provider 的 base URL、wire API、认证和请求头。
+46. [openai/codex issue #26892](https://github.com/openai/codex/issues/26892)
+    记录本地模型列表仍显示可用、Desktop 与 CLI 的实际请求却返回 404 的公开个案；该个案不用于推断所有类似问题的根因或永久套餐规则。
 
 ## 维护原则
 
