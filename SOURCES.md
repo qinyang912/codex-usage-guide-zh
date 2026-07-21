@@ -28,6 +28,12 @@
     用于核对 Skill、SKILL.md、作用域和触发方式。
 13. [Build skills](https://learn.chatgpt.com/docs/build-skills)
     用于核对 Skill 的目录结构、渐进式读取和脚本、参考资料、模板组织方式。
+14. [ChatGPT iOS app: Upgrading to a paid subscription](https://help.openai.com/en/articles/7905739-chatgpt-ios-app-upgrading-to-a-paid-subscription)
+    用于核对 iOS App 升级入口、Free 到 Pro 的网页限制和应用内购买激活时间。
+15. [Restoring a ChatGPT subscription purchased in the Apple App Store](https://help.openai.com/en/articles/8346573-restoring-a-chatgpt-subscription-purchased-in-the-apple-app-store)
+    用于核对 Apple App Store 订阅的 Restore purchases 路径。
+16. [Avoid duplicate charges across iOS, Android and web](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
+    用于核对多平台订阅、取消路径和删除 App 不会取消订阅。
 
 ## 维护原则
 
