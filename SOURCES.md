@@ -2,10 +2,10 @@
 
 资料核对日期：2026-07-21。
 
-1. [OpenAI Codex Pricing](https://chatgpt.com/zh-Hans-CN/codex/pricing/)  
-   用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits 与 API Key 的区别。
+1. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
+   用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard 与 API Key 的区别。
 2. [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)  
-   用于核对 ChatGPT 套餐中使用 Codex 的官方说明。
+   用于核对 Codex 与 ChatGPT Work、ChatGPT for Excel、Workspace Agents 的共享用量池、达到限额后的处理和 banked reset。
 3. [Using Credits for Flexible Usage in ChatGPT](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro)  
    用于核对符合条件的 Plus / Pro 用户购买 Credits、查看余额和设置自动充值的路径。
 4. [ChatGPT Pricing](https://chatgpt.com/zh-Hans-CN/pricing/)  

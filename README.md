@@ -75,7 +75,11 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 更完整的中文对照表见：[ChatGPT Plus 礼品卡、兑换码与激活码区别](https://hi-codex.com/guides/chatgpt-plus-gift-card-promo-code/?utm_source=github&utm_medium=readme&utm_campaign=gift_card_code)。
 
-## Codex Usage Limit、5 小时限制和周限额怎么理解
+## Codex 额度为什么变少，多久刷新
+
+OpenAI 当前帮助说明中有一个容易忽略的规则：在对应功能可用的套餐里，Codex、ChatGPT Work、ChatGPT for Excel 和 Workspace Agents 使用同一个 agentic usage 与 Credits 池。因此，即使没有继续使用 Codex CLI，同一账号或工作区的其他 agentic 入口也可能让剩余用量下降。
+
+Codex 也不是固定的“每发一条扣一次”。消耗取决于模型、代码库和任务复杂度、上下文大小以及本地或云端运行；小脚本可能只占很少额度，大型代码库、长任务和长上下文会显著增加单条消息的消耗。
 
 搜索结果里的“5 小时限制”“周限额”和“额度重置”经常被混为一谈。实际账号可能同时受到短时间窗口、较长周期上限和套餐档位影响；具体数值、恢复时间与 Credits 入口会随套餐、模型、任务和账号状态变化，应以 `Codex Settings → Usage` 当时显示为准。
 
@@ -84,9 +88,11 @@ Google 搜索结果常把几种不同的“码”混在一起：
 - **ChatGPT Credits**：符合条件的账号可在 Usage 页面购买额外用量；它不是 OpenAI Platform API 余额。
 - **临时重置或测试变化**：个别账号一段时间内看不到原限制，不代表 OpenAI 永久取消所有 5 小时或周限制。
 
+短时窗口恢复不代表周限额同时清零，也不能统一按北京时间每天 0 点推算。CLI 活跃会话可以用 `/status` 查看剩余限制；到达页面显示的时间后，应重新读取 Usage 状态，不要靠连续创建任务测试。如果在一个进行中的 turn 里达到上限，官方当前说明该 turn 可以在公平使用限制下继续完成，完成后再选择等待、Credits、可用 reset 或升级。
+
 官方参考：[Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)、[Codex rate card](https://help.openai.com/en/articles/20001106-codex-rate-card)。
 
-中文排查表见：[Codex Usage Limit、5 小时/周限额与 Credits](https://hi-codex.com/guides/codex-quota-limit-credits/?utm_source=github&utm_medium=readme&utm_campaign=codex_usage_limit)。
+中文排查表见：[Codex 额度变少、刷新时间、5 小时/周限额与 Credits](https://hi-codex.com/guides/codex-quota-limit-credits/?utm_source=github&utm_medium=readme&utm_campaign=codex_quota_refresh)。
 
 ## Codex 额度不够时的检查顺序
 
