@@ -74,6 +74,12 @@
     用于区分普通 ChatGPT 使用与 OpenAI Platform 首个 API Key 的手机验证要求。
 36. [Advanced account security](https://help.openai.com/en/articles/20001221-advanced-account-security)
     用于核对恢复码、等待期与高级账号安全的限制。
+37. [Why was my OpenAI account deactivated?](https://help.openai.com/en/articles/10562188-why-was-my-openai-account-deactivated)
+    用于核对账号停用的潜在原因、官方申诉顺序与申诉材料。
+38. [OpenAI Appeal Form](https://openai.com/form/appeal/)
+    用于无法访问停用通知邮件时提交官方申诉。
+39. [Oops! You do not have an account because it has been deleted or deactivated](https://help.openai.com/en/articles/8958977-oops-you-do-not-have-an-account-because-it-has-been-deleted-or-deactivated)
+    用于区分用户主动删除与平台停用，以及已删除账号无法重新激活的规则。
 
 ## 维护原则
 
