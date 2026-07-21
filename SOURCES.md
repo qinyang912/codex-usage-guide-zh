@@ -46,6 +46,10 @@
     用于核对 API 按量计费付款方式更新后的 5 美元临时授权、7 天内撤销及实际用量计费说明。
 22. [Unauthorized ChatGPT or API Credit Purchase Charges](https://help.openai.com/en/articles/7242625-unauthorized-chatgpt-or-api-credit-purchase-charges-how-to-request-a-refund)
     用于核对未授权 ChatGPT 订阅或 API Credits 扣费的官方处理入口。
+23. [OpenAI Account Sharing Policy](https://help.openai.com/en/articles/10471989-openai-account-sharing-policy)
+    用于核对个人账号仅供创建者本人使用，以及同一人多设备登录与多人共享账号的区别。
+24. [How can I keep my OpenAI accounts secure?](https://help.openai.com/en/articles/8304786-how-can-i-keep-my-openai-accounts-secure)
+    用于核对改密、MFA、Active sessions、退出所有设备和账号泄露后的处理顺序。
 
 ## 维护原则
 

@@ -227,6 +227,19 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 详细检查表见：[ChatGPT 代充需要密码吗？Session 安全与账号保护](https://hi-codex.com/guides/chatgpt-account-security/?utm_source=github&utm_medium=readme&utm_campaign=recharge_credentials)。
 
+### ChatGPT Plus 可以几个人共享？
+
+OpenAI 官方账号共享政策没有把个人 Plus 定义为家庭或多人套餐。账号只供创建它的个人使用；其他人需要使用 OpenAI 产品时，应注册自己的账号。
+
+需要区分两个概念：
+
+- **同一个人多设备登录**：账号创建者可以在自己的电脑、手机等多个设备使用账号，但用量限制可能受账号活动和套餐影响。
+- **多个人共享一个账号**：家人、同事或陌生买家共用密码、Cookie 或 Session，不符合官方账号共享政策，也会混合聊天、文件、记忆、付款资料和潜在违规责任。
+
+公司或团队需要多人协作时，应让成员使用各自登录身份，通过 Business 工作区分配席位，不要把一个个人 Plus 密码包装成“家庭组”或“多人席位”。
+
+官方参考：[OpenAI Account Sharing Policy](https://help.openai.com/en/articles/10471989-openai-account-sharing-policy)。中文对比见：[ChatGPT Plus 可以几人共享？买账号、共享号风险](https://hi-codex.com/guides/chatgpt-plus-account-buy-vs-own-recharge/?utm_source=github&utm_medium=readme&utm_campaign=account_sharing)。
+
 ### ChatGPT Plus 20 美元换算人民币为什么不固定？
 
 OpenAI 当前 Plus 帮助页写明，ChatGPT Plus 为每月 20 美元、按月计费；但 20 美元不能直接代表每张人民币银行卡的最终入账数字。更完整的计算是：结算页显示的套餐金额，加上适用税费，再加上发卡行可能收取的换汇或跨境费用。
