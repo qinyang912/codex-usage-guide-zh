@@ -156,6 +156,16 @@ OpenAI Invoice、Apple / Google 收据、银行卡流水和第三方订单都可
 
 详细检查表见：[ChatGPT 代充需要密码吗？Session 安全与账号保护](https://hi-codex.com/guides/chatgpt-account-security/?utm_source=github&utm_medium=readme&utm_campaign=recharge_credentials)。
 
+### ChatGPT Plus 20 美元换算人民币为什么不固定？
+
+OpenAI 当前 Plus 帮助页写明，ChatGPT Plus 为每月 20 美元、按月计费；但 20 美元不能直接代表每张人民币银行卡的最终入账数字。更完整的计算是：结算页显示的套餐金额，加上适用税费，再加上发卡行可能收取的换汇或跨境费用。
+
+chatgpt.com 网页订阅由 OpenAI 管理；iOS 与 Android 订阅分别由 Apple 和 Google 管理，并按对应应用商店显示的本地价格结算。三个渠道的币种、总价、收据、续费和退款入口可能不同。网上常见“固定扣 22 美元”或“固定扣 24 美元”不能替代本人付款确认页、正式收据和银行账单。
+
+OpenAI 当前多币种说明还指出，已有订阅会继续使用原币种；要切换到新支持币种，需要先取消并在当前账期结束后重新订阅。币种支持也不等于某个国家或地区已获得 ChatGPT 服务支持，应分别核对官方列表。
+
+完整计算表与渠道对照见：[ChatGPT Plus 人民币价格、税费与多币种说明](https://hi-codex.com/guides/chatgpt-recharge-price/?utm_source=github&utm_medium=readme&utm_campaign=price_currency_tax)。
+
 ### ChatGPT Plus 有官方年付或包年吗？
 
 截至 2026 年 7 月 21 日，OpenAI 官方帮助中心说明个人 ChatGPT Go、Plus 和 Pro 不支持年付，也不能一次预付多个月。第三方“包年”可能是卖家未来每月代续、共享或成品账号、应用商店商品或其他服务承诺，不应直接当成 OpenAI 官方年度权益。
