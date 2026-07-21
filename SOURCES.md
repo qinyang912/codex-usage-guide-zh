@@ -13,7 +13,7 @@
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
 6. [What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
-   用于核对 ChatGPT Plus 当前每月 20 美元、按月计费，以及不支持年付或一次预付多个月。
+   用于核对 ChatGPT Plus 当前每月 20 美元、按月计费、不支持年付，以及 `Charged but still on Free plan` 的账号、恢复购买和支持材料排查步骤。
 7. [Multi-currency billing](https://help.openai.com/en/articles/10421635-multi-currency-billing)
    用于核对 chatgpt.com 多币种结算、现有订阅币种、切换币种方式，以及 Apple / Google 移动订阅的账单归属。
 8. [Codex CLI](https://developers.openai.com/codex/cli)
@@ -50,6 +50,8 @@
     用于核对个人账号仅供创建者本人使用，以及同一人多设备登录与多人共享账号的区别。
 24. [How can I keep my OpenAI accounts secure?](https://help.openai.com/en/articles/8304786-how-can-i-keep-my-openai-accounts-secure)
     用于核对改密、MFA、Active sessions、退出所有设备和账号泄露后的处理顺序。
+25. [Can I transfer my ChatGPT subscription to a new account?](https://help.openai.com/en/articles/9135236-can-i-transfer-my-chatgpt-subscription-to-a-new-account)
+    用于核对 ChatGPT 订阅不能在账号之间转移。
 
 ## 维护原则
 
