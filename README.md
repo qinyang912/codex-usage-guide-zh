@@ -26,6 +26,7 @@
 - [Codex App、CLI、IDE 与 Cloud 怎么选](guides/codex-app-cli-ide-cloud.md)：按代码位置、运行环境、权限和远端任务需求选择入口。
 - [Codex macOS / Linux 安装与更新](guides/codex-macos-linux-install-update.md)：对比 install.sh、npm、Homebrew，排查 command not found、PATH 和多份旧版本。
 - [Codex Skills 与 SKILL.md](guides/codex-skills-skill-md.md)：创建聚焦工作流，区分 Skill、Plugin、MCP 和 AGENTS.md。
+- [Codex AGENTS.md 配置指南](guides/codex-agents-md-configuration.md)：配置全局、仓库和子目录说明，掌握 override、fallback、32 KiB 限制与验证。
 - [Codex MCP 配置教程](guides/codex-mcp-configuration.md)：添加 STDIO / HTTP Server，配置 `config.toml`、OAuth、Token 与工具审批。
 - [Codex 国内使用：地区、安装、登录与计费](guides/codex-china-region-auth-billing.md)：先核对支持地区，再分清 ChatGPT / API Key、套餐和技术错误。
 
