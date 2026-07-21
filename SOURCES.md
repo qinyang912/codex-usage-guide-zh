@@ -64,6 +64,16 @@
     用于核对不受支持所在地、提供访问和付款方式发行地的官方说明。
 31. [前往其他国家后无法访问 ChatGPT 或 API](https://help.openai.com/zh-hans-cn/articles/9022015-im-travelling-to-a-different-country-and-i-cant-access-chatgpt-or-the-api)
     用于核对旅行后被误判时的缓存、Cookie、其他浏览器和官方支持排查步骤。
+32. [Why can't I log in to ChatGPT?](https://help.openai.com/en/articles/7426629-why-cant-i-log-in-to-chatgpt)
+    用于核对原登录方式、最新验证码、垃圾邮件检查和无法访问原邮箱时的处理路径。
+33. [Why am I being asked to verify my login?](https://help.openai.com/en/articles/9889414-why-am-i-being-asked-to-verify-my-login)
+    用于核对登录验证触发条件、邮箱 OTP 发件地址和 ChatGPT App 登录审批。
+34. [Enabling or disabling multi-factor authentication (MFA)](https://help.openai.com/en/articles/7967234-enabling-or-disabling-multi-factor-authentication-mfa)
+    用于核对 MFA 可用方式与 `Try another method` 恢复路径。
+35. [What does phone verification look like?](https://help.openai.com/en/articles/8983040-what-does-phone-verification-look-like)
+    用于区分普通 ChatGPT 使用与 OpenAI Platform 首个 API Key 的手机验证要求。
+36. [Advanced account security](https://help.openai.com/en/articles/20001221-advanced-account-security)
+    用于核对恢复码、等待期与高级账号安全的限制。
 
 ## 维护原则
 
