@@ -26,6 +26,7 @@
 - [Codex App、CLI、IDE 与 Cloud 怎么选](guides/codex-app-cli-ide-cloud.md)：按代码位置、运行环境、权限和远端任务需求选择入口。
 - [Codex macOS / Linux 安装与更新](guides/codex-macos-linux-install-update.md)：对比 install.sh、npm、Homebrew，排查 command not found、PATH 和多份旧版本。
 - [Codex Skills 与 SKILL.md](guides/codex-skills-skill-md.md)：创建聚焦工作流，区分 Skill、Plugin、MCP 和 AGENTS.md。
+- [Codex 国内使用：地区、安装、登录与计费](guides/codex-china-region-auth-billing.md)：先核对支持地区，再分清 ChatGPT / API Key、套餐和技术错误。
 
 安装、登录和套餐是三个不同阶段。`codex: command not found` 应先检查安装与 PATH；401/403 更接近认证或工作区；Usage Limit 才需要查看套餐用量、恢复时间和 Credits。
 
@@ -95,7 +96,9 @@ Google 搜索结果常把几种不同的“码”混在一起：
 
 当前美国、加拿大大学生的官方 Codex 活动提供 100 美元 ChatGPT Credits，用于 Codex 超额使用；它不是免费 Plus，也不是 API Credits。
 
-详细资格、Promo Code、自动续费和骗局对照见：[2026 ChatGPT Plus 免费试用核对清单](guides/chatgpt-plus-free-trial.md)；完整中文页面见：[ChatGPT Plus 免费试用与促销资格](https://hi-codex.com/guides/chatgpt-plus-free-trial-promo/?utm_source=github&utm_medium=readme&utm_campaign=plus_free_trial)。
+学生资格、SheerID、2,500 Credits、有效期和 Edu 区别见：[2026 ChatGPT 学生优惠与 Codex Credits](guides/chatgpt-student-discount-codex-credits.md)。
+
+详细 Promo Code、自动续费和骗局对照见：[2026 ChatGPT Plus 免费试用核对清单](guides/chatgpt-plus-free-trial.md)；完整中文页面见：[ChatGPT Plus 免费试用与促销资格](https://hi-codex.com/guides/chatgpt-plus-free-trial-promo/?utm_source=github&utm_medium=readme&utm_campaign=plus_free_trial)。
 
 ## iPhone / iOS 怎么充值 ChatGPT Plus？
 
