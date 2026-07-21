@@ -113,6 +113,8 @@ Google 搜索结果常把几种不同的“码”混在一起：
 - [ ] 完成后在 ChatGPT 账号内核对套餐状态与下一次续费信息。
 - [ ] 如果曾提供临时登录协助，完成后更新密码并启用 MFA。
 
+需要先比较官方网页、App Store、Google Play 与人工协助，可查看 [ChatGPT 会员购买指南：Plus、Pro 与购买渠道怎么选](guides/chatgpt-membership-buy-plus-pro.md)。
+
 ## 常见问题
 
 ### ChatGPT 提示“您的银行卡被拒绝了”怎么办？
