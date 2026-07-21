@@ -31,6 +31,7 @@
 - [Codex Automations 定时任务](guides/codex-automations-scheduled-tasks.md)：分清网页 Scheduled、桌面 Worktree、聊天续跑与 CLI cron，并排查不执行。
 - [2026 Codex vs Claude Code 对比](guides/codex-vs-claude-code-2026.md)：比较当前价格与 5x/20x 口径、App/CLI/Cloud、AGENTS.md/CLAUDE.md、Hooks、MCP、子代理和迁移成本。
 - [2026 Codex vs Cursor 对比](guides/codex-vs-cursor-2026.md)：比较当前价格池、IDE/Agent/Cloud、Codex in Cursor、AGENTS.md/Rules、Hooks 与组合使用成本。
+- [ChatGPT Plus、OpenAI API Key、Billing 与 Codex 登录](guides/chatgpt-plus-api-key-openai-api-billing.md)：分清 Plus/API 两套账单、Key 创建、预付费、`insufficient_quota` 与两种 Codex 认证。
 - [Codex AGENTS.md 配置指南](guides/codex-agents-md-configuration.md)：配置全局、仓库和子目录说明，掌握 override、fallback、32 KiB 限制与验证。
 - [Codex Rules、prefix_rule 与 execpolicy](guides/codex-rules-prefix-rule-execpolicy.md)：按命令前缀控制 Sandbox 外执行，测试 allow、prompt、forbidden 与 Shell 复合命令。
 - [Codex Hooks、hooks.json、PreToolUse 与 PostToolUse](guides/codex-hooks-configuration.md)：选择生命周期事件、审核信任、匹配本地工具，并排查 Hook 不执行或被跳过。

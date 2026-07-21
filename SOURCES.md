@@ -154,6 +154,14 @@
     用于核对用户、项目、团队与企业 Hook 作用域，以及不同 Agent、Tab、应用和 Cloud 生命周期事件。
 76. [Codex IDE extension](https://learn.chatgpt.com/docs/codex/ide)
     用于核对 Codex IDE 扩展当前支持 VS Code、Cursor 与 Windsurf，以及扩展与 CLI 的配置关系。
+77. [Codex Authentication](https://learn.chatgpt.com/docs/auth)
+    用于核对 ChatGPT 登录、API Key 登录、本地与 Cloud 支持范围及 CLI 登录命令。
+78. [OpenAI API Prepaid Billing](https://help.openai.com/zh-hans-cn/articles/8264644-how-can-i-set-up-prepaid-billing)
+    用于核对预付费额度、自动充值、月度上限、一年有效期、退款与余额延迟。
+79. [Where do I find my OpenAI API Key?](https://help.openai.com/zh-hans-cn/articles/4936850-where-do-i-find-my-openai-api-key)
+    用于核对 Key 创建、Secret 只显示一次、丢失后新建与不共享凭证。
+80. [OpenAI API Pricing](https://openai.com/api/pricing/)
+    用于核对 API Key 路线按 Platform 标准 API 价格计费，而不是消耗 ChatGPT 套餐额度。
 
 ## 维护原则
 
