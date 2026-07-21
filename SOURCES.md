@@ -2,10 +2,10 @@
 
 资料核对日期：2026-07-21。
 
-1. [OpenAI Codex Pricing](https://chatgpt.com/zh-Hans-CN/codex/pricing/)  
-   用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits 与 API Key 的区别。
+1. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
+   用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 和 ChatGPT for Excel 当前明确的共享限制范围。
 2. [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)  
-   用于核对 ChatGPT 套餐中使用 Codex 的官方说明。
+   用于核对 ChatGPT 套餐中的 Codex 用量、达到限额后的处理、Credits 和 banked reset。
 3. [Using Credits for Flexible Usage in ChatGPT](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro)  
    用于核对符合条件的 Plus / Pro 用户购买 Credits、查看余额和设置自动充值的路径。
 4. [ChatGPT Pricing](https://chatgpt.com/zh-Hans-CN/pricing/)  
@@ -13,11 +13,21 @@
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
    用于核对 API 的独立用量计费。
 6. [What is ChatGPT Plus?](https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus)
-
    用于核对 ChatGPT Plus 当前每月 20 美元、按月计费，以及不支持年付或一次预付多个月。
 7. [Multi-currency billing](https://help.openai.com/en/articles/10421635-multi-currency-billing)
-
    用于核对 chatgpt.com 多币种结算、现有订阅币种、切换币种方式，以及 Apple / Google 移动订阅的账单归属。
+8. [Codex CLI](https://developers.openai.com/codex/cli)
+   用于核对 macOS / Linux 的独立安装器、npm、Homebrew、首次启动和更新方式。
+9. [Codex Authentication](https://developers.openai.com/codex/auth)
+   用于核对 ChatGPT 登录、API Key 登录以及两种计费路径的边界。
+10. [Codex IDE extension](https://developers.openai.com/codex/ide)
+   用于核对 IDE 扩展入口以及本地、WSL、SSH 等运行环境差异。
+11. [Codex Cloud](https://developers.openai.com/codex/cloud)
+   用于核对云端任务的仓库、环境与远端运行边界。
+12. [Codex Skills](https://developers.openai.com/codex/skills)
+    用于核对 Skill、SKILL.md、作用域和触发方式。
+13. [Build skills](https://learn.chatgpt.com/docs/build-skills)
+    用于核对 Skill 的目录结构、渐进式读取和脚本、参考资料、模板组织方式。
 
 ## 维护原则
 
