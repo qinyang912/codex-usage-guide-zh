@@ -23,6 +23,8 @@
 
 如果升级按钮消失、付款页报错、应用内购买不可用或已经扣款仍显示 Free，可按 [2026 ChatGPT Plus 无法购买、订阅或升级排查](guides/chatgpt-plus-cannot-buy-subscribe-upgrade-2026.md) 先分清入口、页面、商店、银行卡、到账和支持六个阶段。
 
+如果正在处理自动续费失败、下一次什么时候扣费或套餐已经到期，可先看 [2026 ChatGPT Plus 自动续费失败：到期后怎么续、什么时候扣费](guides/chatgpt-plus-renewal-auto-renewal-2026.md)，按网页、Apple、Google Play 和人工订单分流，避免跨渠道重复订阅。
+
 ## Codex 入门、安装与 Skills
 
 如果刚开始使用 Codex，先不要把 App、CLI、IDE 扩展和 Cloud 当成不同套餐：
