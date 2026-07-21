@@ -142,6 +142,18 @@
     用于核对 managed、user、project、local 配置作用域与 CLAUDE.md、permissions、Hooks、MCP、plugins 设置。
 70. [Claude Plans & Pricing](https://claude.com/pricing)
     用于核对 Claude Pro 月付/年付价格、Claude Max 起价与相对 Pro 的 5x / 20x 使用量口径；购买时仍以账号内地区价格为准。
+71. [Cursor Pricing](https://cursor.com/pricing)
+    用于核对 Cursor Hobby、个人 Pro 系列、Teams 与 Enterprise 的当前价格入口。
+72. [Cursor Models & Pricing](https://cursor.com/cn/docs/models-and-pricing)
+    用于核对个人套餐的第一方模型池、API 用量池、月度重置、按量使用与当前 Pro / Pro Plus / Ultra 口径。
+73. [Cursor Rules](https://cursor.com/cn/docs/rules)
+    用于核对 Project Rules、User/Team Rules、根目录与嵌套 AGENTS.md 的当前支持范围。
+74. [Cursor Cloud Agents](https://cursor.com/cn/docs/cloud-agent)
+    用于核对远程虚拟机、仓库克隆、依赖、Secrets、网络、并行代理、测试与 PR 工作流。
+75. [Cursor Hooks](https://cursor.com/cn/docs/hooks)
+    用于核对用户、项目、团队与企业 Hook 作用域，以及不同 Agent、Tab、应用和 Cloud 生命周期事件。
+76. [Codex IDE extension](https://learn.chatgpt.com/docs/codex/ide)
+    用于核对 Codex IDE 扩展当前支持 VS Code、Cursor 与 Windsurf，以及扩展与 CLI 的配置关系。
 
 ## 维护原则
 
