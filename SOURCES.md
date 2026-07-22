@@ -1,13 +1,13 @@
 # 官方资料来源
 
-资料核对日期：2026-07-21。
+资料核对日期：2026-07-22。
 
 1. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
-   用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 和 ChatGPT for Excel 当前明确的共享限制范围。
+   用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 与 Codex 的共享用量关系。
 2. [Using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan)  
-   用于核对 ChatGPT 套餐中的 Codex 用量、达到限额后的处理、Credits 和 banked reset。
-3. [Using Credits for Flexible Usage in ChatGPT](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-freegopluspro)
-   用于核对符合条件的 Plus / Pro 用户购买 Credits、查看余额和设置自动充值的路径。
+   用于核对 Codex、ChatGPT Work、ChatGPT for Excel 与 Workspace Agents 的共享 agentic usage / credit pool、达到限额后的处理，以及 banked reset 的使用入口。
+3. [Using Credits for Flexible Usage in ChatGPT](https://help.openai.com/en/articles/12642688)
+   用于核对套餐包含用量与 Credits 的扣减顺序、符合条件的 Plus / Pro 用户购买和自动充值路径，以及共享余额、有效期和不可转让规则。
 4. [ChatGPT Pricing](https://chatgpt.com/zh-Hans-CN/pricing/)  
    用于核对 ChatGPT 套餐的当前价格和功能。
 5. [OpenAI API Pricing](https://openai.com/api/pricing/)  
@@ -172,6 +172,10 @@
     用于核对 `chatgpt.localeOverride` 的用途、自动检测以及 `chatgpt.*` 属于编辑器设置而不是 `config.toml`。
 85. [openai/codex issue #19239](https://github.com/openai/codex/issues/19239)
     用于记录语言设置已保存、Settings 显示中文但部分桌面 UI 仍为英文的公开症状；不作为所有用户的统一根因。
+86. [Codex Referral Promotions](https://help.openai.com/en/articles/20001271-codex-referral-promotions)
+    用于区分推荐活动中的 Codex Credits、banked rate-limit reset 和临时额外用量，并核对重置不是现金、API 或可转让余额，以及通常 30 天内使用的规则。
+87. [Codex rate card](https://help.openai.com/en/articles/20001106-codex-rate-card)
+    用于核对绝大多数当前账号按输入、缓存输入和输出 Token 映射 Credits，以及少数 Enterprise 账号仍使用 legacy rate card 的边界。
 
 ## 维护原则
 
