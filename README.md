@@ -1,6 +1,6 @@
 # 2026 ChatGPT 充值、直充、代充与 Codex 用量指南
 
-> 更新日期：2026-07-22。本指南面向使用自己 ChatGPT 账号的用户，帮助区分 ChatGPT Plus、ChatGPT Pro、Codex 用量、ChatGPT Credits 与 OpenAI API 账单。
+> 更新日期：2026-07-27。本指南面向使用自己 ChatGPT 账号的用户，帮助区分 ChatGPT Plus、ChatGPT Pro、Codex 用量、ChatGPT Credits 与 OpenAI API 账单。
 
 很多“ChatGPT 充值”“ChatGPT 直充”“ChatGPT 代充”“Codex 充值”的问题，实际混合了两套完全不同的计费体系：
 
@@ -42,6 +42,7 @@
 - [Codex Plugins 创建、安装与 Marketplace](guides/codex-plugins-create-install-marketplace.md)：配置 `plugin.json`、repo/personal Marketplace、`/plugins`，并排查插件不显示。
 - [Codex Chrome 插件、Browser 与 Computer Use](guides/codex-chrome-extension-browser-computer-use.md)：选择正确浏览器控制入口，覆盖安装、未连接、商店无法下载和 plugins unavailable。
 - [Codex Automations 定时任务](guides/codex-automations-scheduled-tasks.md)：分清网页 Scheduled、桌面 Worktree、聊天续跑与 CLI cron，并排查不执行。
+- [Codex Subagents 多代理与并行任务](guides/codex-subagents-multi-agent-parallel-workflows.md)：判断哪些任务适合拆分，配置并发和自定义代理，控制用量、权限与文件冲突。
 - [2026 Codex vs Claude Code 对比](guides/codex-vs-claude-code-2026.md)：比较当前价格与 5x/20x 口径、App/CLI/Cloud、AGENTS.md/CLAUDE.md、Hooks、MCP、子代理和迁移成本。
 - [2026 Codex vs Cursor 对比](guides/codex-vs-cursor-2026.md)：比较当前价格池、IDE/Agent/Cloud、Codex in Cursor、AGENTS.md/Rules、Hooks 与组合使用成本。
 - [ChatGPT Plus、OpenAI API Key、Billing 与 Codex 登录](guides/chatgpt-plus-api-key-openai-api-billing.md)：分清 Plus/API 两套账单、Key 创建、预付费、`insufficient_quota` 与两种 Codex 认证。
@@ -246,7 +247,7 @@ Windows `os error 10054/10060` 与 macOS `54/60` 必须结合系统和完整文�
 
 取消 Google Play 订阅必须使用购买时的 Google 账号进入 Play 商店订阅管理；卸载 ChatGPT App 不会取消。更换到 chatgpt.com 网页订阅前，应先确认 Google Play 不再续费，否则网页、Apple 与 Google Play 可以分别存在订阅并分别收费。
 
-详细步骤见：[ChatGPT Plus 安卓 / Google Play 充值、付款失败和恢复购买](https://hi-codex.com/guides/chatgpt-plus-android-google-play-recharge/?utm_source=github&utm_medium=readme&utm_campaign=android_google_play)。
+GitHub 内的完整步骤见：[ChatGPT Plus 安卓 / Google Play 订阅与付款排查](guides/chatgpt-plus-android-google-play.md)。包含扩展 FAQ 的网页版见：[ChatGPT Plus 安卓 / Google Play 充值、付款失败和恢复购买](https://hi-codex.com/guides/chatgpt-plus-android-google-play-recharge/?utm_source=github&utm_medium=readme&utm_campaign=android_google_play)。
 
 需要先比较官方网页、App Store、Google Play 与人工协助，可查看 [ChatGPT 会员购买指南：Plus、Pro 与购买渠道怎么选](guides/chatgpt-membership-buy-plus-pro.md)。
 
@@ -292,7 +293,7 @@ WSL、Remote SSH 与 Codespaces 会把 Extension Host 放在不同环境，本�
 
 如果同一账号的推荐模型 A 正常、模型 B 稳定返回 404，更像模型可用性、旧配置、灰度或后端问题。检查 `config.toml`、profile、项目配置和脚本是否固定旧模型；如果错误 URL 属于第三方 provider，才按该 provider 文档核对模型 ID、wire API、权限和 base URL。不要公开 `auth.json`、API Key、Session 或验证码。
 
-中文分流表、配置检查和可复现报告清单见：[Codex Model not found、unsupported model、404 排查](https://hi-codex.com/guides/codex-model-not-found-404/?utm_source=github&utm_medium=readme&utm_campaign=codex_model_404)。
+GitHub 内的配置检查和可复现报告清单见：[Codex Model not found、unsupported model、404 排查](guides/codex-model-not-found-404.md)。网页版扩展说明见：[Codex Model not found、unsupported model、404 排查](https://hi-codex.com/guides/codex-model-not-found-404/?utm_source=github&utm_medium=readme&utm_campaign=codex_model_404)。
 
 ### Codex Windows 应该原生安装还是用 WSL2？
 
@@ -300,7 +301,7 @@ OpenAI 当前提供三条 Windows 路径：ChatGPT Windows 桌面应用、原生
 
 Windows CLI 已有官方独立安装脚本，不必把 npm 当成唯一入口。WSL1 只支持到 Codex 0.114，从 0.115 起不再受支持。Windows 与 WSL 是两个独立环境：在一侧安装的 `codex` 不会自动出现在另一侧；WSL2 项目建议放在 `~/code`，避免大型仓库长期位于 `/mnt/c`。
 
-中文三路线对照、官方安装命令和 PATH 排查见：[2026 Codex Windows、PowerShell 与 WSL2 安装指南](https://hi-codex.com/guides/codex-windows-install-wsl/?utm_source=github&utm_medium=readme&utm_campaign=codex_windows_wsl)。
+GitHub 内的三路线对照、官方安装命令和 PATH 排查见：[2026 Codex Windows、PowerShell 与 WSL2 安装指南](guides/codex-windows-wsl.md)。网页版扩展说明见：[2026 Codex Windows、PowerShell 与 WSL2 安装指南](https://hi-codex.com/guides/codex-windows-install-wsl/?utm_source=github&utm_medium=readme&utm_campaign=codex_windows_wsl)。
 
 ### Codex CLI 登录失败，401、403 或浏览器授权后终端没反应怎么办？
 
@@ -322,7 +323,7 @@ Windows CLI 已有官方独立安装脚本，不必把 npm 当成唯一入口。
 - MFA：选择 `Try another method` 使用账号已启用的其他方式；恢复码应离线保存，不能发给代充卖家。
 - 手机验证：OpenAI 当前说明，普通 ChatGPT 注册和使用通常不再要求手机号；首次创建 API Key 仍可能要求短信或部分地区的 WhatsApp 验证。
 
-无论是邮箱验证码、短信验证码、MFA 验证码还是恢复码，都不应在闲鱼聊天或公开截图中发送。详细分流表与官方资料链接见：[ChatGPT 验证码收不到：邮箱 OTP、手机验证与 MFA 排查](https://hi-codex.com/guides/chatgpt-verification-code-not-received/?utm_source=github&utm_medium=readme&utm_campaign=verification_code)。
+无论是邮箱验证码、短信验证码、MFA 验证码还是恢复码，都不应在闲鱼聊天或公开截图中发送。GitHub 内的详细分流表见：[ChatGPT 验证码收不到排查](guides/chatgpt-verification-code.md)。网页版扩展说明见：[ChatGPT 验证码收不到：邮箱 OTP、手机验证与 MFA 排查](https://hi-codex.com/guides/chatgpt-verification-code-not-received/?utm_source=github&utm_medium=readme&utm_campaign=verification_code)。
 
 ### ChatGPT 或 Codex 账号被封、显示 Account Deactivated 怎么办？
 
@@ -336,7 +337,7 @@ OpenAI 当前建议的申诉顺序是：
 
 准备账号邮箱、User ID、Organization ID、使用背景、准确时间线、疑似入侵范围和已经采取的安全措施。涉及未知扣费时，只按官方表单要求提供日期、金额、卡片后四位、品牌、发卡行和账单邮编；不要把完整卡号、CVC、验证码、Session、恢复码或 API Key 发给第三方。
 
-账号已停用时应暂停 Plus、Pro、Credits 和代充付款。详细分流表、申诉证据与 Codex / API 分支见：[ChatGPT 账号被封/停用与 Deactivated 申诉指南](https://hi-codex.com/guides/chatgpt-account-deactivated-appeal/?utm_source=github&utm_medium=readme&utm_campaign=account_deactivated)。
+账号已停用时应暂停 Plus、Pro、Credits 和代充付款。GitHub 内的分流表、申诉证据与 Codex / API 分支见：[ChatGPT / Codex 账号停用与申诉检查清单](guides/chatgpt-account-deactivated-appeal.md)。网页版扩展说明见：[ChatGPT 账号被封/停用与 Deactivated 申诉指南](https://hi-codex.com/guides/chatgpt-account-deactivated-appeal/?utm_source=github&utm_medium=readme&utm_campaign=account_deactivated)。
 
 ### ChatGPT 在中国大陆、香港或澳门能用吗？
 

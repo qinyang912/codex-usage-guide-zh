@@ -1,6 +1,6 @@
 # 官方资料来源
 
-资料核对日期：2026-07-22。
+资料最近增补日期：2026-07-27。各项事实的核对日期以对应指南标注为准。
 
 1. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
    用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 与 Codex 的共享用量关系。
@@ -176,6 +176,8 @@
     用于区分推荐活动中的 Codex Credits、banked rate-limit reset 和临时额外用量，并核对重置不是现金、API 或可转让余额，以及通常 30 天内使用的规则。
 87. [Codex rate card](https://help.openai.com/en/articles/20001106-codex-rate-card)
     用于核对绝大多数当前账号按输入、缓存输入和输出 Token 映射 Credits，以及少数 Enterprise 账号仍使用 legacy rate card 的边界。
+88. [Codex Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents)
+    用于核对子代理工作流的当前入口、直接触发方式、线程管理、权限继承、自定义代理文件、并发配置和额外用量边界。
 
 ## 维护原则
 
