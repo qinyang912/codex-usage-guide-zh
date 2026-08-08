@@ -1,6 +1,6 @@
 # 2026 ChatGPT 充值、直充、代充与 Codex 用量指南
 
-> 更新日期：2026-07-27。本指南面向使用自己 ChatGPT 账号的用户，帮助区分 ChatGPT Plus、ChatGPT Pro、Codex 用量、ChatGPT Credits 与 OpenAI API 账单。
+> 更新日期：2026-08-08。本指南面向使用自己 ChatGPT 账号的用户，帮助区分 ChatGPT Plus、ChatGPT Pro、Codex 用量、ChatGPT Credits 与 OpenAI API 账单。
 
 很多“ChatGPT 充值”“ChatGPT 直充”“ChatGPT 代充”“Codex 充值”的问题，实际混合了两套完全不同的计费体系：
 
@@ -28,6 +28,14 @@
 如果团队正在比较原 Team、Business 和 Plus，可查看 [2026 ChatGPT Business 多少钱：原 Team 怎么购买、和 Plus 有什么区别](guides/chatgpt-business-team-price-buy-plus-2026.md)，先算最低 2 席位成本，再核对国内付款、Codex 和工作区数据控制权。
 
 如果正在搜索礼品卡、兑换码、激活码或免费促销，先看 [2026 ChatGPT Plus 礼品卡能买吗：五类代码与兑换错误](guides/chatgpt-plus-gift-card-redeem-promo-2026.md)，分清 Apple 余额、OpenAI 活动、第三方虚拟卡、账号商品和商家优惠码。
+
+## 2026 年 8 月 Codex 最新更新
+
+- [Codex CLI 0.147.0 更新指南](guides/codex-cli-0-147-update-2026.md)：核对 8 月 7 日稳定版，覆盖 Agent Plugins、`--approve-for-me`、Cursor / Claude 导入、MCP 2026-07-28、`--full-auto` 移除和团队升级检查。
+- [Codex GPT-5.6 Sol、Terra、Luna 模型指南](guides/codex-gpt-5-6-sol-terra-luna-models.md)：按任务选择模型与 Reasoning，并在 8 月 31 日前迁移 ChatGPT 登录下的 GPT-5.4 / GPT-5.4 mini。
+- [Codex 已并入 ChatGPT 桌面 App](guides/codex-chatgpt-desktop-app-2026.md)：分清 Chat、Work、Codex，理解 Primary 文件夹、多仓库 Review 与旧 App 迁移。
+
+以上动态根据 OpenAI 官方 Changelog、Codex Models 和 ChatGPT 桌面端文档核对。版本、模型和灰度范围变化很快，阅读时应同时检查官方页面和当前账号。
 
 ## Codex 入门、安装与 Skills
 
