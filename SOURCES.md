@@ -1,6 +1,6 @@
 # 官方资料来源
 
-资料最近增补日期：2026-07-27。各项事实的核对日期以对应指南标注为准。
+资料最近增补日期：2026-08-08。各项事实的核对日期以对应指南标注为准。
 
 1. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
    用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 与 Codex 的共享用量关系。
@@ -178,6 +178,18 @@
     用于核对绝大多数当前账号按输入、缓存输入和输出 Token 映射 Credits，以及少数 Enterprise 账号仍使用 legacy rate card 的边界。
 88. [Codex Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents)
     用于核对子代理工作流的当前入口、直接触发方式、线程管理、权限继承、自定义代理文件、并发配置和额外用量边界。
+89. [ChatGPT & Codex Changelog](https://learn.chatgpt.com/docs/changelog)
+    用于核对 2026 年 8 月 Codex CLI 0.147.0、0.146.1，以及 7 月桌面端、模型退休和多仓库功能的正式发布日期与变更范围。
+90. [Codex CLI 0.147.0 Release](https://github.com/openai/codex/releases/tag/rust-v0.147.0)
+    用于核对 Agent Plugins、会话分区、`--approve-for-me`、Cursor / Claude 导入、MCP 2026-07-28、Secret 遮蔽、Windows 修复和 `--full-auto` 移除。
+91. [Codex Models](https://learn.chatgpt.com/docs/models)
+    用于核对 GPT-5.6 Sol、Terra、Luna 的当前定位、默认 Power、Reasoning、Max / Ultra、CLI 切换与 GPT-5.4 退休映射。
+92. [Use Codex in the ChatGPT desktop app](https://learn.chatgpt.com/docs/whats-new#use-codex-in-the-chatgpt-desktop-app)
+    用于核对 2026 年 7 月 9 日 Codex App 并入 ChatGPT 桌面 App、独立 Codex 视图、更新方式和套餐入口。
+93. [Projects and chats](https://learn.chatgpt.com/docs/projects#use-local-projects-for-folders-and-codebases)
+    用于核对本地多文件夹项目、Primary 文件夹、`AGENTS.md` / Skills / `config.toml` 自动发现、多仓库 Review、PR / Worktree 目标和远端单文件夹限制。
+94. [Use ChatGPT](https://learn.chatgpt.com/docs/use-chatgpt#compare-chatgpt-work-and-codex-on-desktop)
+    用于核对 Chat、ChatGPT Work 与 Codex 的适用场景、会话历史、技术细节、Pull Request 面板和共享用量边界。
 
 ## 维护原则
 
