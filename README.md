@@ -85,7 +85,7 @@ Pro 20x 当前仍暂停普通新订阅与升级。符合官方条件的老用户
 - [Codex CLI 登录失败：401、403、OAuth 与 API Key 排查](guides/codex-cli-login-errors.md)
 - [Codex config.toml 加载失败与配置不生效排查](guides/codex-config-toml-troubleshooting.md)
 - [Codex Error running remote compact task 与上下文压缩排查](guides/codex-context-compaction-remote-compact-task.md)
-- [2026 Codex 教程：从安装、登录到第一个真实任务](guides/codex-getting-started-first-task-2026.md)
+- [第一次用 Codex：安装、登录与一个小任务（2026）](guides/codex-getting-started-first-task-2026.md)
 - [Codex GPT-5.6 Sol、Terra、Luna 怎么选：模型、Reasoning 与旧版迁移](guides/codex-gpt-5-6-sol-terra-luna-models.md)
 - [2026 Codex Hooks 配置指南：hooks.json、PreToolUse 与 PostToolUse](guides/codex-hooks-configuration.md)
 - [Codex macOS / Linux 安装与更新：install.sh、npm、Homebrew](guides/codex-macos-linux-install-update.md)

@@ -1,6 +1,6 @@
 # Codex stream disconnected、Reconnecting 5/5 与超时排查
 
-`stream disconnected before completion` 只说明响应流在完成事件前断开，不等于套餐额度耗尽。`Reconnecting 1/5` 到 `5/5` 也只说明客户端正在重试，真正根因通常在它前面的第一条错误。
+`stream disconnected before completion` 表示响应还没完成，连接就断开了，并不等于套餐额度用完。看到 `Reconnecting 1/5` 一直到 `5/5`，也只能确定客户端在重试。要找原因，应先查看重连提示之前的第一条错误。
 
 ## 先按错误发生阶段分流
 
@@ -63,7 +63,7 @@ curl -Iv https://api.openai.com/
 | macOS `54` | 常见 `Connection reset by peer` | 不能与 Windows 10054 机械合并 |
 | macOS `60` | 常见 `Operation timed out` | 不能证明套餐、账号或模型有问题 |
 
-这些错误适合定位传输阶段，不适合直接推出一个固定的代理设置。
+这些错误能帮助判断连接在哪一步出问题，但不能仅凭错误号就确定该怎么设置代理。
 
 ## Reconnecting 5/5 不等于必须关闭 WebSocket
 
@@ -94,7 +94,7 @@ OpenAI 当前 Codex Configuration Reference 对自定义 model provider 列出�
 
 通常不能。Plus、Pro 或 Credits 只在错误被确认是账号访问资格或 Codex Usage limit 时相关。DNS、TLS、防火墙、自定义 provider、客户端回归、服务事件和 MCP timeout 不会因为重复充值自动修复。
 
-更完整的中文错误矩阵、反馈清单与官方来源：
+更多报错的排查步骤、反馈时需要准备的资料和官方说明：
 
 [Codex stream disconnected、Reconnecting 5/5、Network Error 与超时排查](https://hi-codex.com/guides/codex-stream-disconnected-reconnecting-timeout/?utm_source=github&utm_medium=guide&utm_campaign=codex_stream_disconnected)
 

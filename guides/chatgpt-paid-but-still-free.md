@@ -1,8 +1,8 @@
 # ChatGPT Plus 已扣款但仍显示 Free 怎么办？
 
-如果银行卡已经扣款、Apple 或 Google 已生成收据，但 ChatGPT 仍显示 Free，先不要再次购买。付款记录只能证明某个渠道处理了交易，不能单独证明当前登录的 ChatGPT 账号已经获得 Plus 或 Pro 权益。
+银行卡已扣款，Apple 或 Google 也出了收据，ChatGPT 却仍显示 Free？先不要再买一次。付款渠道处理了交易，不代表你当前登录的 ChatGPT 账号已经收到 Plus 或 Pro 权益。
 
-> 完整的渠道分流表、错误提示、证据清单和人工订单售后边界见：[ChatGPT Plus 已扣款但仍显示 Free？会员没到账怎么办](https://hi-codex.com/guides/chatgpt-paid-but-still-free/?utm_source=github&utm_medium=guide&utm_campaign=paid_but_still_free)。
+> 各购买渠道的处理方式、需要保留的材料及人工订单售后说明见：[ChatGPT Plus 已扣款但仍显示 Free？会员没到账怎么办](https://hi-codex.com/guides/chatgpt-paid-but-still-free/?utm_source=github&utm_medium=guide&utm_campaign=paid_but_still_free)。
 
 ## 一分钟排查顺序
 
@@ -21,7 +21,7 @@
 | Google Play | 原 Google Play 账号的付款和订阅 | 原 ChatGPT 账号与 Google Play / OpenAI 支持 |
 | 第三方人工订单 | 原平台订单、套餐约定和完成时间 | 回到原担保订单售后，不要脱离平台重复付款 |
 
-网页、Apple 和 Google 的订阅彼此独立。在原渠道状态没有确认前跨平台再买一次，可能产生两份有效订阅和重复扣费。
+网页、Apple 和 Google 可以分别建立订阅。还没查清原订单，就换个平台再买，可能留下两份有效订阅，之后各自扣费。
 
 ## 提示订阅关联另一个账号
 

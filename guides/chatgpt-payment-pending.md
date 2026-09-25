@@ -4,7 +4,7 @@
 
 ## 先不要再次付款
 
-ChatGPT 页面显示 `Payment Pending`，或银行 App 出现“待处理”“预授权”“处理中”时，最重要的动作是停止重复提交。网页、Apple App Store 和 Google Play 可以形成彼此独立的订阅；原交易尚未确认时跨渠道再买，可能产生多笔预授权或真正的重复扣费。
+看到 `Payment Pending`，或银行 App 显示“待处理”“预授权”“处理中”时，先停下来查原交易，不要反复付款。网页、Apple App Store 和 Google Play 可以各自建立订阅，换个渠道再买可能造成多笔预授权，甚至重复扣费。
 
 先保存以下信息：
 
@@ -26,13 +26,13 @@ ChatGPT 页面显示 `Payment Pending`，或银行 App 出现“待处理”“�
 | Completed / 已入账 | 已成为正式交易 | 权益未到账时核对原账号并联系实际收款方 |
 | Reversed / 已撤销 | 原授权或交易被撤销 | 等待账单与可用额度同步 |
 
-商户页面和银行页面可能暂时不同步。OpenAI 没有为所有 ChatGPT Plus 交易公布统一的 Pending 时长；不同发卡行、Apple、Google 和网页账单不能套用同一个固定天数。
+商户和银行的状态有时不会同时更新。OpenAI 没有公布适用于所有 ChatGPT Plus 交易的 Pending 时长，因此不能用一个固定天数，判断所有银行、应用商店和网页订单何时处理完。
 
 ## 银行卡出现 5 美元 Pending，先确认是不是 API Billing
 
 OpenAI 官方当前说明：更新 OpenAI API 按量计费付款方式后，可能出现 5 美元 Pending。这是临时信用卡授权，会在 7 天内撤销；API 最终按照实际用量在账单周期结算。
 
-这个说明有三个边界：
+读这条说明时，要注意：
 
 1. 它针对 OpenAI Platform API 的 pay-as-you-go 付款方式；
 2. 它不是 ChatGPT Plus 的月费价格；
@@ -62,7 +62,7 @@ OpenAI 官方当前说明：更新 OpenAI API 按量计费付款方式后，可�
 - [OpenAI：未授权 ChatGPT 或 API Credits 扣费处理](https://help.openai.com/en/articles/7242625-unauthorized-chatgpt-or-api-credit-purchase-charges-how-to-request-a-refund)
 - [OpenAI：银行卡为何被拒绝](https://help.openai.com/en/articles/7232916-why-was-my-credit-card-declined)
 
-更完整的中文错误原文、3D Secure、续费失败和支持材料清单见：[ChatGPT 银行卡被拒、Payment Pending 与付款未获批准](https://hi-codex.com/guides/chatgpt-plus-payment-failed/?utm_source=github&utm_medium=guide&utm_campaign=payment_pending)。
+需要继续排查银行卡错误、3D Secure 验证或续费失败，可阅读：[ChatGPT 银行卡被拒、Payment Pending 与付款未获批准](https://hi-codex.com/guides/chatgpt-plus-payment-failed/?utm_source=github&utm_medium=guide&utm_campaign=payment_pending)。
 
 ## 利益披露
 

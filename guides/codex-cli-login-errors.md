@@ -2,7 +2,7 @@
 
 > 核对日期：2026-07-21。本文根据 OpenAI Codex Authentication、CLI 与 developer commands 官方文档整理。
 
-Codex CLI 登录失败时，最重要的不是立刻重装或更换账号，而是先确认失败发生在哪一步：终端是否启动登录、浏览器是否完成授权、凭证是否返回 CLI、账号是否有工作区权限，还是登录成功后的首次请求被拒绝。
+Codex CLI 登录失败，先找到卡住的那一步。是终端没有打开登录流程，浏览器授权后没有返回 CLI，还是已经登录、发出请求时才被拒绝？这些情况的排查方法不同，不必一开始就重装或换账号。
 
 ## 先确认使用哪种认证
 
@@ -43,7 +43,7 @@ codex login --device-auth
 | 403 Forbidden | 工作区权限、组织策略、强制登录方式、地区支持、账号通知 | 把 403 一律认定为封号 |
 | 429 Too Many Requests | ChatGPT Codex Usage、恢复时间、Credits 或 API 限额 | 反复 logout/login |
 
-403 不自动等于账号被封。管理员可以通过配置强制登录方式或 ChatGPT 工作区；策略不匹配时，Codex 可能退出或拒绝继续。只有账号收到明确 Deactivated 通知时，才应进入账号停用申诉分支。
+403 不自动等于账号被封。管理员可以通过配置强制登录方式或 ChatGPT 工作区；策略不匹配时，Codex 可能退出或拒绝继续。收到明确的 Deactivated 通知后，再按账号停用流程处理申诉。
 
 ## 做一次受控重登
 
@@ -84,7 +84,7 @@ Codex 凭证可能保存在操作系统凭证存储或 `~/.codex/auth.json`。�
 - [Codex CLI](https://developers.openai.com/codex/cli/)
 - [Codex developer commands](https://developers.openai.com/codex/developer-commands?surface=cli)
 
-更完整的中文错误阶段表、FAQ 和相关账号分支见：[Codex CLI 登录失败怎么办？](https://hi-codex.com/guides/codex-cli-login-failed-401-403/?utm_source=github&utm_medium=guide&utm_campaign=codex_login_errors)
+各个登录阶段的常见错误、账号问题和处理步骤，见：[Codex CLI 登录失败怎么办？](https://hi-codex.com/guides/codex-cli-login-failed-401-403/?utm_source=github&utm_medium=guide&utm_campaign=codex_login_errors)
 
 ## 利益披露
 

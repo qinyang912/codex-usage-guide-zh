@@ -21,7 +21,7 @@
 - 收到警告后仍重复违规。
 - 未完成要求的身份或年龄验证。
 
-具体原因应以账号收到的 OpenAI 通知和审核为准，不应只依据第三方“封号原因”文章猜测。
+这些只是可能的原因，不能据此判断你的账号为什么被停用。先读 OpenAI 发给你的通知，再按邮件或官方支持的要求处理。
 
 ## 官方申诉顺序
 
@@ -29,7 +29,7 @@
 2. 无法访问该邮件时，使用 [OpenAI Appeal Form](https://openai.com/form/appeal/)。
 3. 没有收到通知邮件但已经无法访问时，通过 [Help Center](https://help.openai.com/) 聊天联系支持。
 
-建议只提交一份事实完整的申诉，后续在同一工单补充材料。不要群发公开邮箱、每天重复创建工单或找第三方代替账号持有人申诉。
+申诉时把经过和材料整理清楚，后续尽量在同一工单补充。重复发邮件、反复建工单，或让第三方代替账号持有人申诉，都不应当作加快审核的办法。
 
 ## 申诉材料
 
@@ -44,7 +44,7 @@
 
 ## Codex 与 API 分支
 
-使用 ChatGPT 登录 Codex 时，停用可能关联同一个 OpenAI 账号。使用 API Key 时还应检查 Platform 的 Organization、Project、Usage、账单和未知 Key。第三方 API 网关不是官方账号恢复路径，也不能替代申诉。
+如果你用 ChatGPT 账号登录 Codex，要先确认被停用的是否就是这个账号。如果用的是 API Key，还需到 Platform 检查所属组织、项目、用量和账单，留意是否有不认识的 Key。换用第三方 API 网关不能恢复官方账号，也不能替代申诉。
 
 不要通过购买成品号、共享号或“安全中转”规避审核。这会带来新的账号归属、付款和数据隐私风险。
 
@@ -61,4 +61,4 @@
 
 本资料由 Hi Codex 服务团队维护；维护者提供独立人工充值协助，因此与第三方充值主题存在商业利益关系。Hi Codex 与 OpenAI 不存在隶属、代理或官方授权关系。账号显示 Deactivated 时，Hi Codex 不建议继续充值，也不提供解封或申诉保证。
 
-更完整的状态分流、官方来源和安全边界见：[ChatGPT 账号被封/停用怎么办？](https://hi-codex.com/guides/chatgpt-account-deactivated-appeal/?utm_source=github&utm_medium=guide&utm_campaign=account_deactivated)
+如何区分这些状态、查找官方说明和保护账号，详见：[ChatGPT 账号被封/停用怎么办？](https://hi-codex.com/guides/chatgpt-account-deactivated-appeal/?utm_source=github&utm_medium=guide&utm_campaign=account_deactivated)

@@ -1,6 +1,6 @@
 # 2026 Codex Hooks 配置指南：hooks.json、PreToolUse 与 PostToolUse
 
-Codex Hooks 是生命周期扩展：它让一个确定性的命令处理器在会话启动、工具调用前后、上下文压缩、子代理启动或停止、回合结束等节点运行。它适合做检查、验证和补充上下文，但不是 Sandbox、审批或 Rules 的替代品。
+Codex Hooks 可以在指定事件发生时运行预先写好的命令或脚本，例如会话启动、工具调用前后、上下文压缩或回合结束时。它适合自动检查结果、执行验证或补充上下文，但不能替代 Sandbox、审批或 Rules。
 
 本文核对日期为 2026-07-21。Hook 事件、工具覆盖和处理器能力仍可能随 Codex 更新，应同时核对当前官方文档与本机 `/hooks` 显示。
 
@@ -14,7 +14,7 @@ Codex Hooks 是生命周期扩展：它让一个确定性的命令处理器在�
 | 决定 Sandbox 外命令允许、询问还是禁止 | Rules |
 | 限制文件、进程或网络资源 | Sandbox 与审批 |
 
-一句话原则：自然语言工作约定放 `AGENTS.md`，按需流程放 Skill，机械执行关口放 Hook，资源和越界命令分别交给 Sandbox、审批与 Rules。
+简单区分：项目约定写进 `AGENTS.md`，按需使用的流程写成 Skill，指定事件发生时要运行的脚本交给 Hook。文件和网络访问、越界命令能否执行，仍由 Sandbox、审批与 Rules 控制。
 
 ## Hooks 从哪里加载
 
@@ -106,7 +106,7 @@ hooks = false
 
 `matcher` 是正则字符串，但必须先弄清它匹配什么。Shell 命令和 `exec_command` 匹配为 `Bash`；`apply_patch` 可匹配 `apply_patch`、`Edit` 或 `Write`；MCP 使用完整工具名，例如 `mcp__filesystem__read_file`。
 
-Hosted tools（例如 WebSearch）当前不走本地函数工具 Hook 路径；特殊工具也可能选择不走默认路径。因此 Hooks 是辅助护栏，不是覆盖全部工具的强制安全边界。
+Hosted tools（例如 WebSearch）当前不会触发本地函数工具的 Hook，部分特殊工具也可能不走默认流程。因此，不能假定所有工具调用都会经过 Hooks 检查，更不能只靠 Hooks 保障安全。
 
 ## 命令处理器收到什么
 

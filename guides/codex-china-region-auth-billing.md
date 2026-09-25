@@ -2,7 +2,7 @@
 
 > 核对日期：2026-07-21。本文不提供地区绕过、共享账号、共享认证文件或第三方 API 中转。
 
-中文搜索里的“Codex 国内怎么用”通常混合了五个独立问题：
+开始安装或付款前，先把下面五件事分清楚：
 
 1. 实际所在地是否在 OpenAI 支持范围；
 2. Codex App、CLI 或 IDE 是否正确安装；
@@ -14,7 +14,7 @@
 
 截至本次核对，OpenAI 的 ChatGPT 支持国家和地区列表未列出中国大陆、香港和澳门，台湾已列出。OpenAI 同时说明，从未列出的地区访问或提供服务访问，可能导致账号被封禁或暂停。
 
-能下载客户端、打开付款页、兑换礼品卡或找到第三方代充，都不能替代官方支持地区判断。
+能下载客户端或打开付款页，不代表所在地受官方支持。礼品卡和第三方代充也不会改变地区限制。
 
 ## 两种官方登录方式
 
@@ -69,7 +69,7 @@ OpenAI 当前还提供 npm、Homebrew、Windows PowerShell 和 IDE 扩展路线�
 - [Codex CLI](https://learn.chatgpt.com/docs/codex/cli)
 - [Using Codex with your ChatGPT plan](https://help.openai.com/zh-hans-cn/articles/11369540-using-codex-with-your-chatgpt-plan)
 
-完整中文分流、Windows/macOS/Linux 入口、套餐购买与错误表见：[Codex 国内怎么用、购买、订阅、安装与登录](https://hi-codex.com/guides/codex-china-use-buy-login/?utm_source=github&utm_medium=guide&utm_campaign=codex_china_use)。
+各系统的安装入口、套餐区别和常见报错的排查方法，见：[Codex 国内怎么用、购买、订阅、安装与登录](https://hi-codex.com/guides/codex-china-use-buy-login/?utm_source=github&utm_medium=guide&utm_campaign=codex_china_use)。
 
 ## 利益关系说明
 

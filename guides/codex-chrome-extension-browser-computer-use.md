@@ -2,9 +2,9 @@
 
 更新日期：2026-07-21
 
-搜索“Codex 浏览器插件”时，经常会看到 Chrome Extension、Browser、Computer Use、IDE Extension 和 Plugins 五个名字。它们不是同一个组件。先选错入口，再执行重装、删缓存或换网络，通常只会增加新的变量。
+想用 Codex 操作浏览器，首先要分清 Chrome Extension、Browser 和 Computer Use。它们用途不同，也不同于 IDE Extension 和 Plugins。先确认自己需要哪个组件，再排查安装和连接问题，避免反复重装却没有找到原因。
 
-这份指南先给出最短分流，再按官方支持链路处理安装、插件不显示、未连接、`missing native host`、`Computer Use plugins unavailable` 和 Chrome Web Store“此商品无法购买或下载”。
+下面先用一张表帮你选入口，再说明安装步骤，以及插件不显示、未连接、`missing native host`、`Computer Use plugins unavailable` 和 Chrome Web Store“此商品无法购买或下载”等问题该怎么查。
 
 ## 一分钟选择正确入口
 
@@ -79,7 +79,7 @@ Chrome Extension 需要足够权限才能操作网页。Chrome 的安装提示�
 5. 新建 Work mode / Codex 聊天，再调用 `@Chrome`。
 6. 重启桌面 App；最后才卸载扩展、移除 Plugin，并从官方入口完整重装。
 
-多 Profile 是高频原因：扩展装在 Profile A，却在 Profile B 打开任务，看起来像“已经安装”，实际当前资料里没有可用扩展。
+也要检查是否用了不同的 Chrome Profile（用户配置）：如果扩展装在 Profile A，却在 Profile B 打开任务，当前窗口实际上并没有可用的扩展。
 
 ## “此商品无法购买或下载”怎么办
 
@@ -132,7 +132,7 @@ Computer Use 不能替你批准系统隐私权限、以管理员身份认证，�
 - 直接给所有站点永久权限。
 - 用换网络、换账号或改地区的单次成功，推导稳定、合规、受支持。
 
-如果官方文档没有要求修改系统目录，就先完成可逆的版本、模式、Plugin 开关、Profile、站点权限、新聊天、重启和官方反馈链路。
+如果官方文档没有要求修改系统目录，就不要先动这些目录。先检查版本、工作模式、Plugin 开关、Profile 和站点权限，再尝试新建聊天或重启；仍无法解决时，整理错误信息向官方反馈。
 
 ## 六步验收清单
 

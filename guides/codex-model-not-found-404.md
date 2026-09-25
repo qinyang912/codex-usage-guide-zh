@@ -2,7 +2,7 @@
 
 > 核对日期：2026-07-21。本文根据 OpenAI Codex Models、配置文档和 openai/codex 官方仓库公开 issue 整理。
 
-`unexpected status 404 Not Found: Model not found`、`model not supported` 和“模型不存在”不是一个固定原因。它们可能来自模型名或旧配置、账号模型可用性、官方后端故障，也可能来自 API 或自定义 provider 的地址和权限。
+看到 `unexpected status 404 Not Found: Model not found`、`model not supported` 或“模型不存在”，不一定是模型名写错了。旧配置、账号权限、服务端故障，以及 API 或自定义 provider 的地址，都可能导致这类报错。
 
 ## 一分钟分流
 
@@ -40,7 +40,7 @@ codex exec -m <模型名> "Reply with exactly OK."
 
 不要根据旧教程或社交平台截图猜新模型名。OpenAI 官方文档区分 ChatGPT 登录推荐模型和 API 可用模型；某个模型出现在 API 文档中，不代表当前 ChatGPT 账号与界面一定可用。
 
-如果同一账号、同一客户端中模型 A 正常而模型 B 404，这不像通用网络或整体认证失败。记录两次结果后继续检查模型配置和服务端状态。
+如果在同一账号、同一客户端中，模型 A 可以使用，只有模型 B 返回 404，就不应先认定整个网络或登录出了问题。记录两次请求的结果，再重点检查模型配置和服务端状态。
 
 ## 检查 config.toml 和旧脚本
 
@@ -92,7 +92,7 @@ OpenAI 文档说明，ChatGPT 桌面应用、Codex CLI 与 IDE 扩展在同一�
 
 不要公开 `auth.json`、API Key、Session、设备代码、验证码、恢复码、完整环境变量或私有仓库日志。
 
-更完整的中文分流、8 项 FAQ 与相关错误入口见：[Codex Model not found、unsupported model、404 排查](https://hi-codex.com/guides/codex-model-not-found-404/?utm_source=github&utm_medium=guide&utm_campaign=codex_model_404)。
+更多排查步骤、常见问题和相关报错的处理方法，见：[Codex Model not found、unsupported model、404 排查](https://hi-codex.com/guides/codex-model-not-found-404/?utm_source=github&utm_medium=guide&utm_campaign=codex_model_404)。
 
 ## 官方资料
 

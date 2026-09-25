@@ -33,7 +33,7 @@ IDE Extension、Chat mode 和移动端当前没有 Plugin 浏览器。安装以�
 | 在确定生命周期节点执行脚本 | Hook |
 | 把以上能力组合成可安装、可分享、可版本化的包 | Plugin |
 
-如果工作流只给自己或一个仓库使用，先做 Skill，验证触发、步骤和结果。需要跨团队安装、组合多个 Skills、接入外部服务、加入 Hooks 或维护版本时，再包装成 Plugin。
+如果只是自己或一个仓库需要这套流程，可以先做成 Skill，确认它能在合适的任务中触发，并按预期执行。需要给其他团队安装，或组合多个 Skills、外部服务和 Hooks 时，再考虑做成 Plugin。
 
 ## 必需目录：`.codex-plugin/plugin.json`
 
@@ -161,7 +161,7 @@ Greet the user warmly and ask what outcome they want.
 
 ## Marketplace 是目录机制，不自动代表官方审核
 
-Marketplace 是 JSON catalog，可以来自官方、工作区、Git 仓库或本地文件。项目默认位置：
+Marketplace 是一份用 JSON 编写的插件目录，可以由官方或工作区提供，也可以放在 Git 仓库或本地文件中。项目默认位置：
 
 ```text
 $REPO_ROOT/.agents/plugins/marketplace.json
@@ -279,7 +279,7 @@ CLI 浏览器会按 Marketplace 分组。可以安装或卸载；在已安装 Pl
 - 不提供 ChatGPT Session、Cookie、密码、私钥、恢复码或验证码；
 - 卸载后单独撤销 OAuth、Token 和第三方服务权限。
 
-Sandbox 与 Approval 会约束 Codex host 中的能力，但不能证明第三方服务或 Plugin 本身可信。出现在任何 Marketplace 也不自动等同 OpenAI 官方背书。
+Sandbox 与 Approval 能限制 Codex 运行时的操作，但不能据此判断第三方服务或 Plugin 是否可信。即使某个插件出现在 Marketplace 中，也不代表它获得了 OpenAI 的官方认可。
 
 ## 官方资料
 

@@ -11,7 +11,7 @@
 | Apple App Store | Apple 通常 24-48 小时提供申请状态更新 | Apple 余额最多 48 小时；卡等最多 30 天 |
 | 移动运营商账单 | 由应用商店和运营商分别处理 | 可能跨 1-2 个账单周期 |
 
-“OpenAI 已处理”“Apple 已批准”不代表银行卡已经显示资金。查询前先确认当前处于哪一个阶段。
+“OpenAI 已处理”或“Apple 已批准”，不等于退款已经到账。查询进度时，先确认是申请仍在审核，还是退款已处理、正在等待银行入账。
 
 ## 网页订阅退款
 
@@ -64,7 +64,7 @@ Google Play 当前常见时间表：
 
 ## 取消续费不等于退款
 
-取消续费通常只停止下一周期扣款，当前权益会持续到已付周期结束。已经发生的费用需要另行申请退款。
+取消续费通常只会停止下一周期的扣款，已付款周期内仍可继续使用。想退回已经扣除的费用，需要另外提交退款申请。
 
 如果怀疑重复扣费，应分别检查：
 
@@ -82,7 +82,7 @@ Google Play 当前常见时间表：
 4. 达到付款方式最长预计时间后，将退款收据交给发卡行、PayPal 或运营商查询；
 5. 不要向第三方发送完整卡号、CVC、验证码、Session 或 API Key。
 
-完整中文渠道表和人工订单分流见：[ChatGPT Plus 退款多久到账？](https://hi-codex.com/guides/chatgpt-cancel-refund/?utm_source=github&utm_medium=guide&utm_campaign=refund_timeline)。
+不同购买渠道的退款入口，以及人工服务订单的处理方式，见：[ChatGPT Plus 退款多久到账？](https://hi-codex.com/guides/chatgpt-cancel-refund/?utm_source=github&utm_medium=guide&utm_campaign=refund_timeline)。
 
 ## 利益关系说明
 

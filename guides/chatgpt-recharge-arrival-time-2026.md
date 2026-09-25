@@ -1,8 +1,8 @@
 # ChatGPT 充值、代充多久到账？人工处理中、超时与没到账排查（2026）
 
-搜索结果里常见“1 分钟到账”“5 分钟完成”“高峰期 1 小时”等说法，但它们通常来自不同商家的自动系统或人工流程。付款起算、实际开始操作、官方套餐生效和退款入账也不是同一个时间点，因此不能把一个数字套用到所有 Plus、Pro 5x 或 Pro 20x 订单。
+看到“1 分钟到账”“5 分钟完成”或“高峰期 1 小时”，先问清楚计时从哪里开始：付款时、开始处理时，还是资料提交后？不同商家的流程不同，不能把这些时间套用到所有 Plus、Pro 5x 或 Pro 20x 订单。
 
-最稳妥的判断方式不是继续猜分钟数，而是先确认订单属于哪一个状态，再要求能核对的下一步和时间点。
+与其继续猜还要等多久，不如先确认订单现在到哪一步、你是否需要配合，以及何时会有下一次进度更新。
 
 ## 先给结论
 
@@ -41,7 +41,7 @@
 
 ### 4. 退款处理与资金入账
 
-卖家确认失败、交易平台退款完成、支付宝或银行卡显示资金，是连续但独立的阶段。人工订单、chatgpt.com、Apple 与 Google Play 也有不同的处理入口，不能用一个固定天数回答全部渠道。
+卖家同意退款后，还要经过平台处理和支付渠道入账。平台显示“已退款”，不代表银行卡已经显示资金。人工订单、chatgpt.com、Apple 与 Google Play 的处理渠道也不同，到账时间需分别查询。
 
 ## 看到“秒到、5 分钟、30 分钟”时，问什么
 
@@ -77,7 +77,7 @@
 请确认当前状态（已接单 / 排队中 / 处理中 / 待验收 / 已超时 / 失败退款）、下一次更新时间，以及超过重新约定时间后的处理方式。
 ```
 
-把信息发在原担保订单中，不要转到微信、Telegram 等平台外沟通。只接受“马上”“快了”“在弄”无法形成可核对的时间线；如果卖家需要更多时间，应给出新的明确节点和无法完成时的处理方案。
+把这些信息发在原担保订单里，保留沟通记录，不要转到微信、Telegram 等平台外处理。如果回复只有“马上”“快了”“在弄”，继续问清下一次更新时间，以及届时仍未完成会怎样处理。
 
 ## 什么情况算失败
 
@@ -129,7 +129,7 @@
 - [OpenAI：避免网页、iOS 与 Android 重复订阅](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [OpenAI：ChatGPT 退款申请说明](https://help.openai.com/en/articles/7232895-how-do-i-request-a-refund-for-my-chatgpt-subscription)
 
-更完整的六状态表、移动端检查清单与相关问题分流见：[ChatGPT 充值、代充多久到账？Plus / Pro 人工处理中、超时与没到账排查](https://hi-codex.com/guides/chatgpt-recharge-arrival-time/?utm_source=github&utm_medium=guide&utm_campaign=recharge_arrival_time)。
+订单状态、手机端核对步骤及未到账时的处理方法，详见：[ChatGPT 充值、代充多久到账？Plus / Pro 人工处理中、超时与没到账排查](https://hi-codex.com/guides/chatgpt-recharge-arrival-time/?utm_source=github&utm_medium=guide&utm_campaign=recharge_arrival_time)。
 
 资料核对日期：2026-07-21。页面、菜单和平台规则可能变化，请以当前账号、原收款平台和官方帮助中心为准。
 

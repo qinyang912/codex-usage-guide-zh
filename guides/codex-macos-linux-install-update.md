@@ -12,7 +12,7 @@ OpenAI 当前同时列出独立安装器、npm 和 Homebrew。选择一种主要
 | npm | `npm install -g @openai/codex` | 重新运行同一命令 |
 | Homebrew | `brew install --cask codex` | `brew upgrade --cask codex` |
 
-不要为了“确保成功”连续使用多种来源。它们可能各自安装一份 Codex，但 shell 只会执行 PATH 中最先找到的那一份。
+安装后先验证结果，不必为了“确保成功”再换一种方式装一遍。不同来源可能各装一份 Codex，而 shell 只会运行 PATH 中最先找到的那一份，这也是更新后仍显示旧版本的一种原因。
 
 ## 安装或更新后如何验证
 
@@ -37,7 +37,7 @@ codex --version
 5. 若出现 `permission denied`，转为检查文件、挂载或 Sandbox 权限；
 6. 若出现 `exec format error`，检查 `uname -m`、CPU 架构和安装来源。
 
-本机、容器和远端环境不会自动共享安装。IDE 终端找不到 Codex 时，应先确认 Extension Host 和终端实际运行在哪一侧。
+本机装好了 Codex，不代表容器或远端机器也装好了。IDE 终端找不到命令时，先确认终端和 Extension Host（运行扩展的环境）是在本机、容器还是远端。
 
 ## 更新后为什么还是旧版本
 
@@ -58,6 +58,6 @@ codex --version
 - [Codex CLI](https://developers.openai.com/codex/cli)
 - [Codex Authentication](https://developers.openai.com/codex/auth)
 
-更完整的 PATH、多版本、权限、架构和登录分流表：[Hi Codex：Codex macOS / Linux 安装与更新](https://hi-codex.com/guides/codex-cli-macos-linux-install-update/?utm_source=github&utm_medium=guide&utm_campaign=codex_macos_linux_install)
+PATH、多版本、权限、系统架构和登录问题的详细排查步骤，见：[Hi Codex：Codex macOS / Linux 安装与更新](https://hi-codex.com/guides/codex-cli-macos-linux-install-update/?utm_source=github&utm_medium=guide&utm_campaign=codex_macos_linux_install)
 
 利益关系披露：维护者参与 Hi Codex 人工充值服务，与 ChatGPT / Codex 套餐主题存在商业利益关系；与 OpenAI、Apple、Homebrew 或 npm 不存在隶属、代理或官方授权关系。

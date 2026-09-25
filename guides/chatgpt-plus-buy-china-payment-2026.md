@@ -2,7 +2,7 @@
 
 > 更新日期：2026-09-25。本次核对地区与银行卡规则，并补充本站当前交付入口；本文不提供换区、伪造账单地址、共享账号或绕过平台限制的方法。
 
-“国内购买”“充值”“开通”在中文搜索里常被当作同一件事，但真正下单时至少要分清五件事：所在地区是否受支持、账号是否显示升级入口、付款工具是否符合条件、订阅由谁管理、退款应该找谁。
+购买 ChatGPT Plus 前，先确认所在地和账号是否符合要求，再选择付款方式。还要问清订阅在哪里管理、退款找谁处理；能付款，并不代表这些问题都已解决。
 
 ## 先看 30 秒结论
 
@@ -44,7 +44,7 @@
 - 是否需要 3D Secure、短信或银行 App 验证；
 - 银行风控、余额、单笔限额与当前商户规则。
 
-因此，“所有国内卡都不行”和“某种卡保证能过”都不够可靠。更稳妥的证据顺序是：先看本人账号当前官方结算页，再向发卡行确认境外线上、外币、循环扣款和 3D Secure 权限，最后根据完整错误信息排查。
+不能只凭“国内卡”或某种卡名，就断言一定失败或保证通过。先看自己账号的官方结算页，再向发卡行确认境外线上、外币、循环扣款和 3D Secure 权限。若仍失败，保留完整错误提示，按具体原因排查。
 
 如果付款被拒，不要短时间反复提交，也不要编造账单地址。先核对卡号、有效期、CVC、余额和真实账单信息，再联系银行确认是否拦截；账号、地区或发卡地区不符合要求时，换一串操作步骤也不能改变平台规则。
 
@@ -74,7 +74,7 @@ Apple Gift Card 兑换后只是增加匹配地区的 Apple 账户余额，之后
 
 ## 人工协助购买前的 8 个问题
 
-把下面问题写在可留痕的订单聊天中：
+付款前，在能保留记录的订单聊天里问清这些问题：
 
 1. 套餐会落在我自己的 ChatGPT 账号吗？
 2. 实际通过网页、Apple、Google 还是其他渠道开通？
@@ -100,7 +100,7 @@ Apple Gift Card 兑换后只是增加匹配地区的 Apple 账户余额，之后
 
 ### 国内购买 ChatGPT Plus 有统一的最好方法吗？
 
-没有。本人账号、所在地、付款工具和长期使用的应用商店不同，适合的路径也不同。满足官网自助条件时，订阅与账单控制通常更直接；第三方协助增加了人工沟通，也增加了权限和售后边界。
+没有。本人账号、所在地、付款工具和长期使用的应用商店不同，适合的路径也不同。满足官网自助条件时，直接管理订阅和账单通常更方便；使用第三方协助，则要额外确认对方需要哪些权限、负责哪些售后问题。
 
 ### Plus 是账户余额吗？
 
@@ -123,7 +123,7 @@ Apple Gift Card 兑换后只是增加匹配地区的 Apple 账户余额，之后
 - [OpenAI：避免网页、iOS 和 Android 重复订阅](https://help.openai.com/en/articles/20001043-how-do-i-avoid-being-charged-twice-if-i-subscribe-to-chatgpt-on-ios-android-and-the-web)
 - [OpenAI：ChatGPT 与 Platform API 账单的区别](https://help.openai.com/en/articles/9039756-billing-settings-in-chatgpt-vs-platform)
 
-更完整的中文资格表、国内银行卡证据顺序、支付宝微信边界和四路径决策表见：[ChatGPT Plus 国内怎么购买、充值和开通](https://hi-codex.com/guides/chatgpt-plus-payment-china/?utm_source=github&utm_medium=guide&utm_campaign=plus_buy_china)。
+关于购买资格、银行卡检查，以及官网、应用商店和第三方服务的选择，详见：[ChatGPT Plus 国内怎么购买、充值和开通](https://hi-codex.com/guides/chatgpt-plus-payment-china/?utm_source=github&utm_medium=guide&utm_campaign=plus_buy_china)。
 
 ## 关系披露
 

@@ -10,7 +10,7 @@
 | VS Code / Cursor / Windsurf | 编辑器设置中搜索 `chatgpt.localeOverride` | 当前 Prompt 或 AGENTS.md |
 | Codex CLI | 当前官方 CLI 文档没有与 IDE 相同的中文 UI 开关 | 直接中文交互或 AGENTS.md |
 
-菜单仍为英文，但回答已经是中文，属于 UI 本地化问题；菜单是中文、回答偶尔变成英文，更接近 Prompt 或指令作用域。不要把两种现象混在一起。
+如果回答已经是中文，只有菜单仍是英文，应检查界面语言设置。如果菜单是中文，但回答偶尔变成英文，则应检查 Prompt 或相关指令是否生效。这是两类问题，不要用同一套办法处理。
 
 ## Codex App 切换中文
 
@@ -22,7 +22,7 @@
 
 如果当前版本没有 Language，先确认安装的是官方 App 并完成更新。不同平台和发布阶段可能看到不同入口，不要因此改用网盘“中文绿色版”。
 
-OpenAI Codex 官方仓库 issue #19239 记录过一种症状：`localeOverride=zh-CN` 已保存，Settings 也显示中文，但部分 UI 仍为英文。相同证据更接近客户端本地化没有应用，而不是账号、套餐或操作步骤错误。
+OpenAI Codex 官方仓库 issue #19239 记录过一种症状：`localeOverride=zh-CN` 已保存，Settings 也显示中文，但部分 UI 仍为英文。如果你遇到相同现象，应优先检查客户端是否正确应用了语言设置，而不是先怀疑账号或套餐。
 
 ## IDE 扩展的 localeOverride
 
@@ -65,7 +65,7 @@ CLI 可以直接理解中文。一次性任务可这样写：
 
 Google 前排的一个第三方 Codex CLI 汉化工具明确写着为 CLI `0.40.0` 设计，并通过脚本注入翻译文件。本指南核对时，本机官方 CLI 已是 `0.144.1`。版本差距不代表项目一定恶意，却足以说明旧版专用工具不能被描述成当前通用方案。
 
-第三方可执行文件或注入脚本可能修改安装文件、在更新后失效，并扩大本地供应链风险。优先顺序应是：官方 Language / localeOverride → Prompt / AGENTS.md → 官方更新与 issue → 最后才评估经过审计、版本匹配且可恢复的工具。
+第三方程序或注入脚本可能改动安装文件，也可能在客户端更新后失效。使用前还需要确认来源是否可信，避免为了汉化而运行不安全的代码。优先顺序应是：官方 Language / localeOverride → Prompt / AGENTS.md → 官方更新与 issue → 最后才评估经过审计、版本匹配且可恢复的工具。
 
 完整的三入口步骤、手机端表格、设置失效证据和安全清单见：[Codex 中文界面、中文回答与设置失效完整指南](https://hi-codex.com/guides/codex-chinese-language-ui-not-working/?utm_source=github&utm_medium=guide&utm_campaign=codex_chinese)。
 

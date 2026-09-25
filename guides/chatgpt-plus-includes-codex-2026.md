@@ -14,7 +14,7 @@ ChatGPT Plus 包含 Codex 使用权益。你不需要在 Plus 之外再购买一
 - Pro 提供相对 Plus 更高的 Codex 用量；
 - API Key 是另一条按 Token 计费的路线，不消耗 Plus 月费。
 
-所以真正需要回答的是三个问题：你在哪里用 Codex、当前账号是什么套餐、实际任务是否经常撞到 Usage Limit。
+判断要不要付费或升级，先看自己从哪个入口使用 Codex、登录账号是什么套餐，再看日常任务是否经常达到用量上限（Usage Limit）。
 
 ## ChatGPT、Plus 和 Codex 是什么关系
 
@@ -40,7 +40,7 @@ OpenAI 当前 Codex Pricing 的定位如下：
 | Pro | Plus 能力以及相对 Plus 5x 或 20x 的 Codex 用量 | 高频、长任务、多项目 |
 | API Key | CLI、SDK、IDE，按 API Token 结算 | CI、自动化、独立 API 账单 |
 
-Free 和 Go 的存在意味着“没有 Plus 就完全不能用 Codex”已经不是准确表述。Plus 的优势是更稳定的个人使用入口与更高用量，而不是把一个原本不存在的产品突然解锁出来。
+不必把购买 Plus 当作尝试 Codex 的前提。可以先按 Free 或 Go 提供的入口试用，再判断是否需要 Plus 的用量和功能。
 
 ## 开通 Plus 后怎么登录 Codex
 
@@ -55,7 +55,7 @@ Free 和 Go 的存在意味着“没有 Plus 就完全不能用 Codex”已经�
 
 ## Plus 的 Codex 额度够用吗
 
-当相关功能对套餐可用时，Codex、ChatGPT Work、ChatGPT for Excel 和 Workspace Agents 会共享同一个 agentic usage 与 credit pool。因此，用量下降不一定只来自 CLI 或 IDE；判断前应先查看账号的 Usage 明细和可用功能。
+如果你的套餐提供这些功能，Codex、ChatGPT Work、ChatGPT for Excel 和 Workspace Agents 会共用一组智能体用量和 Credits。因此，即使没有在 CLI 或 IDE 中执行任务，用量也可能减少。先查看账号的 Usage 明细，确认其他入口是否也在使用。
 
 OpenAI 对 Plus 的公开定位是“每周几次聚焦的编码任务”，但没有一个适用于所有人的固定消息数。以下因素会改变消耗：
 
@@ -96,7 +96,7 @@ Plus 用量耗尽后不一定必须升级 Pro。可以先等待恢复；账号�
 5. 错误是套餐 Usage Limit、401/403、网络、PATH，还是 API `insufficient_quota`；
 6. OpenAI 状态页是否有公开事件。
 
-充值不能修复安装失败、PATH、OAuth 回调、网络阻断或 API 账单不足。先按完整错误原文分流，再决定是否需要套餐。
+安装失败、PATH 配置、OAuth 回调、网络阻断或 API 账单不足，都不能靠购买 ChatGPT 套餐解决。先根据完整错误提示找到原因，再判断是否真的缺少套餐用量。
 
 ## 第三方协助开通时看什么
 
@@ -108,7 +108,7 @@ Plus 用量耗尽后不一定必须升级 Pro。可以先等待恢复；账号�
 - 第三方付款方式本身不会额外解锁或保证 Codex；
 - 完成后在 ChatGPT 套餐页和 Codex 登录状态中分别验收。
 
-完整的中文套餐矩阵、登录步骤、Plus 用量判断和购买边界，可查看：[ChatGPT Plus 包含 Codex 吗？要单独付费吗、Plus 够不够](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=guide&utm_campaign=plus_includes_codex)。
+各套餐对比、登录步骤及 Plus 是否够用的判断方法，可查看：[ChatGPT Plus 包含 Codex 吗？要单独付费吗、Plus 够不够](https://hi-codex.com/guides/codex-recharge-plus-pro/?utm_source=github&utm_medium=guide&utm_campaign=plus_includes_codex)。
 
 ## 官方资料
 

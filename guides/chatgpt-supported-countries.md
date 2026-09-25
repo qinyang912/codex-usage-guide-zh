@@ -2,7 +2,7 @@
 
 核对日期：2026-07-21。
 
-这份清单只回答三个问题：当前所在地是否在 OpenAI 的 ChatGPT 支持列表中，遇到 `Unsupported Country` 时怎样安全排查，以及地区、付款和账号停用如何分流。它不提供绕过地区政策的方法。
+这份清单帮助你确认所在地是否受 ChatGPT 支持，并排查 `Unsupported Country` 提示。地区限制、付款失败和账号停用是不同的问题，下面会分别说明。本文不提供绕过地区政策的方法。
 
 ## 中港澳台当前列表状态
 
@@ -31,7 +31,7 @@ OpenAI 特别提到：用户曾前往不受支持地区旅行，回到支持地�
 - **已扣款仍显示 Free**：核对原购买账号、网页 / Apple / Google 收款渠道和恢复购买。
 - **账号已停用**：查看 OpenAI 通知并走官方申诉；不要继续付款或找第三方“解封”。
 
-验证码、密码、Session、Cookie 和恢复码都属于账号控制材料。地区或登录问题不能通过把这些材料交给陌生人解决。
+验证码、密码、Session、Cookie 和恢复码都可能让别人取得账号访问权限。不要为了处理地区或登录问题，把这些信息交给陌生人。
 
 ## 充值前检查
 
@@ -48,7 +48,7 @@ OpenAI 特别提到：用户曾前往不受支持地区旅行，回到支持地�
 - [不受支持的国家和地区的 ChatGPT 和 API 服务](https://help.openai.com/zh-hans-cn/articles/9131992-chatgpt-and-api-services-in-unsupported-countries-and-territories)
 - [前往其他国家后无法访问 ChatGPT 或 API](https://help.openai.com/zh-hans-cn/articles/9022015-im-travelling-to-a-different-country-and-i-cant-access-chatgpt-or-the-api)
 
-更完整的中文错误分流、付款前检查和支持证据清单见：[ChatGPT 中国大陆、香港能用吗？支持国家与地区限制](https://hi-codex.com/guides/chatgpt-supported-countries-unsupported-country/?utm_source=github&utm_medium=guide&utm_campaign=supported_regions)。
+不同报错该怎么查、付款前要确认什么，以及联系支持时需要哪些资料，见：[ChatGPT 中国大陆、香港能用吗？支持国家与地区限制](https://hi-codex.com/guides/chatgpt-supported-countries-unsupported-country/?utm_source=github&utm_medium=guide&utm_campaign=supported_regions)。
 
 ## 利益披露
 

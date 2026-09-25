@@ -4,9 +4,9 @@
 
 ## 先给结论
 
-**短答案：OpenAI 当前帮助页写明，ChatGPT Plus 为每月 20 美元、按月计费。**这回答了“官方多少钱一个月”，但不是每个人民币用户最终都会扣同一个数字。个人 Plus 暂不支持年付，也不能一次预付多个月。
+**按本文核对时的 OpenAI 帮助说明，ChatGPT Plus 为每月 20 美元，按月计费。**个人 Plus 暂不支持年付，也不能一次预付多个月。
 
-但“20 美元”不是所有人民币用户的统一最终扣款。付款时至少要分清四个数字：
+用人民币支付时，最终扣款不一定只是把 20 美元按汇率换算。还要分别看：
 
 1. 结算页显示的套餐金额；
 2. 结算地区适用的税费；
@@ -30,7 +30,7 @@
 最终支出 = 结算页套餐金额 + 适用税费 + 发卡行可能收取的费用
 ```
 
-只用搜索引擎汇率把 20 美元乘成人民币，无法覆盖税费、入账汇率和银行卡费用。
+搜索引擎显示的汇率只能用来粗略估算。实际还要看是否含税、银行按什么汇率入账，以及有没有额外的银行卡费用。
 
 ## 官网、App Store 与 Google Play 为什么价格不同
 
@@ -60,7 +60,7 @@ API Credits 目前仍以美元购买。ChatGPT Plus 月费、ChatGPT Credits 和
 
 ## ChatGPT Plus 代充多少钱？先分清官方价与服务报价
 
-第三方人民币报价可能包含支付渠道、人工处理和售后范围，不能直接当作 OpenAI 官方人民币定价，也不能只按当天美元汇率判断高低。比较“代充多少钱”时，应把最终成交价、账号归属、资料权限和失败退款放在同一张表里看。
+第三方的人民币报价可能还包含支付、人工处理和售后服务费用，并不是 OpenAI 的官方人民币价格。比较时，除了总价，还要确认给谁的账号开通、需要什么资料、失败后怎样退款；只换算美元标价，容易漏掉这些差别。
 
 第三方“直充”“代充”不是 OpenAI 官方套餐名称。除了价格，还应确认：
 
@@ -70,7 +70,7 @@ API Credits 目前仍以美元购买。ChatGPT Plus 月费、ChatGPT Credits 和
 - 需要哪些登录权限，完成后如何删除或撤销；
 - 是否使用“官方授权”“永久不封”“全网最低”等无法核验的承诺。
 
-Hi Codex 的官方价格、税费、渠道与人工协助对照页见：[ChatGPT Plus 人民币价格说明](https://hi-codex.com/guides/chatgpt-recharge-price/?utm_source=github&utm_medium=guide&utm_campaign=price_currency_tax)。
+官网订阅价、税费、不同付款渠道和人工服务报价的对比，见 Hi Codex 整理的：[ChatGPT Plus 人民币价格说明](https://hi-codex.com/guides/chatgpt-recharge-price/?utm_source=github&utm_medium=guide&utm_campaign=price_currency_tax)。
 
 ## 常见问题
 

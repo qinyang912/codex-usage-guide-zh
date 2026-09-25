@@ -1,6 +1,6 @@
 # Codex sandbox permission denied、read-only 与网络权限排查
 
-`permission denied` 只说明操作被拒绝，不自动等于 Codex sandbox 故障。根因还可能是目标不在 workspace、受保护路径、操作系统权限、ACL、执行位、只读挂载、容器用户或企业安全策略。
+`permission denied` 表示当前操作被拒绝，但不一定是 Codex sandbox 出了故障。目标路径是否在 workspace 内、文件是否受保护、当前用户有没有读写或执行权限，都需要检查。只读挂载、容器用户和企业安全策略也可能造成同样的报错。
 
 ## Sandbox 与 Approval 是两层控制
 
@@ -54,9 +54,9 @@ network_access = true
 
 Windows 与 WSL2 是两套文件系统和权限环境；VS Code Remote、SSH 与容器也可能在远端 host 执行。排查时应从实际运行 Codex 的一侧检查目标路径、用户、挂载方式和安全策略。
 
-同一命令在用户终端成功，只能证明那个 host 和用户环境可用。它不能自动证明 WSL、容器或 IDE Extension Host 拥有同样权限。
+命令在你的终端里能运行，并不代表 Codex 所在的 WSL、容器或 IDE Extension Host 也有相同权限。排查时应在实际执行命令的环境中做对照。
 
-更完整的权限矩阵和最小恢复步骤：[Codex sandbox permission denied、read-only 与网络权限排查](https://hi-codex.com/guides/codex-sandbox-permission-denied-read-only/?utm_source=github&utm_medium=guide&utm_campaign=codex_config_sandbox)。
+各种权限报错的区别和逐步恢复的方法，见：[Codex sandbox permission denied、read-only 与网络权限排查](https://hi-codex.com/guides/codex-sandbox-permission-denied-read-only/?utm_source=github&utm_medium=guide&utm_campaign=codex_config_sandbox)。
 
 ## 官方来源
 

@@ -1,6 +1,6 @@
 # 2026 Codex MCP 配置教程：添加 Server、config.toml 与 OAuth
 
-MCP（Model Context Protocol）让 Codex 调用外部工具和上下文，例如文档、浏览器、代码托管平台或企业系统。配置时最重要的不是复制一段很长的 TOML，而是先确认 Server 的传输方式、运行位置和认证方式。
+MCP（Model Context Protocol）让 Codex 连接外部工具或读取外部资料，例如访问文档、浏览器、代码托管平台和企业系统。配置前，先确认 Server 运行在哪里、通过什么方式连接，以及如何登录或授权，再填写对应的 TOML 配置。
 
 本文按当前 OpenAI Codex 文档整理，适用于 Codex CLI、IDE 扩展和同一台主机上的 Codex App。不同主机不会自动共享本地文件：macOS、WSL、SSH、容器和远程 IDE 各自有独立的 home、环境变量与进程。
 
@@ -39,7 +39,7 @@ codex mcp list
 /mcp
 ```
 
-它适合确认 Server 是否被加载、有哪些工具可用。能在列表中看到名字，只说明配置被读取；还要实际执行一个无副作用的只读工具，才能验证认证、权限和响应是否正常。
+在这里可以查看 Server 是否加载，以及提供了哪些工具。但列表中出现名字，还不代表连接已经可用。接着调用一个不会修改数据的只读工具，确认登录、权限和返回结果都正常。
 
 ## 三、手工编辑 config.toml
 
@@ -114,7 +114,7 @@ MCP 工具还会受到 Codex approval 设置约束。`auto`、`prompt`、`writes
 
 默认启动等待时间可能不足以覆盖首次下载依赖或冷启动。只有确认 Server 最终能够启动时，才适度增加 `startup_timeout_sec`；如果工具已经连接但执行超时，再评估 `tool_timeout_sec`。无限加大超时只会隐藏启动失败、网络错误或死锁。
 
-## 六、常见失败如何分流
+## 六、对照报错逐项排查
 
 | 现象 | 优先检查 |
 | --- | --- |

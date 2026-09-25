@@ -2,7 +2,7 @@
 
 > 核对日期：2026-07-21。Apple 价格、税费、支持地区和可见套餐会变化，以用户自己的付款确认页为准。
 
-ChatGPT Plus 可以通过官方 iOS App 的 Apple App Store 订阅，但这条路线包含两套账号：接收套餐的 ChatGPT 账号，以及负责付款和续费的 Apple 账户。购买前把两者分清，能避免扣款后仍显示 Free、礼品卡余额不能用和跨平台重复收费。
+通过官方 iOS App 购买 ChatGPT Plus 时，要核对两个账号：Plus 开到当前登录的 ChatGPT 账号，付款和续费则由 Apple 账户管理。买之前检查这两边，有助于排查扣款后仍显示 Free、礼品卡余额不可用或重复订阅等问题。
 
 ## 购买前检查 7 项
 
@@ -35,7 +35,7 @@ OpenAI 当前说明，从 Free 直接升级 Pro 必须走网页。如果 iOS 订
 | App 内确认订阅 | Apple 收取订阅费 | 仍需确认正确 ChatGPT 账号 |
 | ChatGPT 显示 Plus | 套餐已经生效 | 后续续费仍由 Apple 管理 |
 
-礼品卡商店地区应与 Apple 账户地区匹配，余额还要覆盖 Apple 确认页的全部金额。Apple Gift Card、OpenAI 促销码、第三方激活码和商家聊天优惠码不是同一种代码。
+兑换前先确认礼品卡与 Apple 账户的地区匹配，余额也足够支付确认页上的总金额。Apple Gift Card 只用于 Apple 账户，不要把它与 OpenAI 活动码、第三方激活码或商家优惠码混用。
 
 ## Apple 已扣款但仍显示 Free
 
@@ -52,7 +52,7 @@ OpenAI 当前说明，从 Free 直接升级 Pro 必须走网页。如果 iOS 订
 
 删除 ChatGPT App 不会取消订阅。Apple 渠道通常从 `iPhone 设置 → 你的姓名 → 订阅 → ChatGPT → 取消订阅` 管理。
 
-Apple、Google Play 和 chatgpt.com 的订阅可以分别存在并分别收费。要改到网页或其他渠道时，先取消旧订阅并确认旧渠道不再续费，再购买新订阅。
+在网页重新购买，不会自动结束 Apple 订阅。Apple、Google Play 和 chatgpt.com 可以各自收费；换渠道前，先取消旧订阅，并确认它不会继续续费。
 
 ## iOS 自助订阅和人工充值怎么选
 

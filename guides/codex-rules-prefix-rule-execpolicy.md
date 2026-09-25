@@ -1,6 +1,6 @@
 # 2026 Codex Rules 配置指南：prefix_rule、.rules 与 execpolicy
 
-Codex Rules 用来分类请求在 Sandbox 外运行的命令。它不是普通提示词，也不负责项目编码规范：`AGENTS.md` 说明仓库如何构建、测试和交付；Sandbox 定义文件、进程和网络边界；`approval_policy` 决定边界动作怎样审批；Rules 再按命令参数前缀返回 `allow`、`prompt` 或 `forbidden`。
+当命令请求在 Sandbox 外运行时，Codex Rules 用于判断应该放行、询问用户，还是禁止执行。它不是普通提示词，也不负责项目编码规范。几种配置的分工是：`AGENTS.md` 说明仓库如何构建、测试和交付；Sandbox 定义文件、进程和网络边界；`approval_policy` 决定边界动作怎样审批；Rules 再按命令参数前缀返回 `allow`、`prompt` 或 `forbidden`。
 
 OpenAI 当前把 Rules 标记为实验功能。字段和加载行为可能变化，修改前应核对当前官方文档，团队规则应像 CI 与权限配置一样接受评审。
 
@@ -97,7 +97,7 @@ codex execpolicy check --pretty \
 
 输出 JSON 会显示最严格决策、命中的规则和 justification。多个规则文件可重复添加 `--rules`。
 
-最低测试矩阵应包括：最短合法命令、常见尾随参数、参数顺序变化、相似危险命令、Shell 复合命令和多规则组合。`match` 与 `not_match` 只是规则加载时的内联测试，不会执行其中的命令。
+至少测试这些情况：最短的合法命令、追加常见参数、调整参数顺序、与安全命令相似的危险命令、Shell 复合命令，以及多条规则同时匹配。`match` 与 `not_match` 只是规则加载时的内联测试，不会执行其中的命令。
 
 ## 七、不生效时按顺序排查
 
@@ -117,7 +117,7 @@ Rules 不能扩大 Sandbox、打开所有网络或绕过管理员 requirements�
 - [OpenAI：Agent approvals & security](https://developers.openai.com/codex/agent-approvals-security)
 - [OpenAI：Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md)
 
-需要完整字段表、allow/prompt/forbidden 示例、Shell 拆分矩阵、execpolicy 测试清单、团队评审和 FAQ，可继续阅读：[Hi Codex：2026 Codex Rules 配置教程](https://hi-codex.com/guides/codex-rules-prefix-rule-execpolicy/?utm_source=github&utm_medium=guide&utm_campaign=codex_rules)。
+更多字段说明、allow/prompt/forbidden 示例、复合命令的匹配方式和测试清单，见：[Hi Codex：2026 Codex Rules 配置教程](https://hi-codex.com/guides/codex-rules-prefix-rule-execpolicy/?utm_source=github&utm_medium=guide&utm_campaign=codex_rules)。
 
 本文核对日期为 2026-07-21。Rules 当前仍为实验功能，应以最新官方文档和实际客户端行为为准。
 

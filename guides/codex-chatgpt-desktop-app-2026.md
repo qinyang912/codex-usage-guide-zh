@@ -33,7 +33,7 @@ Codex 在 ChatGPT 桌面 App 中仍有独立入口，并保留：
 
 ChatGPT 桌面端把 Chat 与 Work 会话放在 ChatGPT 视图中。Cloud Work 会在 Web、移动端和桌面端同步；Local Work 会话留在本机。
 
-Codex 则保留自己的开发者视图和项目历史。这种分离有实际价值：普通问答不会淹没仓库任务，代码任务也能保留 Git、diff 和审查上下文。
+Codex 有单独的开发者视图和项目历史。这样，普通问答和仓库任务不会混在一起，查找代码任务时，也能同时看到相关的 Git、diff 和审查记录。
 
 如果你在一个入口找不到旧任务，先确认它最初是 Chat、Work 还是 Codex，再确认它是 Cloud 还是 Local；不要直接判断聊天已经丢失。
 
@@ -71,7 +71,7 @@ Codex 则保留自己的开发者视图和项目历史。这种分离有实际�
 4. 完成后按仓库分别列出 diff、测试和未提交文件；
 5. 在 Review 面板统一检查跨仓库影响。
 
-项目组织不会扩大 Sandbox。附加文件夹只是让项目知道这些目录；命令能读写什么、能否访问网络，仍由 Sandbox、Approval、操作系统权限和工作区策略共同决定。
+把多个文件夹加入项目，不代表 Codex 就获得了更大的权限。它能读写哪些文件、能否访问网络，仍取决于 Sandbox、Approval、操作系统权限和工作区策略。
 
 ## 新版桌面端还值得注意什么
 
@@ -93,7 +93,7 @@ Codex 则保留自己的开发者视图和项目历史。这种分离有实际�
 4. 确认 `config.toml`、`AGENTS.md`、Skills、Plugins、MCP 和 Hooks 仍来自预期位置。
 5. 使用多文件夹项目时明确 Primary，并检查辅助目录的规则不会自动加载。
 6. 重新核对 Browser、Computer Use、Screen Recording、Accessibility 和网络权限。
-7. 用一个低风险任务测试读取、修改、运行测试和 Review 的完整闭环。
+7. 用一个低风险任务依次检查：能否读取文件、修改代码、运行测试，以及在 Review 中查看改动。
 
 ## 常见误解
 

@@ -15,7 +15,7 @@ OpenAI 当前 Android FAQ 说明，官方 App 要求设备有 Google Play 且运
 
 ## Google Play 付款被拒
 
-先保存完整错误原文，区分以下阶段：
+先保存完整错误提示，再看问题发生在哪一步：
 
 | 现象 | 先检查 | 不建议 |
 | --- | --- | --- |
@@ -25,11 +25,11 @@ OpenAI 当前 Android FAQ 说明，官方 App 要求设备有 Google Play 且运
 | 订阅关联其他账号 | 原 Google Play 与原 ChatGPT 账号 | 尝试转移给新账号 |
 | 已扣款仍显示 Free | 收据、原登录方式、Restore purchases | 立即去网页再开一份 |
 
-更新 ChatGPT、Google Play 商店、Google Play 服务和系统组件后再尝试。搜索结果常把美区账号、免税地址、礼品卡或接码写成固定成功方案，但这些方法不能解决账号绑定、退款和恢复，也可能违反地区或付款规则。
+先更新 ChatGPT、Google Play 商店、Google Play 服务和相关系统组件，再按错误提示排查。不要把换地区、填写所谓免税地址、买礼品卡或接码当作通用修复办法：这些操作不能解决订阅绑定和退款问题，还可能违反平台规则。
 
 ## 已扣款仍显示 Free
 
-移动购买会同时绑定付款 Google Play 账号和购买时登录的 ChatGPT 账号。OpenAI 当前说明，这类订阅不能转移到另一个 ChatGPT 账号，也不能由多个 ChatGPT 账号共享。
+通过 Google Play 购买时，需要核对两个账号：一个负责付款，另一个是在购买当时登录的 ChatGPT 账号。按 OpenAI 当前说明，这类订阅不能转移给另一个 ChatGPT 账号，也不能让多个 ChatGPT 账号共用。
 
 1. 停止再次付款，确认订单是待处理、最终扣款还是退款中。
 2. 从 Google Play 确认邮件和订单记录找到实际付款账号。

@@ -21,7 +21,7 @@ Codex 长任务出现 <code>Automatically compacting context</code>、<code>/com
 
 ## 上下文压缩是什么
 
-OpenAI 对原生压缩的说明是：长任务接近上下文窗口时，系统分析先前的会话状态，生成节省 Token 的压缩项，并让后续窗口继续携带关键状态和高价值信息。Codex 使用这一机制维持跨窗口的多步骤任务。
+长任务接近上下文窗口上限时，系统会把先前的会话状态整理成更节省 Token 的压缩内容，保留后续工作需要的关键信息。Codex 借助这一机制继续执行多步骤任务，而不必一直携带全部原始记录。
 
 当前 Slash commands 文档列出：
 
@@ -32,7 +32,7 @@ OpenAI 对原生压缩的说明是：长任务接近上下文窗口时，系统�
 
 可用命令会因客户端、环境和访问权限不同而变化，应以当前客户端输入斜杠后显示的命令列表为准。
 
-压缩不是删除聊天，也不是重置套餐额度。它会重新表示需要继续工作的状态，因此关键决策、接口约束、文件路径、部署版本、测试结果和下一步不应只保存在聊天记录中。
+压缩不是删除聊天，也不会重置套餐额度。由于会话内容会被重新整理，关键决策、接口要求、文件路径、部署版本、测试结果和下一步最好另存到项目文档中，不要只留在聊天里。
 
 ## 出错后先保住工作
 
@@ -42,7 +42,7 @@ OpenAI 对原生压缩的说明是：长任务接近上下文窗口时，系统�
 4. 记录 Codex 与系统版本、客户端类型、发生时间、完整错误、request ID、认证方式、模型和 provider。
 5. 新建一个最小任务，确认只有当前长会话失败，还是所有会话、所有客户端都失败。
 
-如果新会话正常、原长会话稳定失败，更偏向当前会话状态或压缩路径；如果所有任务都失败，应先检查服务状态、账号、网络和配置。
+如果新会话正常，只有原来的长会话反复失败，可以重点检查该会话的状态和压缩过程。如果所有任务都失败，则先检查服务状态、账号、网络和配置。
 
 ## stream disconnected 分支
 
@@ -134,7 +134,7 @@ API 账户有余额也不能排除速率限制。失败请求和并发重试可�
 - [openai/codex 公开故障记录 #13784](https://github.com/openai/codex/issues/13784)
 - [openai/codex 公开故障记录 #15468](https://github.com/openai/codex/issues/15468)
 
-更完整的中文错误矩阵、上下文保护清单与相邻专题入口见：[Hi Codex 上下文压缩排查](https://hi-codex.com/guides/codex-context-compaction-remote-compact-task-error/?utm_source=github&utm_medium=guide&utm_campaign=codex_context_compaction)。
+更多报错的处理方法、保存工作进度的清单和相关教程，见：[Hi Codex 上下文压缩排查](https://hi-codex.com/guides/codex-context-compaction-remote-compact-task-error/?utm_source=github&utm_medium=guide&utm_campaign=codex_context_compaction)。
 
 ## 利益关系与安全说明
 

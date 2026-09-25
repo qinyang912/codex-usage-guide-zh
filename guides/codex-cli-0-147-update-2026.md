@@ -2,7 +2,7 @@
 
 > 核对日期：2026-08-08。npm 当前稳定版与 OpenAI 官方 Changelog 均显示 `0.147.0`，正式发布时间为 2026-08-07。
 
-Codex CLI 0.147.0 不是一次只修补界面的更新。它扩展了 Agent Plugins、会话组织、自动审批、其他 Agent 迁移和 MCP 协议支持，同时移除了旧的 `codex exec --full-auto` 兼容参数。
+Codex CLI 0.147.0 增加了插件、会话管理和自动审批等功能，也改进了从其他 Agent 迁移资料和使用 MCP 的体验。升级前尤其要注意：旧的 `codex exec --full-auto` 兼容参数已被移除，依赖它的脚本需要调整。
 
 如果你的团队把 Codex CLI 用在脚本、CI、插件目录或多人共享配置中，升级前应先检查命令参数和权限策略；个人交互式使用则可以按原安装渠道更新后，用一个非生产仓库完成冒烟测试。
 
@@ -34,7 +34,7 @@ codex exec --help
 
 ### 1. Agent Plugins 与多来源目录
 
-新版可以安装可移植的 Agent Plugins，并跨本地、个人、工作区和远端目录搜索插件。对团队来说，这意味着插件不再只是某台机器上的孤立配置，而更适合进入可追踪、可复用的目录工作流。
+新版可以安装可移植的 Agent Plugins，并跨本地、个人、工作区和远端目录搜索插件。团队可以把插件整理到共同维护的目录中，方便查找、复用和追踪变更，不必只在某一台机器上保存配置。
 
 升级后应先确认 Codex 实际识别了哪些 Marketplace 和 Plugin，再安装或启用。插件可能包含 Skills、MCP Server、Hooks 或外部连接，目录可见不等于已经完成权限审查。创建和安装流程见 [Codex Plugins 指南](codex-plugins-create-install-marketplace.md)。
 
@@ -58,7 +58,7 @@ codex exec --help
 
 ### 4. 从 Cursor、Claude 迁移更完整
 
-新版可以导入 Cursor 管理的 Skills，并同步从 Claude 和 Cursor 导入的对话变化，减少重复记录。导入仍然需要人工检查：路径、环境变量、MCP 认证、Hooks、命令占位符和权限语义不会因为“导入成功”就自动变得等价。
+新版可以导入 Cursor 管理的 Skills，并同步从 Claude 和 Cursor 导入的对话变化，减少重复记录。导入成功后仍要逐项检查路径、环境变量、MCP 认证、Hooks 和命令占位符。尤其要确认权限设置的实际含义，不能假定它们与原工具完全一致。
 
 迁移后建议新建一个测试项目，逐项验证：
 

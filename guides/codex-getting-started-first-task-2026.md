@@ -1,4 +1,4 @@
-# 2026 Codex 教程：从安装、登录到第一个真实任务
+# 第一次用 Codex：安装、登录与一个小任务（2026）
 
 > 更新于 2026-07-21。本教程面向第一次使用 Codex 的用户，目标不是罗列所有功能，而是在约 30 分钟内安全完成一个能验证、能回滚的小任务。
 
@@ -13,7 +13,7 @@
 | IDE 扩展 | 希望一边看代码一边协作 | 已使用 VS Code、Cursor 或 Windsurf |
 | Codex Cloud | 让任务在远端环境运行 | 先理解仓库、环境和权限再用 |
 
-不要同时安装四种入口来验证同一个问题。第一次只选一个入口，完成闭环后再扩展。
+第一次只选一个入口，先试着完成小任务、检查结果，再考虑其他用法。没有必要同时安装四种入口来验证同一个问题。
 
 ## 第一步：安装并确认登录
 
@@ -84,7 +84,7 @@ Sandbox 决定命令能访问什么，Approval 决定哪些动作需要你确认
 
 CLI 中可以使用 `/status` 查看会话状态，用 `/review` 请求审查；环境异常时可运行 `codex doctor`。需要继续之前的交互任务时，使用 `codex resume`。命令可能随版本更新，执行前以当前官方文档和本机 `--help` 为准。
 
-## 常见失败怎样分流
+## 遇到问题，先查哪里
 
 | 现象 | 先检查什么 |
 | --- | --- |
@@ -97,11 +97,11 @@ CLI 中可以使用 `/status` 查看会话状态，用 `/review` 请求审查；
 
 不要把所有错误都归因于“需要充值”。安装、认证、网络、权限、测试和套餐分别有不同证据。先完成技术诊断，只有账号页面明确显示 Usage limit 或套餐不足时，再讨论额度。
 
-## 一次完整闭环
+## 怎样判断第一次任务完成得不错
 
 第一次任务的合格结果应是：你能解释 Codex 修改了什么、为什么这样改、运行了哪些验证、还有哪些未验证项，并能从 Diff 中接受或撤销改动。能做到这一点，再尝试多文件重构、Cloud、Automations、Skills、MCP 或更高权限任务。
 
-更完整的入口对比、安装命令、手机端阅读版与专题错误分流见：[2026 Codex 从安装登录到第一个任务](https://hi-codex.com/guides/codex-tutorial-getting-started-first-task/?utm_source=github&utm_medium=guide&utm_campaign=codex_tutorial)。
+更多入口对比、安装步骤和常见错误的处理方法，见：[2026 Codex 从安装登录到第一个任务](https://hi-codex.com/guides/codex-tutorial-getting-started-first-task/?utm_source=github&utm_medium=guide&utm_campaign=codex_tutorial)。
 
 ## 来源与利益关系
 

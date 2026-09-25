@@ -22,7 +22,7 @@
 
 ## MFA 设备丢失或无法登录
 
-在验证页面选择 `Try another method`，查看账号之前启用的验证器、推送、短信 / WhatsApp 或 Passkey。具体选项会随设备、地区、套餐和账号而不同。
+在验证页面选择 `Try another method`，看看能否使用之前启用的验证器、推送、短信 / WhatsApp 或 Passkey。页面上实际提供哪些方式，取决于设备、地区、套餐和账号。
 
 如果账号启用了高级账号安全，恢复要求可能更严格。恢复码应事先离线保存；没有可用验证方式和恢复码时，支持团队也未必能按普通流程恢复账号。
 
@@ -41,9 +41,9 @@ OpenAI 当前帮助文档说明，创建和使用普通 ChatGPT 账号通常不�
 
 ## 第三方充值边界
 
-邮箱验证码、短信验证码、MFA 验证码和恢复码都属于高敏感认证信息，不应发送给代充卖家。即使卖家声称“只用一次”或“不会保存”，验证码也可能直接批准一次登录。
+不要把邮箱验证码、短信验证码、MFA 验证码或恢复码发给代充卖家。这些信息可能直接让对方登录你的账号；“只用一次”“不会保存”并不能消除风险。
 
-更完整的中文分流表、异常登录处理和官方来源见：[ChatGPT 验证码收不到怎么办？](https://hi-codex.com/guides/chatgpt-verification-code-not-received/?utm_source=github&utm_medium=guide&utm_campaign=verification_code)
+各种验证码的区别、异常登录的处理方式和官方说明，见：[ChatGPT 验证码收不到怎么办？](https://hi-codex.com/guides/chatgpt-verification-code-not-received/?utm_source=github&utm_medium=guide&utm_campaign=verification_code)
 
 ## 利益披露
 

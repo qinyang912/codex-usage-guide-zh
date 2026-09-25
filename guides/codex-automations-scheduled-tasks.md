@@ -2,7 +2,7 @@
 
 > 核对日期：2026-07-21。本文依据 OpenAI 当前 Scheduled tasks、Worktrees、Sandboxing 和 Codex CLI 文档整理。
 
-中文搜索里常把 `Codex Automations`、`Scheduled tasks`、定时任务和 cron 当成同一个功能。实际至少有四条不同路线；入口选错，会出现找不到按钮、无法访问本机文件、每次像新对话，或到了时间没有运行。
+想让 Codex 定时工作，先确认你要它在哪里运行。`Codex Automations`、`Scheduled tasks` 和 cron 经常被放在一起讨论，但并不是同一种用法。选错入口，可能找不到按钮，也可能到了时间却无法读取本机文件。
 
 ## 先用一张表选入口
 
@@ -37,7 +37,7 @@ Codex CLI 和 IDE 扩展当前不提供 Scheduled 管理界面。它们可以用
 
 ## Standalone 和已有聊天怎么选
 
-Standalone Scheduled 每次从保存的 Prompt 开始，结果作为独立运行进入 Scheduled 收件箱。它适合日报、周报、代码库巡检和文档漂移。
+Standalone Scheduled 每次都从保存的 Prompt 开始，结果以独立运行的形式进入 Scheduled 收件箱。它适合生成日报、周报，定期检查代码库，或找出文档与代码不一致的地方。
 
 已有聊天定时续跑会回到当前聊天，沿用已有上下文。它适合等待部署、轮询 CI、跟进 PR 或继续一个尚未结束的研究。即使上下文会保留，也要在定时说明里写清：
 
@@ -69,7 +69,7 @@ RRULE:FREQ=MONTHLY;BYMONTHDAY=1;BYHOUR=9;BYMINUTE=0
 
 修改 RRULE 后再次查看下一次运行。先用简单的近未来一次性测试证明入口正常，再增加复杂周期。不要假设电脑关机期间错过的本机任务一定会自动补跑；用数据时间窗口去重，并查看 Scheduled 是否真的生成运行记录。
 
-## 一个耐久 Prompt 应包含什么
+## 怎样写一份能长期使用的任务说明
 
 1. **范围**：项目、目录、仓库、连接器或数据时间窗。
 2. **动作**：每次只做稳定、可重复的检查或修改。
@@ -79,7 +79,7 @@ RRULE:FREQ=MONTHLY;BYMONTHDAY=1;BYHOUR=9;BYMINUTE=0
 6. **停止条件**：完成、连续失败、缺少权限或需要用户决定。
 7. **安全边界**：不泄露凭证、不删除数据、不擅自扩大权限。
 
-需要复用复杂流程时，把它做成 Skill，并在桌面定时 Prompt 中显式写 `$skill-name`。不要依赖模糊的自动匹配承载关键步骤。
+如果任务需要反复执行一套复杂流程，可以把流程写成 Skill，再在桌面定时 Prompt 中明确指定 `$skill-name`。关键步骤不要只靠自动匹配，以免某次运行没有用到这份 Skill。
 
 ## 定时任务不执行：八层排查
 

@@ -4,7 +4,7 @@
 
 ## 先看结论
 
-目前能从 OpenAI 官方直接核验的大学生权益，是向符合资格的美国、加拿大在校大学生提供 **100 美元 Codex Credits**。官方 Usage 页面应显示 **2,500 Credits**。
+按本文核对时的 OpenAI 官方说明，符合资格的美国、加拿大在校大学生可获得 **100 美元 Codex Credits**。官方 Usage 页面应显示 **2,500 Credits**。
 
 它不是：
 
@@ -24,7 +24,7 @@ OpenAI 当前页面列出的条件包括：
 5. 需要一个 ChatGPT Free、Go、Plus 或 Pro 账号；
 6. 可以使用个人 ChatGPT 账号，但验证仍需要大学邮箱。
 
-中国大学邮箱、教育邮箱后缀或学生证本身，不会自动满足美国、加拿大的学校与居住地要求。
+有大学邮箱或学生证，不代表一定符合活动条件。还需要满足活动对学校和居住地的要求，中国大学的教育邮箱也不能替代这些条件。
 
 ## 100 美元 / 2,500 Credits 怎么用
 
@@ -67,7 +67,7 @@ OpenAI 当前页面列出的条件包括：
 - [Codex credits for Students - Terms of Service](https://help.openai.com/en/articles/20001147-codex-credits-for-students-terms-of-service)
 - [ChatGPT Plus promotions and referrals](https://help.openai.com/en/articles/10492689-chatgpt-plus-promotions-and-referrals)
 
-更完整的中文资格矩阵、过期活动判断与安全检查见：[ChatGPT Plus 学生优惠与 Codex Credits 申请](https://hi-codex.com/guides/chatgpt-student-discount-codex-credits/?utm_source=github&utm_medium=guide&utm_campaign=student_discount)。
+如何核对申请资格、识别已过期的活动，以及申请前要注意什么，见：[ChatGPT Plus 学生优惠与 Codex Credits 申请](https://hi-codex.com/guides/chatgpt-student-discount-codex-credits/?utm_source=github&utm_medium=guide&utm_campaign=student_discount)。
 
 ## 利益关系说明
 

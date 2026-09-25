@@ -1,6 +1,6 @@
 # Codex VS Code 插件不显示、一直转圈与 app-server 启动失败排查
 
-适用于 VS Code、Cursor、Windsurf 中的 OpenAI Codex IDE 扩展。先按现象分流，不要把“图标不显示”“401”“Model not found”和 `failed to start codex app-server` 当成同一个问题。
+本指南适用于 VS Code、Cursor、Windsurf 中的 OpenAI Codex IDE 扩展。先对照实际现象查找原因：“图标不显示”“401”“Model not found”和 `failed to start codex app-server` 对应的问题不同，处理步骤也不同。
 
 ## 30 秒分流
 
@@ -43,7 +43,7 @@ Codex: Open Codex Sidebar
 
 ## WSL、Remote SSH 与 Codespaces
 
-VS Code Remote 会把界面和 Extension Host 分到不同系统或机器。CLI 在本机正常，不能证明远端扩展也正常。
+使用 VS Code Remote 时，编辑器界面可能在本机，Extension Host（运行扩展的环境）却在远端或 WSL 中。因此，本机 CLI 能用，不代表远端的扩展也能正常运行。
 
 - WSL2：确认左下角显示 `WSL: <distro>`，集成终端使用 Linux 路径。
 - Remote SSH：检查远端扩展状态、远端 PATH、远端配置与远端网络。
@@ -96,7 +96,7 @@ OpenAI Developer settings 文档说明，CLI 与 IDE 扩展共享用户级 `~/.c
 
 不要公开：`auth.json`、API Key、Session、设备代码、验证码、完整环境变量、私有仓库代码、公司路径或未检查的整包日志。
 
-更完整的中文症状表、10 项 FAQ 与日志入口见：[Codex VS Code 插件故障排查](https://hi-codex.com/guides/codex-vscode-extension-not-working/?utm_source=github&utm_medium=guide&utm_campaign=codex_vscode_extension)。
+更多故障现象、常见问题，以及查看日志的方法，见：[Codex VS Code 插件故障排查](https://hi-codex.com/guides/codex-vscode-extension-not-working/?utm_source=github&utm_medium=guide&utm_campaign=codex_vscode_extension)。
 
 官方资料：
 

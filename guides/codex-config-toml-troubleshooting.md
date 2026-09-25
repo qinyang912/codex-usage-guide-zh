@@ -1,6 +1,6 @@
 # Codex config.toml 加载失败与配置不生效排查
 
-`failed to load configuration`、`TOML parse error`、`duplicate key` 和“配置不生效”不是同一个问题。先保存错误指向的文件、行列号和字段，再判断是读取/解析失败，还是某个配置层被覆盖或忽略。
+`failed to load configuration`、`TOML parse error`、`duplicate key` 都可能与配置有关，但不等同于“改了配置却没生效”。先记下报错指向的文件、行列号和字段，再区分：文件是否无法读取或解析，还是配置已被读取，却被其他设置覆盖或忽略了。
 
 ## Codex 会读取哪些配置层
 
@@ -12,7 +12,7 @@
 - CLI flags 与 `-c key=value` 可以临时覆盖文件值；
 - 组织托管的 requirements 还可能进一步限制有效配置。
 
-Local、WSL、SSH、容器和 IDE Remote 可能是不同 host。它们的 home、`CODEX_HOME`、环境变量和客户端版本可能不同，不能用本机终端中的一份文件代表所有环境。
+本机、WSL、SSH、容器和 IDE Remote 可能各有一套运行环境，使用不同的用户目录、`CODEX_HOME`、环境变量和客户端版本。检查配置时，要找到 Codex 实际运行的那一侧，而不只是查看本机的文件。
 
 在支持的交互环境中，可以使用：
 
@@ -63,7 +63,7 @@ otel
 5. 恢复默认值后，每次只加入一个配置项；
 6. 不删除整个 `~/.codex`，不公开或发送 `auth.json`、API Key、Cookie 与 Session。
 
-更完整的中文错误矩阵和报告清单：[Codex failed to load configuration 与 config.toml 配置错误排查](https://hi-codex.com/guides/codex-config-toml-failed-to-load/?utm_source=github&utm_medium=guide&utm_campaign=codex_config_sandbox)。
+更多报错示例和反馈时需要准备的资料，见：[Codex failed to load configuration 与 config.toml 配置错误排查](https://hi-codex.com/guides/codex-config-toml-failed-to-load/?utm_source=github&utm_medium=guide&utm_campaign=codex_config_sandbox)。
 
 ## 官方来源
 

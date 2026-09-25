@@ -11,7 +11,7 @@
 | 上传旧账号导出的 conversations.json | 不转移 | 仅可在一段新对话中读取参考 |
 | 移动端购买后切换登录账号 | 仍绑定最初购买的账号 | 重装 App 也不会改变绑定 |
 
-“修改同一账号的邮箱”和“使用新邮箱注册另一个账号”不是同一件事。开始操作前，先确认当前账号的完整登录方式、工作区与购买渠道。
+先分清你想做的是哪件事：给现有账号换邮箱，还是把订阅搬到另一个账号？这两种操作的结果不同。动手前，记下当前账号的登录方式、所属工作区，以及订阅是从哪里购买的。
 
 ## 同一账号如何更换邮箱
 
@@ -69,7 +69,7 @@ OpenAI 官方明确说明，ChatGPT 订阅不能跨账号转移。如果以后�
 
 上传只会让当前新对话读取文件，不会恢复原侧边栏中的独立会话，也不会转移订阅、记忆、自定义指令、Projects、自定义 GPT、设置或工作区。OpenAI 当前说明无法从 ChatGPT Business 或 Enterprise 的设置中导出数据；Edu 是否可导出取决于工作区管理员设置。
 
-导出包包含完整聊天内容，应按敏感个人资料保护，不要发送给充值商家、群聊或不可信网站。
+导出包里有完整的聊天内容，可能包含个人隐私和工作资料。请妥善保管，不要发给充值商家、群聊或不可信的网站。
 
 官方参考：[Transfer exported conversations between ChatGPT accounts](https://help.openai.com/en/articles/9106926-transfer-exported-conversations-between-chatgpt-accounts)。
 
@@ -83,7 +83,7 @@ OpenAI 官方明确说明，ChatGPT 订阅不能跨账号转移。如果以后�
 - [ ] 目标账号是否由本人长期控制；
 - [ ] 目标套餐和失败处理是否在原订单中写清。
 
-更完整的中文决策表与移动端分流见：[ChatGPT Plus 订阅能转移账号吗？](https://hi-codex.com/guides/chatgpt-subscription-transfer-email-change/?utm_source=github&utm_medium=guide&utm_campaign=subscription_transfer)。
+换邮箱、换账号，以及手机端订阅各该怎么处理，见：[ChatGPT Plus 订阅能转移账号吗？](https://hi-codex.com/guides/chatgpt-subscription-transfer-email-change/?utm_source=github&utm_medium=guide&utm_campaign=subscription_transfer)。
 
 ## 利益关系说明
 

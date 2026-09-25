@@ -11,7 +11,7 @@
 | 使用 Codex Cloud | 需要 ChatGPT 登录 | Codex Cloud 与 ChatGPT 工作区 |
 | 解决 `insufficient_quota` | 先看当前是否使用 API Key；若是，看 Platform Billing | Platform 组织、项目与 Limits |
 
-所以“买了 Plus 为什么 API 还报余额不足”的常见答案是：两套账单彼此独立。升级 Plus 不会给 API 组织增加美元余额，购买 API 预付费额度也不会把 ChatGPT Free 变成 Plus。
+这就解释了为什么买了 Plus，API 仍可能提示余额不足：两边单独结算。升级 Plus 不会增加 API 组织的美元余额；反过来，购买 API 额度也不会开通 ChatGPT Plus。
 
 ## API Key 怎么获取
 
@@ -21,7 +21,7 @@
 4. 如果 Key 丢失或泄露，创建新 Key、更新应用并撤销旧 Key；不要向第三方购买“补发 Key”。
 5. 按项目拆分开发、测试和生产 Key，同时设置预算、限额与告警。
 
-不要把完整 Key 粘贴到聊天、工单、截图或网页表单中。共享 Key 的控制人可以随时撤销凭证、修改预算或查看用量，也无法保证付款来源和数据处理边界。
+不要把完整 Key 放进聊天、工单、截图或网页表单。若使用别人提供的共享 Key，对方可以撤销它、修改预算或查看用量；你也未必能确认费用由谁支付、请求数据会怎样处理。
 
 ## OpenAI API 预付费 Billing 当前怎么工作
 
@@ -54,7 +54,7 @@ codex login status
 
 不要把 Key 直接写进 shell history，也不要把它设置成整个 CI job 都能读取的全局变量。如果仓库代码或构建脚本不可信，应把凭证只暴露给一次 Codex 调用，或使用经过审核的官方 Action。
 
-两种路线的差别不只在付款：本地 Codex App、CLI 和 IDE 支持两种认证；Codex Cloud 需要 ChatGPT 登录。API Key 路线按 Platform 模型权限和价格执行，也不应默认拥有套餐表里的全部云端能力。
+选择登录方式时，还要看你准备在哪个入口使用。本地 Codex App、CLI 和 IDE 支持这两种认证，Codex Cloud 则需要 ChatGPT 登录。用 API Key 时，可用模型和费用按 Platform 规则判断，不能直接套用 ChatGPT 套餐表里的云端权益。
 
 ## 常见错误怎么分流
 
@@ -75,7 +75,7 @@ codex login status
 
 不要通过伪造地址、绕过地区限制或购买共享 Key 解决付款问题。使用前应核对 OpenAI 当前支持地区、付款方式与账号要求；如果选择第三方服务，还要单独评估数据处理、日志保留、模型真实性、限流、退款和停服风险。
 
-更完整的中文表格、官方来源和错误分流见：[ChatGPT Plus、OpenAI API Key、Billing 与 Codex 登录完整说明](https://hi-codex.com/guides/chatgpt-plus-api-key-openai-api-billing/?utm_source=github&utm_medium=guide&utm_campaign=plus_api_billing)。
+两种登录方式的对比、官方资料和常见错误处理见：[ChatGPT Plus、OpenAI API Key、Billing 与 Codex 登录完整说明](https://hi-codex.com/guides/chatgpt-plus-api-key-openai-api-billing/?utm_source=github&utm_medium=guide&utm_campaign=plus_api_billing)。
 
 ## 来源与利益关系
 

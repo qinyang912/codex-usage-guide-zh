@@ -12,7 +12,7 @@
 | 原生 Windows CLI | 习惯 PowerShell、Windows Terminal 或 .NET 工具链 | Windows PowerShell | `C:\Users\...\code` |
 | WSL2 CLI | 使用 bash、Linux 包管理、容器或仓库本来就在 WSL | Ubuntu 等 WSL2 shell | `~/code`，避免大型仓库长期位于 `/mnt/c` |
 
-选择重点不是“哪种模式满血”，而是 Codex、Git、项目和依赖是否位于同一环境。Windows 和 WSL 可以并存，但路径、PATH、运行时与登录缓存默认各自独立。
+选择时，重点看 Codex、Git、项目和依赖能否在同一个环境中配合工作，不必纠结哪种模式“满血”。Windows 和 WSL 可以同时使用，但各自的路径、PATH、运行时和登录缓存默认是独立的。
 
 ## 路线一：ChatGPT Windows App
 
@@ -42,7 +42,7 @@ cd C:\Users\你的用户名\code\your-project
 codex
 ```
 
-当前独立安装器意味着首次安装 Codex CLI 不必先围绕 npm、全局目录和 Node 版本配置环境。Node.js、Python 或 .NET 仍可能是项目自身需要的开发工具。
+使用独立安装器安装 Codex CLI，不必先配置 npm、全局安装目录或 Node 版本。不过，你的项目本身仍可能需要 Node.js、Python 或 .NET，这些依赖要另外准备。
 
 ## 路线三：WSL2 CLI
 
@@ -104,7 +104,7 @@ Windows 中安装的 Codex 不会自动进入 WSL PATH，反过来也一样。�
 - 不分享 `auth.json`、API Key、Session、设备代码或验证码；
 - 不通过第三方 API 网关或地区绕过来冒充 OpenAI 官方环境。
 
-完整中文对照、10 项 FAQ 和错误分流见：[Codex Windows 安装完整指南](https://hi-codex.com/guides/codex-windows-install-wsl/?utm_source=github&utm_medium=guide&utm_campaign=codex_windows_wsl)。
+各安装方式的详细步骤和常见错误的处理方法，见：[Codex Windows 安装完整指南](https://hi-codex.com/guides/codex-windows-install-wsl/?utm_source=github&utm_medium=guide&utm_campaign=codex_windows_wsl)。
 
 ## 官方来源
 

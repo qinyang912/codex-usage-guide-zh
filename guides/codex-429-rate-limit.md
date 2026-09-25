@@ -1,6 +1,6 @@
 # Codex 429 Too Many Requests：Rate Limit 与 insufficient_quota 排查
 
-`429 Too Many Requests` 不是单一故障。它可能来自 ChatGPT 套餐的 Codex 用量窗口、OpenAI API 速率限制、API Credits / 月度使用上限，或自定义 provider 的上游限流。
+看到 `429 Too Many Requests`，先别急着充值。这个错误可能表示请求发得太快，也可能是额度不足：ChatGPT 套餐的 Codex 用量、OpenAI API 的速率或消费上限，以及自定义 provider 的限制，都需要分别检查。
 
 ## 1. 先确认认证方式
 
@@ -12,7 +12,7 @@
 
 ChatGPT Plus / Pro 与 OpenAI Platform API 分开计费。升级 ChatGPT 套餐不会自动增加 API 余额；给 API 账户充值也不会增加 ChatGPT 登录下的 Codex 套餐窗口。
 
-## 2. 按完整错误原文分流
+## 2. 对照完整报错，判断是哪一种限制
 
 | 错误或现象 | 更可能的含义 | 第一动作 |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ OpenAI Error codes 把两类 429 分开：
 
 ## 5. 安全重试边界
 
-OpenAI 建议使用指数退避，并添加随机抖动和最大重试次数。失败请求也会计入每分钟限制，所以立即无限重试只会加重问题。
+OpenAI 建议每次重试前逐步延长等待时间，再加入少量随机延迟，并限制重试次数。这就是“指数退避”和“随机抖动”。失败请求也会计入每分钟限制，连续立即重试反而可能让问题持续更久。
 
 安全实现至少应做到：
 

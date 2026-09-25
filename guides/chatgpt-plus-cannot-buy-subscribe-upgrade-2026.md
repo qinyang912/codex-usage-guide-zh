@@ -2,7 +2,7 @@
 
 > 更新日期：2026-07-21。本文按错误发生阶段排查，不提供换区、伪造账单地址、频繁切换 IP、共享账号或绕过平台限制的方法。
 
-ChatGPT Plus “无法升级”可能发生在完全不同的六个位置：入口、付款页面、应用商店、银行卡、到账和支持。付款页还没打开时，换银行卡通常不会解决问题；已经扣款仍显示 Free 时，再买一次反而可能造成重复订阅。
+“无法升级”需要按发生的位置来排查：是找不到按钮、付款页打不开、应用商店报错，还是银行卡被拒？付款页还没打开时，换卡通常没有帮助；已经扣款却仍显示 Free 时，再买一次还可能造成重复订阅。
 
 ## 先用 30 秒判断卡在哪一步
 
@@ -15,7 +15,7 @@ ChatGPT Plus “无法升级”可能发生在完全不同的六个位置：入�
 | 已扣款但仍显示 Free | 到账 | 原扣款平台 | 登录方式、目标账号、账单、商店订单与恢复购买 |
 | 以上均已核对仍失败 | 支持 | 对应平台 | 错误原文、时间、账号、订单号、截图和已做排查 |
 
-先记录错误原文和发生时间，并确认是否已经扣款。不要同时修改账号、设备、浏览器、付款方式和订阅渠道，否则很难判断哪一步真正变化。
+先记下完整错误提示和发生时间，查清是否已经扣款。之后一次只检查或调整一项；同时换账号、设备、浏览器和支付渠道，会让问题更难定位。
 
 ## 官方当前明确说明的四个边界
 
@@ -52,7 +52,7 @@ OpenAI 当前 iOS 帮助页明确写明，从 Free 升级到 Pro 需要通过网
 9. 不要连续高频点击，也不要在三个平台同时下单。
 10. 仍无入口时，携带完整信息联系 OpenAI 支持。
 
-“按钮不见了”不能证明账号被拉黑，也不能证明 Plus 永久停止订阅。账号当前页面、官方 Pricing、官方帮助中心和官方状态页才是优先证据。
+只凭按钮消失，不能判断账号被限制，更不能断言 Plus 停止订阅。先对照自己的账号页面、官方 Pricing、帮助中心和服务状态，再决定下一步。
 
 ## 付款页面报错与银行卡被拒不是一回事
 
@@ -98,7 +98,7 @@ OpenAI 当前 iOS 帮助页明确写明，从 Free 升级到 Pro 需要通过网
 | Plus → Pro | 原订阅渠道、升级确认金额和生效时间 | 把社区个案当作统一升级规则 |
 | 已付费 → 仍提示升级 | 正确登录方式、账单与恢复购买 | 再付一次钱验证是否到账 |
 
-Reddit 和 OpenAI Developer Community 可以证明用户遇到过切换问题，但社区回复不是所有账号的统一政策。最终应以本人账号、原订单渠道和官方支持回复为准。
+社区帖子可以提供排查线索，但别人的切换结果不一定适用于你的账号。是否能升级、如何结算，仍应核对自己的账号页面、原购买渠道和官方支持回复。
 
 ## 已扣款仍显示 Free
 
@@ -150,7 +150,7 @@ Reddit 和 OpenAI Developer Community 可以证明用户遇到过切换问题，
 - [OpenAI：ChatGPT 错误消息排查](https://help.openai.com/en/articles/7996703-troubleshooting-chatgpt-error-messages)
 - [OpenAI Status](https://status.openai.com/)
 
-完整中文六阶段表、Go/Plus/Pro 切换、手机端分流与支持材料清单见：[ChatGPT Plus 无法购买、订阅或升级怎么办](https://hi-codex.com/guides/chatgpt-plus-cannot-upgrade-subscribe/?utm_source=github&utm_medium=guide&utm_campaign=plus_cannot_upgrade)。
+各类升级问题、套餐切换和手机端错误的详细检查步骤见：[ChatGPT Plus 无法购买、订阅或升级怎么办](https://hi-codex.com/guides/chatgpt-plus-cannot-upgrade-subscribe/?utm_source=github&utm_medium=guide&utm_campaign=plus_cannot_upgrade)。
 
 ## 关系披露
 
