@@ -1,10 +1,25 @@
 # ChatGPT 充值平台哪个好？代充网站、推荐与低价避坑（2026）
 
+本次更新：2026-09-25，补充本站可核对的流程与售后入口。本文由提供充值协助的 Hi Codex 团队维护，存在商业利益关系，不是独立商家排名。
+
 Google 搜索“ChatGPT 充值平台”“ChatGPT 代充网站”时，常把几种完全不同的交易放在同一页比较：ChatGPT 官网订阅、Apple App Store、Google Play、独立充值网站、电商平台人工服务和共享账号。
 
 这些路径的账号归属、真实收款方、订阅管理和退款入口不同。只看“秒到账”“官方渠道”“最低价”，无法证明服务可靠。
 
 > 30 秒结论：没有适用于所有人的固定平台排行榜。若所在地、账号和支付方式符合要求，官网或官方 App 的订阅控制权通常最直接；选择第三方代充网站或人工服务时，至少核对账号归属、商品、收款、凭证、订阅管理、退款和可验证证据七项。
+
+## 拿 Hi Codex 作一个可核对的服务例子
+
+下面是本站公开流程，不是客户评价，也不能用来推断所有商家都相同：
+
+| 要核对的事 | 本站当前说明 | 你可以自己检查 |
+| --- | --- | --- |
+| 买到什么 | 自己账号的指定套餐或额度，不是共享账号 | [当前商品与价格](https://hi-codex.com/chatgpt-recharge/?utm_source=github&utm_medium=guide&utm_campaign=recharge_platform_choice)及订单内容 |
+| 谁处理 | 付款并提交必要资料后，系统核验处理，异常人工介入 | [交付说明](https://hi-codex.com/delivery-guide/?utm_source=github&utm_medium=guide&utm_campaign=recharge_platform_choice) |
+| 资料用在哪里 | 交付资料通过指定流程提交，Session 属于登录权限 | [隐私与安全](https://hi-codex.com/privacy-and-security/?utm_source=github&utm_medium=guide&utm_campaign=recharge_platform_choice) |
+| 哪个阶段可退款 | 充值完成前可申请退款，完成后不支持退款 | [服务与退款](https://hi-codex.com/service-and-refund/?utm_source=github&utm_medium=guide&utm_campaign=recharge_platform_choice) |
+
+这些链接能让你核对服务说明，但不能证明未来没有风控、没有延迟或获得 OpenAI 授权。完成后仍应登录自己的账号验收套餐或额度，而不是只看服务方的完成提示。
 
 ## 六类常见充值路径
 
@@ -145,4 +160,4 @@ OpenAI、Apple、Google、独立网站和电商商家负责不同的账单与退
 
 ## 利益关系说明
 
-本文由 Hi Codex 服务团队整理。团队提供独立的 ChatGPT 人工充值协助，因此与本文讨论的充值平台选择存在商业利益关系；与 OpenAI、Apple、Google、闲鱼及其他充值网站不存在隶属、代理或官方授权关系。本文不制作无法验证的商家排行榜，也不把所有低价交易一概认定为欺诈。
+本文由 Hi Codex 服务团队整理。团队提供独立的 ChatGPT 充值协助，因此与本文讨论的充值平台选择存在商业利益关系；与 OpenAI、Apple、Google、闲鱼及其他充值网站不存在隶属、代理或官方授权关系。本文不制作无法验证的商家排行榜，也不把所有低价交易一概认定为欺诈。

@@ -1,6 +1,6 @@
 # 2026 ChatGPT Plus 国内怎么购买：充值、开通与支付方式
 
-> 更新日期：2026-07-21。本文只提供购买资格、付款路径和订阅管理的核对方法，不提供换区、伪造账单地址、共享账号、来源不明卡密或绕过平台限制的方法。
+> 更新日期：2026-09-25。本次核对地区与银行卡规则，并补充本站当前交付入口；本文不提供换区、伪造账单地址、共享账号或绕过平台限制的方法。
 
 “国内购买”“充值”“开通”在中文搜索里常被当作同一件事，但真正下单时至少要分清五件事：所在地区是否受支持、账号是否显示升级入口、付款工具是否符合条件、订阅由谁管理、退款应该找谁。
 
@@ -11,6 +11,16 @@
 3. 长期使用 iPhone 或 Android 应用商店支付体系时，可以比较 App Store 或 Google Play；订阅、取消和退款通常由对应商店管理。
 4. Apple Gift Card 只是 Apple 账户余额，不是 OpenAI 发行的 ChatGPT 兑换码。
 5. 选择第三方人工协助前，要书面确认账号归属、操作权限、实际扣款渠道、交付证据与失败退款。
+
+如果你已经比较过官方自助与第三方服务，希望使用 Hi Codex，可查看[当前套餐、价格与处理流程](https://hi-codex.com/chatgpt-recharge/?utm_source=github&utm_medium=guide&utm_campaign=plus_buy_china)。这是维护者自有网站，不是 OpenAI 官方购买入口，也不能改变地区与账号资格。
+
+## 使用 Hi Codex 时，付款后会发生什么
+
+本站当前流程是选择套餐并付款，随后按订单和客服指引提交本次充值所需资料；系统核验并处理，遇到异常或需要授权时人工介入。自动处理不等于自动续费，也不承诺付款后立刻到账。
+
+购买前可分别查看[交付说明](https://hi-codex.com/delivery-guide/?utm_source=github&utm_medium=guide&utm_campaign=plus_buy_china)、[资料用途与安全](https://hi-codex.com/privacy-and-security/?utm_source=github&utm_medium=guide&utm_campaign=plus_buy_china)及[服务与退款](https://hi-codex.com/service-and-refund/?utm_source=github&utm_medium=guide&utm_campaign=plus_buy_china)。本站充值完成前可申请退款，完成后不支持退款；官方网页或应用商店订单应按原收款渠道处理。
+
+如果服务需要 Session，应理解它代表登录权限，而不是普通订单信息。不要把它粘贴在 GitHub Issue、评论或公开截图里，只在确认资料用途后使用指定提交流程。
 
 ## 四条购买路径如何选择
 
@@ -117,4 +127,4 @@ Apple Gift Card 兑换后只是增加匹配地区的 Apple 账户余额，之后
 
 ## 关系披露
 
-本文由 Hi Codex 维护。Hi Codex 提供独立的 ChatGPT 账号人工充值协助，与 OpenAI、Apple、Google 或交易平台不存在隶属、授权或官方合作关系。本文包含指向自有网站的链接，可能带来商业咨询；读者应优先依据本人账号结算页和上述官方资料作决定。
+本文由 Hi Codex 维护。Hi Codex 提供独立的 ChatGPT 账号充值协助，系统核验处理、异常人工介入，与 OpenAI、Apple、Google 或交易平台不存在隶属、授权或官方合作关系。本文包含指向自有网站的链接，可能带来商业咨询；读者应优先依据本人账号结算页和上述官方资料作决定。

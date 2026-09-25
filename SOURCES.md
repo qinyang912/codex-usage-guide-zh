@@ -1,6 +1,10 @@
 # 官方资料来源
 
-资料最近增补日期：2026-08-08。各项事实的核对日期以对应指南标注为准。
+资料最近增补日期：2026-09-25。各项事实的核对日期以对应指南标注为准；本次重点核对 Credits、Usage 和 Pro 20x 恢复条件，并非重新核对所有旧文。
+
+- [Codex Usage 开发者命令](https://learn.chatgpt.com/docs/developer-commands#view-account-usage-with-usage)：本次核对 `/usage`、`/status`、服务账号认证要求与可用的记录周期。
+- [About ChatGPT Pro tiers](https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers)：本次核对 20x 普通新开 / 升级暂停、续订与老用户一次性恢复资格。
+- [Using credits for flexible usage in ChatGPT personal plans](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-personal-plans)：本次核对有条件的购买资格、自动充值预算、钱包与 Credits 区别、负余额、有效期及退款例外。
 
 1. [OpenAI Codex Pricing](https://learn.chatgpt.com/docs/pricing)
    用于核对 Codex 支持的套餐、使用入口、Pro 5x / 20x、Credits、Usage Dashboard、API Key，以及 Work mode 与 Codex 的共享用量关系。
